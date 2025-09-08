@@ -163,7 +163,23 @@ class NLPProcessor:
                 'faq_id': best_faq['id'],
                 'status': 'found'
             }
+            
+            # Include links if available
+            if 'links' in best_faq and best_faq['links']:
+                response['links'] = best_faq['links']
+                
+                # Optional: Format answer with clickable links for HTML display
+                formatted_answer = best_faq['answer']
+                if best_faq['links']:
+                    formatted_answer += "\n\nLink terkait:"
+                    for link in best_faq['links']:
+                        formatted_answer += f"\n• {link['text']}: {link['url']}"
+                
+                response['formatted_answer'] = formatted_answer
+            
             print(f"Answer found with confidence: {confidence:.3f}")
+            if 'links' in response:
+                print(f"Including {len(response['links'])} links in response")
         else:
             # Fallback sesuai env
             env_key = env or self.faq_file.replace('.json','')

@@ -2334,3 +2334,956 @@
 2025-09-04 14:56:32,285 - INFO - 127.0.0.1 - - [04/Sep/2025 14:56:32] "GET / HTTP/1.1" 200 -
 2025-09-04 14:57:32,567 - INFO - 127.0.0.1 - - [04/Sep/2025 14:57:32] "GET / HTTP/1.1" 200 -
 2025-09-04 14:58:32,295 - INFO - 127.0.0.1 - - [04/Sep/2025 14:58:32] "GET / HTTP/1.1" 200 -
+2025-09-07 17:33:17,733 - INFO - Starting NLP Processor initialization...
+2025-09-07 17:33:18,455 - INFO - NLP Processor initialized successfully
+2025-09-07 17:33:18,457 - INFO - Starting FAQ Bot Server...
+2025-09-07 17:33:18,457 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-07 17:33:18,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-07 17:33:18,477 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-07 17:33:18,479 - INFO -  * Restarting with stat
+2025-09-07 17:33:20,330 - INFO - Starting NLP Processor initialization...
+2025-09-07 17:33:21,061 - INFO - NLP Processor initialized successfully
+2025-09-07 17:33:21,063 - INFO - Starting FAQ Bot Server...
+2025-09-07 17:33:21,063 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-07 17:33:21,075 - WARNING -  * Debugger is active!
+2025-09-07 17:33:21,080 - INFO -  * Debugger PIN: 111-242-527
+2025-09-07 17:46:44,611 - INFO - 127.0.0.1 - - [07/Sep/2025 17:46:44] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 17:46:45,140 - INFO - Question: halo
+2025-09-07 17:46:45,140 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 17:46:45,140 - INFO - Category: unknown
+2025-09-07 17:46:45,140 - INFO - Confidence: 0.072
+2025-09-07 17:46:45,141 - INFO - Status: not_found
+2025-09-07 17:46:45,141 - INFO - 127.0.0.1 - - [07/Sep/2025 17:46:45] "POST /ask HTTP/1.1" 200 -
+2025-09-07 17:47:46,041 - INFO - 127.0.0.1 - - [07/Sep/2025 17:47:46] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 17:47:46,200 - INFO - Question: Hallo ,
+2025-09-07 17:47:46,200 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 17:47:46,200 - INFO - Category: unknown
+2025-09-07 17:47:46,201 - INFO - Confidence: 0.069
+2025-09-07 17:47:46,201 - INFO - Status: not_found
+2025-09-07 17:47:46,201 - INFO - 127.0.0.1 - - [07/Sep/2025 17:47:46] "POST /ask HTTP/1.1" 200 -
+2025-09-07 17:48:31,219 - INFO - 127.0.0.1 - - [07/Sep/2025 17:48:31] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 17:48:31,293 - INFO - Question: Apa itu ppid
+2025-09-07 17:48:31,293 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 17:48:31,293 - INFO - Category: umum
+2025-09-07 17:48:31,293 - INFO - Confidence: 1.000
+2025-09-07 17:48:31,293 - INFO - Status: found
+2025-09-07 17:48:31,294 - INFO - 127.0.0.1 - - [07/Sep/2025 17:48:31] "POST /ask HTTP/1.1" 200 -
+2025-09-07 17:48:44,002 - INFO - 127.0.0.1 - - [07/Sep/2025 17:48:44] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 17:48:44,085 - INFO - Question: Apa itu PPID?
+2025-09-07 17:48:44,085 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 17:48:44,085 - INFO - Category: umum
+2025-09-07 17:48:44,085 - INFO - Confidence: 1.000
+2025-09-07 17:48:44,085 - INFO - Status: found
+2025-09-07 17:48:44,086 - INFO - 127.0.0.1 - - [07/Sep/2025 17:48:44] "POST /ask HTTP/1.1" 200 -
+2025-09-07 17:48:56,273 - INFO - 127.0.0.1 - - [07/Sep/2025 17:48:56] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 17:48:56,367 - INFO - Question: Apa itu stunting
+2025-09-07 17:48:56,368 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 17:48:56,368 - INFO - Category: umum
+2025-09-07 17:48:56,368 - INFO - Confidence: 0.687
+2025-09-07 17:48:56,368 - INFO - Status: found
+2025-09-07 17:48:56,369 - INFO - 127.0.0.1 - - [07/Sep/2025 17:48:56] "POST /ask HTTP/1.1" 200 -
+2025-09-07 17:49:05,231 - INFO - 127.0.0.1 - - [07/Sep/2025 17:49:05] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 17:49:05,324 - INFO - Question: Apa itu
+2025-09-07 17:49:05,325 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 17:49:05,326 - INFO - Category: umum
+2025-09-07 17:49:05,326 - INFO - Confidence: 0.702
+2025-09-07 17:49:05,327 - INFO - Status: found
+2025-09-07 17:49:05,327 - INFO - 127.0.0.1 - - [07/Sep/2025 17:49:05] "POST /ask HTTP/1.1" 200 -
+2025-09-07 17:49:32,162 - INFO - 127.0.0.1 - - [07/Sep/2025 17:49:32] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 17:49:32,260 - INFO - Question: PPID itu apa min
+2025-09-07 17:49:32,260 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 17:49:32,260 - INFO - Category: umum
+2025-09-07 17:49:32,261 - INFO - Confidence: 0.940
+2025-09-07 17:49:32,261 - INFO - Status: found
+2025-09-07 17:49:32,261 - INFO - 127.0.0.1 - - [07/Sep/2025 17:49:32] "POST /ask HTTP/1.1" 200 -
+2025-09-07 17:49:36,006 - INFO - 127.0.0.1 - - [07/Sep/2025 17:49:36] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 17:49:36,082 - INFO - Question: Apa
+2025-09-07 17:49:36,082 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 17:49:36,082 - INFO - Category: umum
+2025-09-07 17:49:36,082 - INFO - Confidence: 0.702
+2025-09-07 17:49:36,082 - INFO - Status: found
+2025-09-07 17:49:36,083 - INFO - 127.0.0.1 - - [07/Sep/2025 17:49:36] "POST /ask HTTP/1.1" 200 -
+2025-09-07 17:49:44,473 - INFO - 127.0.0.1 - - [07/Sep/2025 17:49:44] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 17:49:44,555 - INFO - Question: Apa
+2025-09-07 17:49:44,556 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 17:49:44,556 - INFO - Category: umum
+2025-09-07 17:49:44,557 - INFO - Confidence: 0.702
+2025-09-07 17:49:44,557 - INFO - Status: found
+2025-09-07 17:49:44,558 - INFO - 127.0.0.1 - - [07/Sep/2025 17:49:44] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:04:26,420 - INFO - 127.0.0.1 - - [07/Sep/2025 18:04:26] "[33mOPTIONS /ask/ask HTTP/1.1[0m" 404 -
+2025-09-07 18:04:27,946 - INFO - 127.0.0.1 - - [07/Sep/2025 18:04:27] "[33mOPTIONS /ask/ask HTTP/1.1[0m" 404 -
+2025-09-07 18:04:30,409 - INFO - 127.0.0.1 - - [07/Sep/2025 18:04:30] "[33mOPTIONS /ask/ask HTTP/1.1[0m" 404 -
+2025-09-07 18:04:31,250 - INFO - 127.0.0.1 - - [07/Sep/2025 18:04:31] "[33mOPTIONS /ask/ask HTTP/1.1[0m" 404 -
+2025-09-07 18:04:32,200 - INFO - 127.0.0.1 - - [07/Sep/2025 18:04:32] "[33mOPTIONS /ask/ask HTTP/1.1[0m" 404 -
+2025-09-07 18:06:31,452 - INFO - 127.0.0.1 - - [07/Sep/2025 18:06:31] "[33mOPTIONS /ask/ask HTTP/1.1[0m" 404 -
+2025-09-07 18:07:44,893 - INFO - 127.0.0.1 - - [07/Sep/2025 18:07:44] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 18:07:44,974 - INFO - Question: halo
+2025-09-07 18:07:44,974 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:07:44,975 - INFO - Category: unknown
+2025-09-07 18:07:44,975 - INFO - Confidence: 0.072
+2025-09-07 18:07:44,975 - INFO - Status: not_found
+2025-09-07 18:07:44,976 - INFO - 127.0.0.1 - - [07/Sep/2025 18:07:44] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:07:48,199 - INFO - Question: Apa itu PPID?
+2025-09-07 18:07:48,199 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:07:48,199 - INFO - Category: umum
+2025-09-07 18:07:48,199 - INFO - Confidence: 1.000
+2025-09-07 18:07:48,199 - INFO - Status: found
+2025-09-07 18:07:48,199 - INFO - 127.0.0.1 - - [07/Sep/2025 18:07:48] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:07:50,053 - INFO - 127.0.0.1 - - [07/Sep/2025 18:07:50] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 18:07:50,124 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-07 18:07:50,124 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:07:50,124 - INFO - Category: layanan
+2025-09-07 18:07:50,125 - INFO - Confidence: 0.693
+2025-09-07 18:07:50,125 - INFO - Status: found
+2025-09-07 18:07:50,125 - INFO - 127.0.0.1 - - [07/Sep/2025 18:07:50] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:07:53,266 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-07 18:07:53,266 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:07:53,267 - INFO - Category: prosedur
+2025-09-07 18:07:53,267 - INFO - Confidence: 0.901
+2025-09-07 18:07:53,267 - INFO - Status: found
+2025-09-07 18:07:53,268 - INFO - 127.0.0.1 - - [07/Sep/2025 18:07:53] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:07:55,150 - INFO - 127.0.0.1 - - [07/Sep/2025 18:07:55] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 18:07:55,346 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-07 18:07:55,347 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:07:55,347 - INFO - Category: prosedur
+2025-09-07 18:07:55,347 - INFO - Confidence: 0.880
+2025-09-07 18:07:55,347 - INFO - Status: found
+2025-09-07 18:07:55,347 - INFO - 127.0.0.1 - - [07/Sep/2025 18:07:55] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:07:57,349 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-07 18:07:57,350 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:07:57,351 - INFO - Category: umum
+2025-09-07 18:07:57,351 - INFO - Confidence: 0.791
+2025-09-07 18:07:57,351 - INFO - Status: found
+2025-09-07 18:07:57,351 - INFO - 127.0.0.1 - - [07/Sep/2025 18:07:57] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:08:01,160 - INFO - 127.0.0.1 - - [07/Sep/2025 18:08:01] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 18:08:01,251 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-07 18:08:01,251 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:08:01,251 - INFO - Category: prosedur
+2025-09-07 18:08:01,252 - INFO - Confidence: 0.725
+2025-09-07 18:08:01,252 - INFO - Status: found
+2025-09-07 18:08:01,252 - INFO - 127.0.0.1 - - [07/Sep/2025 18:08:01] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:10:54,473 - INFO - 127.0.0.1 - - [07/Sep/2025 18:10:54] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 18:10:54,608 - INFO - Question: Apa itu PPID?
+2025-09-07 18:10:54,609 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:10:54,610 - INFO - Category: umum
+2025-09-07 18:10:54,610 - INFO - Confidence: 1.000
+2025-09-07 18:10:54,611 - INFO - Status: found
+2025-09-07 18:10:54,612 - INFO - 127.0.0.1 - - [07/Sep/2025 18:10:54] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:11:13,773 - INFO - 127.0.0.1 - - [07/Sep/2025 18:11:13] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 18:11:13,853 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-07 18:11:13,853 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:11:13,853 - INFO - Category: layanan
+2025-09-07 18:11:13,853 - INFO - Confidence: 0.693
+2025-09-07 18:11:13,854 - INFO - Status: found
+2025-09-07 18:11:13,854 - INFO - 127.0.0.1 - - [07/Sep/2025 18:11:13] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:11:15,484 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-07 18:11:15,485 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:11:15,485 - INFO - Category: prosedur
+2025-09-07 18:11:15,485 - INFO - Confidence: 0.901
+2025-09-07 18:11:15,486 - INFO - Status: found
+2025-09-07 18:11:15,486 - INFO - 127.0.0.1 - - [07/Sep/2025 18:11:15] "POST /ask HTTP/1.1" 200 -
+2025-09-07 18:19:16,941 - INFO - 127.0.0.1 - - [07/Sep/2025 18:19:16] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 18:19:17,010 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-07 18:19:17,011 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 18:19:17,011 - INFO - Category: layanan
+2025-09-07 18:19:17,011 - INFO - Confidence: 0.693
+2025-09-07 18:19:17,011 - INFO - Status: found
+2025-09-07 18:19:17,012 - INFO - 127.0.0.1 - - [07/Sep/2025 18:19:17] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:06:51,207 - INFO - 127.0.0.1 - - [07/Sep/2025 19:06:51] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:06:51,321 - INFO - Question: Apa itu PPID?
+2025-09-07 19:06:51,321 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:06:51,322 - INFO - Category: umum
+2025-09-07 19:06:51,322 - INFO - Confidence: 1.000
+2025-09-07 19:06:51,322 - INFO - Status: found
+2025-09-07 19:06:51,323 - INFO - 127.0.0.1 - - [07/Sep/2025 19:06:51] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:06:52,645 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-07 19:06:52,645 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:06:52,645 - INFO - Category: layanan
+2025-09-07 19:06:52,645 - INFO - Confidence: 0.693
+2025-09-07 19:06:52,647 - INFO - Status: found
+2025-09-07 19:06:52,647 - INFO - 127.0.0.1 - - [07/Sep/2025 19:06:52] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:14:31,788 - INFO - 127.0.0.1 - - [07/Sep/2025 19:14:31] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:14:31,873 - INFO - Question: Apa itu PPID?
+2025-09-07 19:14:31,873 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:14:31,874 - INFO - Category: umum
+2025-09-07 19:14:31,874 - INFO - Confidence: 1.000
+2025-09-07 19:14:31,874 - INFO - Status: found
+2025-09-07 19:14:31,875 - INFO - 127.0.0.1 - - [07/Sep/2025 19:14:31] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:14:36,107 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-07 19:14:36,107 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:14:36,107 - INFO - Category: layanan
+2025-09-07 19:14:36,107 - INFO - Confidence: 0.693
+2025-09-07 19:14:36,108 - INFO - Status: found
+2025-09-07 19:14:36,108 - INFO - 127.0.0.1 - - [07/Sep/2025 19:14:36] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:14:39,844 - INFO - 127.0.0.1 - - [07/Sep/2025 19:14:39] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:14:39,918 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-07 19:14:39,919 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:14:39,919 - INFO - Category: prosedur
+2025-09-07 19:14:39,919 - INFO - Confidence: 0.901
+2025-09-07 19:14:39,920 - INFO - Status: found
+2025-09-07 19:14:39,920 - INFO - 127.0.0.1 - - [07/Sep/2025 19:14:39] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:14:47,425 - INFO - 127.0.0.1 - - [07/Sep/2025 19:14:47] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:14:47,573 - INFO - Question: ppid itu apa njir
+2025-09-07 19:14:47,573 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:14:47,573 - INFO - Category: umum
+2025-09-07 19:14:47,574 - INFO - Confidence: 0.928
+2025-09-07 19:14:47,574 - INFO - Status: found
+2025-09-07 19:14:47,574 - INFO - 127.0.0.1 - - [07/Sep/2025 19:14:47] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:14:59,141 - INFO - 127.0.0.1 - - [07/Sep/2025 19:14:59] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:14:59,450 - INFO - Question: kalau mau ngajukan bayar gak
+2025-09-07 19:14:59,450 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:14:59,452 - INFO - Category: umum
+2025-09-07 19:14:59,452 - INFO - Confidence: 0.552
+2025-09-07 19:14:59,452 - INFO - Status: found
+2025-09-07 19:14:59,453 - INFO - 127.0.0.1 - - [07/Sep/2025 19:14:59] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:39:23,041 - INFO - 127.0.0.1 - - [07/Sep/2025 19:39:23] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:39:23,192 - INFO - Question: Apa itu PPID?
+2025-09-07 19:39:23,193 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:39:23,194 - INFO - Category: umum
+2025-09-07 19:39:23,194 - INFO - Confidence: 1.000
+2025-09-07 19:39:23,194 - INFO - Status: found
+2025-09-07 19:39:23,195 - INFO - 127.0.0.1 - - [07/Sep/2025 19:39:23] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:39:27,395 - INFO - Question: asu koe
+2025-09-07 19:39:27,395 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:39:27,395 - INFO - Category: unknown
+2025-09-07 19:39:27,395 - INFO - Confidence: 0.108
+2025-09-07 19:39:27,395 - INFO - Status: not_found
+2025-09-07 19:39:27,396 - INFO - 127.0.0.1 - - [07/Sep/2025 19:39:27] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:39:35,193 - INFO - 127.0.0.1 - - [07/Sep/2025 19:39:35] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:39:35,292 - INFO - Question: oke su
+2025-09-07 19:39:35,292 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:39:35,293 - INFO - Category: unknown
+2025-09-07 19:39:35,293 - INFO - Confidence: 0.087
+2025-09-07 19:39:35,293 - INFO - Status: not_found
+2025-09-07 19:39:35,294 - INFO - 127.0.0.1 - - [07/Sep/2025 19:39:35] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:40:07,585 - INFO - 127.0.0.1 - - [07/Sep/2025 19:40:07] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:40:07,662 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-07 19:40:07,662 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:40:07,662 - INFO - Category: layanan
+2025-09-07 19:40:07,662 - INFO - Confidence: 0.693
+2025-09-07 19:40:07,662 - INFO - Status: found
+2025-09-07 19:40:07,663 - INFO - 127.0.0.1 - - [07/Sep/2025 19:40:07] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:40:13,419 - INFO - 127.0.0.1 - - [07/Sep/2025 19:40:13] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:40:13,500 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-07 19:40:13,501 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:40:13,501 - INFO - Category: layanan
+2025-09-07 19:40:13,501 - INFO - Confidence: 0.693
+2025-09-07 19:40:13,501 - INFO - Status: found
+2025-09-07 19:40:13,501 - INFO - 127.0.0.1 - - [07/Sep/2025 19:40:13] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:40:18,529 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-07 19:40:18,529 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:40:18,529 - INFO - Category: prosedur
+2025-09-07 19:40:18,529 - INFO - Confidence: 0.901
+2025-09-07 19:40:18,529 - INFO - Status: found
+2025-09-07 19:40:18,529 - INFO - 127.0.0.1 - - [07/Sep/2025 19:40:18] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:43:03,306 - INFO - 127.0.0.1 - - [07/Sep/2025 19:43:03] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:43:03,402 - INFO - Question: Apa itu PPID?
+2025-09-07 19:43:03,402 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:43:03,403 - INFO - Category: umum
+2025-09-07 19:43:03,403 - INFO - Confidence: 1.000
+2025-09-07 19:43:03,403 - INFO - Status: found
+2025-09-07 19:43:03,404 - INFO - 127.0.0.1 - - [07/Sep/2025 19:43:03] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:43:10,066 - INFO - 127.0.0.1 - - [07/Sep/2025 19:43:10] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:43:10,186 - INFO - Question: ppid tu opo
+2025-09-07 19:43:10,186 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:43:10,186 - INFO - Category: umum
+2025-09-07 19:43:10,186 - INFO - Confidence: 0.638
+2025-09-07 19:43:10,186 - INFO - Status: found
+2025-09-07 19:43:10,187 - INFO - 127.0.0.1 - - [07/Sep/2025 19:43:10] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:43:13,349 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-07 19:43:13,349 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:43:13,349 - INFO - Category: prosedur
+2025-09-07 19:43:13,351 - INFO - Confidence: 0.880
+2025-09-07 19:43:13,351 - INFO - Status: found
+2025-09-07 19:43:13,351 - INFO - 127.0.0.1 - - [07/Sep/2025 19:43:13] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:43:19,038 - INFO - 127.0.0.1 - - [07/Sep/2025 19:43:19] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:43:19,110 - INFO - Question: gratis?
+2025-09-07 19:43:19,110 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:43:19,111 - INFO - Category: umum
+2025-09-07 19:43:19,111 - INFO - Confidence: 0.516
+2025-09-07 19:43:19,111 - INFO - Status: found
+2025-09-07 19:43:19,111 - INFO - 127.0.0.1 - - [07/Sep/2025 19:43:19] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:44:03,224 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:03] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:44:03,325 - INFO - Question: Apa itu PPID?
+2025-09-07 19:44:03,325 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:44:03,325 - INFO - Category: umum
+2025-09-07 19:44:03,325 - INFO - Confidence: 1.000
+2025-09-07 19:44:03,325 - INFO - Status: found
+2025-09-07 19:44:03,327 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:03] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:44:12,326 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:12] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:44:12,408 - INFO - Question: ppid tu apa
+2025-09-07 19:44:12,408 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:44:12,408 - INFO - Category: umum
+2025-09-07 19:44:12,408 - INFO - Confidence: 0.952
+2025-09-07 19:44:12,408 - INFO - Status: found
+2025-09-07 19:44:12,409 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:12] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:44:17,092 - INFO - Question: gratis?
+2025-09-07 19:44:17,092 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:44:17,092 - INFO - Category: umum
+2025-09-07 19:44:17,092 - INFO - Confidence: 0.516
+2025-09-07 19:44:17,092 - INFO - Status: found
+2025-09-07 19:44:17,093 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:17] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:44:19,241 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:19] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:44:19,318 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-07 19:44:19,319 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:44:19,319 - INFO - Category: prosedur
+2025-09-07 19:44:19,319 - INFO - Confidence: 0.880
+2025-09-07 19:44:19,319 - INFO - Status: found
+2025-09-07 19:44:19,320 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:19] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:44:50,525 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:50] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:44:50,595 - INFO - Question: Apa itu PPID?
+2025-09-07 19:44:50,595 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:44:50,596 - INFO - Category: umum
+2025-09-07 19:44:50,596 - INFO - Confidence: 1.000
+2025-09-07 19:44:50,596 - INFO - Status: found
+2025-09-07 19:44:50,596 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:50] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:44:56,345 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:56] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:44:56,633 - INFO - Question: gratsi?
+2025-09-07 19:44:56,633 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:44:56,633 - INFO - Category: unknown
+2025-09-07 19:44:56,633 - INFO - Confidence: 0.096
+2025-09-07 19:44:56,633 - INFO - Status: not_found
+2025-09-07 19:44:56,634 - INFO - 127.0.0.1 - - [07/Sep/2025 19:44:56] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:45:16,736 - INFO - 127.0.0.1 - - [07/Sep/2025 19:45:16] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:45:16,851 - INFO - Question: Apa itu PPID?
+2025-09-07 19:45:16,851 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:45:16,852 - INFO - Category: umum
+2025-09-07 19:45:16,852 - INFO - Confidence: 1.000
+2025-09-07 19:45:16,852 - INFO - Status: found
+2025-09-07 19:45:16,852 - INFO - 127.0.0.1 - - [07/Sep/2025 19:45:16] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:45:22,915 - INFO - 127.0.0.1 - - [07/Sep/2025 19:45:22] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:45:22,995 - INFO - Question: gratis?
+2025-09-07 19:45:22,996 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:45:22,996 - INFO - Category: umum
+2025-09-07 19:45:22,996 - INFO - Confidence: 0.516
+2025-09-07 19:45:22,996 - INFO - Status: found
+2025-09-07 19:45:22,996 - INFO - 127.0.0.1 - - [07/Sep/2025 19:45:22] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:45:30,455 - INFO - 127.0.0.1 - - [07/Sep/2025 19:45:30] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:45:30,548 - INFO - Question: ppid tu apa
+2025-09-07 19:45:30,548 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:45:30,548 - INFO - Category: umum
+2025-09-07 19:45:30,548 - INFO - Confidence: 0.952
+2025-09-07 19:45:30,548 - INFO - Status: found
+2025-09-07 19:45:30,549 - INFO - 127.0.0.1 - - [07/Sep/2025 19:45:30] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:54:29,567 - INFO - 127.0.0.1 - - [07/Sep/2025 19:54:29] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:54:29,699 - INFO - Question: Apa itu PPID?
+2025-09-07 19:54:29,699 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:54:29,699 - INFO - Category: umum
+2025-09-07 19:54:29,699 - INFO - Confidence: 1.000
+2025-09-07 19:54:29,699 - INFO - Status: found
+2025-09-07 19:54:29,700 - INFO - 127.0.0.1 - - [07/Sep/2025 19:54:29] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:54:33,038 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-07 19:54:33,039 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:54:33,039 - INFO - Category: layanan
+2025-09-07 19:54:33,039 - INFO - Confidence: 0.693
+2025-09-07 19:54:33,040 - INFO - Status: found
+2025-09-07 19:54:33,040 - INFO - 127.0.0.1 - - [07/Sep/2025 19:54:33] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:54:33,991 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-07 19:54:33,991 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:54:33,991 - INFO - Category: prosedur
+2025-09-07 19:54:33,992 - INFO - Confidence: 0.901
+2025-09-07 19:54:33,992 - INFO - Status: found
+2025-09-07 19:54:33,992 - INFO - 127.0.0.1 - - [07/Sep/2025 19:54:33] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:54:34,439 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-07 19:54:34,440 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:54:34,440 - INFO - Category: prosedur
+2025-09-07 19:54:34,440 - INFO - Confidence: 0.880
+2025-09-07 19:54:34,440 - INFO - Status: found
+2025-09-07 19:54:34,440 - INFO - 127.0.0.1 - - [07/Sep/2025 19:54:34] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:54:34,847 - INFO - 127.0.0.1 - - [07/Sep/2025 19:54:34] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:54:34,976 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-07 19:54:34,977 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:54:34,977 - INFO - Category: umum
+2025-09-07 19:54:34,977 - INFO - Confidence: 0.791
+2025-09-07 19:54:34,978 - INFO - Status: found
+2025-09-07 19:54:34,978 - INFO - 127.0.0.1 - - [07/Sep/2025 19:54:34] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:59:43,788 - INFO - 127.0.0.1 - - [07/Sep/2025 19:59:43] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:59:43,916 - INFO - Question: dimana
+2025-09-07 19:59:43,916 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:59:43,916 - INFO - Category: unknown
+2025-09-07 19:59:43,916 - INFO - Confidence: 0.000
+2025-09-07 19:59:43,916 - INFO - Status: not_found
+2025-09-07 19:59:43,917 - INFO - 127.0.0.1 - - [07/Sep/2025 19:59:43] "POST /ask HTTP/1.1" 200 -
+2025-09-07 19:59:56,379 - INFO - 127.0.0.1 - - [07/Sep/2025 19:59:56] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 19:59:56,463 - INFO - Question: alamat
+2025-09-07 19:59:56,463 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 19:59:56,463 - INFO - Category: kontak
+2025-09-07 19:59:56,463 - INFO - Confidence: 0.618
+2025-09-07 19:59:56,463 - INFO - Status: found
+2025-09-07 19:59:56,464 - INFO - 127.0.0.1 - - [07/Sep/2025 19:59:56] "POST /ask HTTP/1.1" 200 -
+2025-09-07 20:00:35,830 - INFO - 127.0.0.1 - - [07/Sep/2025 20:00:35] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 20:00:35,908 - INFO - Question: gratis?
+2025-09-07 20:00:35,909 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 20:00:35,909 - INFO - Category: umum
+2025-09-07 20:00:35,909 - INFO - Confidence: 0.516
+2025-09-07 20:00:35,909 - INFO - Status: found
+2025-09-07 20:00:35,910 - INFO - 127.0.0.1 - - [07/Sep/2025 20:00:35] "POST /ask HTTP/1.1" 200 -
+2025-09-07 21:06:45,340 - INFO - 127.0.0.1 - - [07/Sep/2025 21:06:45] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 21:06:45,416 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-07 21:06:45,416 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 21:06:45,416 - INFO - Category: prosedur
+2025-09-07 21:06:45,417 - INFO - Confidence: 0.725
+2025-09-07 21:06:45,417 - INFO - Status: found
+2025-09-07 21:06:45,417 - INFO - 127.0.0.1 - - [07/Sep/2025 21:06:45] "POST /ask HTTP/1.1" 200 -
+2025-09-07 21:12:22,532 - INFO - 127.0.0.1 - - [07/Sep/2025 21:12:22] "[33mPOST /api/show HTTP/1.1[0m" 404 -
+2025-09-07 21:12:22,717 - INFO - 127.0.0.1 - - [07/Sep/2025 21:12:22] "[33mPOST /api/show HTTP/1.1[0m" 404 -
+2025-09-07 21:16:03,824 - INFO - 127.0.0.1 - - [07/Sep/2025 21:16:03] "[33mPOST /api/show HTTP/1.1[0m" 404 -
+2025-09-07 21:16:52,572 - INFO - 127.0.0.1 - - [07/Sep/2025 21:16:52] "GET / HTTP/1.1" 200 -
+2025-09-07 21:17:22,467 - INFO - 127.0.0.1 - - [07/Sep/2025 21:17:22] "GET / HTTP/1.1" 200 -
+2025-09-07 21:17:52,443 - INFO - 127.0.0.1 - - [07/Sep/2025 21:17:52] "GET / HTTP/1.1" 200 -
+2025-09-07 21:18:22,804 - INFO - 127.0.0.1 - - [07/Sep/2025 21:18:22] "GET / HTTP/1.1" 200 -
+2025-09-07 21:18:52,801 - INFO - 127.0.0.1 - - [07/Sep/2025 21:18:52] "GET / HTTP/1.1" 200 -
+2025-09-07 21:19:22,777 - INFO - 127.0.0.1 - - [07/Sep/2025 21:19:22] "GET / HTTP/1.1" 200 -
+2025-09-07 21:20:44,775 - INFO - 127.0.0.1 - - [07/Sep/2025 21:20:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:21:44,883 - INFO - 127.0.0.1 - - [07/Sep/2025 21:21:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:22:44,768 - INFO - 127.0.0.1 - - [07/Sep/2025 21:22:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:23:44,777 - INFO - 127.0.0.1 - - [07/Sep/2025 21:23:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:24:32,249 - INFO - 127.0.0.1 - - [07/Sep/2025 21:24:32] "GET / HTTP/1.1" 200 -
+2025-09-07 21:24:52,441 - INFO - 127.0.0.1 - - [07/Sep/2025 21:24:52] "GET / HTTP/1.1" 200 -
+2025-09-07 21:25:22,442 - INFO - 127.0.0.1 - - [07/Sep/2025 21:25:22] "GET / HTTP/1.1" 200 -
+2025-09-07 21:25:52,433 - INFO - 127.0.0.1 - - [07/Sep/2025 21:25:52] "GET / HTTP/1.1" 200 -
+2025-09-07 21:26:22,428 - INFO - 127.0.0.1 - - [07/Sep/2025 21:26:22] "GET / HTTP/1.1" 200 -
+2025-09-07 21:26:52,464 - INFO - 127.0.0.1 - - [07/Sep/2025 21:26:52] "GET / HTTP/1.1" 200 -
+2025-09-07 21:27:22,450 - INFO - 127.0.0.1 - - [07/Sep/2025 21:27:22] "GET / HTTP/1.1" 200 -
+2025-09-07 21:27:52,819 - INFO - 127.0.0.1 - - [07/Sep/2025 21:27:52] "GET / HTTP/1.1" 200 -
+2025-09-07 21:28:22,817 - INFO - 127.0.0.1 - - [07/Sep/2025 21:28:22] "GET / HTTP/1.1" 200 -
+2025-09-07 21:29:44,841 - INFO - 127.0.0.1 - - [07/Sep/2025 21:29:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:29:52,433 - INFO - 127.0.0.1 - - [07/Sep/2025 21:29:52] "GET / HTTP/1.1" 200 -
+2025-09-07 21:30:22,768 - INFO - 127.0.0.1 - - [07/Sep/2025 21:30:22] "GET / HTTP/1.1" 200 -
+2025-09-07 21:30:52,775 - INFO - 127.0.0.1 - - [07/Sep/2025 21:30:52] "GET / HTTP/1.1" 200 -
+2025-09-07 21:31:44,777 - INFO - 127.0.0.1 - - [07/Sep/2025 21:31:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:32:44,807 - INFO - 127.0.0.1 - - [07/Sep/2025 21:32:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:33:44,777 - INFO - 127.0.0.1 - - [07/Sep/2025 21:33:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:34:44,765 - INFO - 127.0.0.1 - - [07/Sep/2025 21:34:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:35:44,805 - INFO - 127.0.0.1 - - [07/Sep/2025 21:35:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:36:44,798 - INFO - 127.0.0.1 - - [07/Sep/2025 21:36:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:37:24,496 - INFO - 127.0.0.1 - - [07/Sep/2025 21:37:24] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-07 21:37:24,603 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-07 21:37:24,603 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-07 21:37:24,604 - INFO - Category: prosedur
+2025-09-07 21:37:24,604 - INFO - Confidence: 0.880
+2025-09-07 21:37:24,604 - INFO - Status: found
+2025-09-07 21:37:24,604 - INFO - 127.0.0.1 - - [07/Sep/2025 21:37:24] "POST /ask HTTP/1.1" 200 -
+2025-09-07 21:37:44,774 - INFO - 127.0.0.1 - - [07/Sep/2025 21:37:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:38:44,807 - INFO - 127.0.0.1 - - [07/Sep/2025 21:38:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:39:44,776 - INFO - 127.0.0.1 - - [07/Sep/2025 21:39:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:40:44,774 - INFO - 127.0.0.1 - - [07/Sep/2025 21:40:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:41:44,806 - INFO - 127.0.0.1 - - [07/Sep/2025 21:41:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:42:44,775 - INFO - 127.0.0.1 - - [07/Sep/2025 21:42:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:43:22,676 - INFO - 127.0.0.1 - - [07/Sep/2025 21:43:22] "[33mPOST /api/show HTTP/1.1[0m" 404 -
+2025-09-07 21:43:44,772 - INFO - 127.0.0.1 - - [07/Sep/2025 21:43:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:44:15,078 - INFO - 127.0.0.1 - - [07/Sep/2025 21:44:15] "[33mPOST /api/show HTTP/1.1[0m" 404 -
+2025-09-07 21:44:44,872 - INFO - 127.0.0.1 - - [07/Sep/2025 21:44:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:45:44,777 - INFO - 127.0.0.1 - - [07/Sep/2025 21:45:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:46:44,782 - INFO - 127.0.0.1 - - [07/Sep/2025 21:46:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:47:44,823 - INFO - 127.0.0.1 - - [07/Sep/2025 21:47:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:48:44,802 - INFO - 127.0.0.1 - - [07/Sep/2025 21:48:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:49:44,801 - INFO - 127.0.0.1 - - [07/Sep/2025 21:49:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:50:44,849 - INFO - 127.0.0.1 - - [07/Sep/2025 21:50:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:51:44,826 - INFO - 127.0.0.1 - - [07/Sep/2025 21:51:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:52:44,868 - INFO - 127.0.0.1 - - [07/Sep/2025 21:52:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:53:44,910 - INFO - 127.0.0.1 - - [07/Sep/2025 21:53:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:54:44,804 - INFO - 127.0.0.1 - - [07/Sep/2025 21:54:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:55:44,766 - INFO - 127.0.0.1 - - [07/Sep/2025 21:55:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:56:44,812 - INFO - 127.0.0.1 - - [07/Sep/2025 21:56:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:57:44,788 - INFO - 127.0.0.1 - - [07/Sep/2025 21:57:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:58:44,780 - INFO - 127.0.0.1 - - [07/Sep/2025 21:58:44] "GET / HTTP/1.1" 200 -
+2025-09-07 21:59:44,899 - INFO - 127.0.0.1 - - [07/Sep/2025 21:59:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:00:44,808 - INFO - 127.0.0.1 - - [07/Sep/2025 22:00:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:01:44,786 - INFO - 127.0.0.1 - - [07/Sep/2025 22:01:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:02:44,796 - INFO - 127.0.0.1 - - [07/Sep/2025 22:02:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:03:44,804 - INFO - 127.0.0.1 - - [07/Sep/2025 22:03:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:04:44,795 - INFO - 127.0.0.1 - - [07/Sep/2025 22:04:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:05:44,913 - INFO - 127.0.0.1 - - [07/Sep/2025 22:05:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:06:44,893 - INFO - 127.0.0.1 - - [07/Sep/2025 22:06:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:07:42,108 - INFO - 127.0.0.1 - - [07/Sep/2025 22:07:42] "GET / HTTP/1.1" 200 -
+2025-09-07 22:07:52,885 - INFO - 127.0.0.1 - - [07/Sep/2025 22:07:52] "GET / HTTP/1.1" 200 -
+2025-09-07 22:08:22,806 - INFO - 127.0.0.1 - - [07/Sep/2025 22:08:22] "GET / HTTP/1.1" 200 -
+2025-09-07 22:08:52,958 - INFO - 127.0.0.1 - - [07/Sep/2025 22:08:52] "[33mPOST /api/show HTTP/1.1[0m" 404 -
+2025-09-07 22:09:26,303 - INFO - 127.0.0.1 - - [07/Sep/2025 22:09:26] "[33mPOST /api/show HTTP/1.1[0m" 404 -
+2025-09-07 22:09:44,816 - INFO - 127.0.0.1 - - [07/Sep/2025 22:09:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:10:44,790 - INFO - 127.0.0.1 - - [07/Sep/2025 22:10:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:11:44,824 - INFO - 127.0.0.1 - - [07/Sep/2025 22:11:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:12:44,831 - INFO - 127.0.0.1 - - [07/Sep/2025 22:12:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:13:44,768 - INFO - 127.0.0.1 - - [07/Sep/2025 22:13:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:14:44,809 - INFO - 127.0.0.1 - - [07/Sep/2025 22:14:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:15:44,828 - INFO - 127.0.0.1 - - [07/Sep/2025 22:15:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:16:44,836 - INFO - 127.0.0.1 - - [07/Sep/2025 22:16:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:17:44,796 - INFO - 127.0.0.1 - - [07/Sep/2025 22:17:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:18:44,870 - INFO - 127.0.0.1 - - [07/Sep/2025 22:18:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:19:44,823 - INFO - 127.0.0.1 - - [07/Sep/2025 22:19:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:20:44,791 - INFO - 127.0.0.1 - - [07/Sep/2025 22:20:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:21:44,901 - INFO - 127.0.0.1 - - [07/Sep/2025 22:21:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:22:44,861 - INFO - 127.0.0.1 - - [07/Sep/2025 22:22:44] "GET / HTTP/1.1" 200 -
+2025-09-07 22:23:34,541 - INFO - 127.0.0.1 - - [07/Sep/2025 22:23:34] "GET / HTTP/1.1" 200 -
+2025-09-08 07:30:02,030 - INFO - Starting NLP Processor initialization...
+2025-09-08 07:30:02,741 - INFO - NLP Processor initialized successfully
+2025-09-08 07:30:02,742 - INFO - Starting FAQ Bot Server...
+2025-09-08 07:30:02,742 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 07:30:02,810 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 07:30:02,811 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 07:30:02,812 - INFO -  * Restarting with stat
+2025-09-08 07:30:04,561 - INFO - Starting NLP Processor initialization...
+2025-09-08 07:30:05,267 - INFO - NLP Processor initialized successfully
+2025-09-08 07:30:05,269 - INFO - Starting FAQ Bot Server...
+2025-09-08 07:30:05,269 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 07:30:05,281 - WARNING -  * Debugger is active!
+2025-09-08 07:30:05,286 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 07:39:09,849 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\app.py', reloading
+2025-09-08 07:39:10,046 - INFO -  * Restarting with stat
+2025-09-08 07:39:11,815 - INFO - Starting NLP Processor initialization...
+2025-09-08 07:39:12,484 - INFO - NLP Processor initialized successfully
+2025-09-08 07:39:12,486 - INFO - Starting FAQ Bot Server...
+2025-09-08 07:39:12,486 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 07:39:12,496 - WARNING -  * Debugger is active!
+2025-09-08 07:39:12,499 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 07:51:27,676 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\app.py', reloading
+2025-09-08 07:51:27,853 - INFO -  * Restarting with stat
+2025-09-08 07:51:29,785 - INFO - Starting NLP Processor initialization...
+2025-09-08 07:51:30,491 - INFO - NLP Processor initialized successfully
+2025-09-08 07:51:30,493 - INFO - Starting FAQ Bot Server...
+2025-09-08 07:51:30,494 - INFO - Server will run on http://0.0.0.0:5000
+2025-09-08 07:51:30,494 - INFO - Local access: http://127.0.0.1:5000
+2025-09-08 07:51:30,494 - INFO - Network access: http://[YOUR_LOCAL_IP]:5000
+2025-09-08 07:51:30,508 - WARNING -  * Debugger is active!
+2025-09-08 07:51:30,512 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 07:51:53,498 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\app.py', reloading
+2025-09-08 07:51:53,726 - INFO -  * Restarting with stat
+2025-09-08 07:51:55,561 - INFO - Starting NLP Processor initialization...
+2025-09-08 07:51:56,270 - INFO - NLP Processor initialized successfully
+2025-09-08 07:51:56,273 - INFO - Starting FAQ Bot Server...
+2025-09-08 07:51:56,273 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 07:51:56,285 - WARNING -  * Debugger is active!
+2025-09-08 07:51:56,287 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 07:52:48,555 - INFO - Starting NLP Processor initialization...
+2025-09-08 07:52:49,271 - INFO - NLP Processor initialized successfully
+2025-09-08 07:52:49,273 - INFO - Starting FAQ Bot Server...
+2025-09-08 07:52:49,273 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 07:52:49,297 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 07:52:49,297 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 07:52:49,299 - INFO -  * Restarting with stat
+2025-09-08 07:52:51,194 - INFO - Starting NLP Processor initialization...
+2025-09-08 07:52:51,906 - INFO - NLP Processor initialized successfully
+2025-09-08 07:52:51,908 - INFO - Starting FAQ Bot Server...
+2025-09-08 07:52:51,908 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 07:52:51,922 - WARNING -  * Debugger is active!
+2025-09-08 07:52:51,927 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 07:53:30,148 - INFO - Starting NLP Processor initialization...
+2025-09-08 07:53:30,853 - INFO - NLP Processor initialized successfully
+2025-09-08 07:53:30,856 - INFO - Starting FAQ Bot Server...
+2025-09-08 07:53:30,857 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 07:53:30,876 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 07:53:30,876 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 07:53:30,879 - INFO -  * Restarting with stat
+2025-09-08 07:53:32,694 - INFO - Starting NLP Processor initialization...
+2025-09-08 07:53:33,394 - INFO - NLP Processor initialized successfully
+2025-09-08 07:53:33,395 - INFO - Starting FAQ Bot Server...
+2025-09-08 07:53:33,395 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 07:53:33,406 - WARNING -  * Debugger is active!
+2025-09-08 07:53:33,410 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 08:13:11,821 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:11] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 08:13:12,319 - INFO - Question: Apa itu PPID?
+2025-09-08 08:13:12,319 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 08:13:12,319 - INFO - Category: umum
+2025-09-08 08:13:12,319 - INFO - Confidence: 1.000
+2025-09-08 08:13:12,320 - INFO - Status: found
+2025-09-08 08:13:12,320 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:12] "POST /ask HTTP/1.1" 200 -
+2025-09-08 08:13:17,688 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:17] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 08:13:17,846 - INFO - Question: halo
+2025-09-08 08:13:17,847 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 08:13:17,847 - INFO - Category: unknown
+2025-09-08 08:13:17,847 - INFO - Confidence: 0.072
+2025-09-08 08:13:17,847 - INFO - Status: not_found
+2025-09-08 08:13:17,847 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:17] "POST /ask HTTP/1.1" 200 -
+2025-09-08 08:13:30,597 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:30] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 08:13:30,859 - INFO - Question: maaf min, mau bertanya ppid itu apa ya?
+2025-09-08 08:13:30,859 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 08:13:30,859 - INFO - Category: umum
+2025-09-08 08:13:30,860 - INFO - Confidence: 0.838
+2025-09-08 08:13:30,860 - INFO - Status: found
+2025-09-08 08:13:30,862 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:30] "POST /ask HTTP/1.1" 200 -
+2025-09-08 08:13:41,189 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:41] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 08:13:41,316 - INFO - Question: kalau saya mau mengajukan ppid apakah gratis?
+2025-09-08 08:13:41,316 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 08:13:41,316 - INFO - Category: umum
+2025-09-08 08:13:41,316 - INFO - Confidence: 0.519
+2025-09-08 08:13:41,316 - INFO - Status: found
+2025-09-08 08:13:41,317 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:41] "POST /ask HTTP/1.1" 200 -
+2025-09-08 08:13:51,938 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:51] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 08:13:52,092 - INFO - Question: kalau saya mau ppid bisa dimana ya?
+2025-09-08 08:13:52,092 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 08:13:52,092 - INFO - Category: umum
+2025-09-08 08:13:52,092 - INFO - Confidence: 0.605
+2025-09-08 08:13:52,092 - INFO - Status: found
+2025-09-08 08:13:52,093 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:52] "POST /ask HTTP/1.1" 200 -
+2025-09-08 08:13:56,262 - INFO - Question: alamatnya?
+2025-09-08 08:13:56,262 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 08:13:56,262 - INFO - Category: kontak
+2025-09-08 08:13:56,262 - INFO - Confidence: 0.618
+2025-09-08 08:13:56,262 - INFO - Status: found
+2025-09-08 08:13:56,264 - INFO - 127.0.0.1 - - [08/Sep/2025 08:13:56] "POST /ask HTTP/1.1" 200 -
+2025-09-08 08:14:05,479 - INFO - 127.0.0.1 - - [08/Sep/2025 08:14:05] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 08:14:05,667 - INFO - Question: terimakasih
+2025-09-08 08:14:05,667 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 08:14:05,667 - INFO - Category: unknown
+2025-09-08 08:14:05,667 - INFO - Confidence: 0.114
+2025-09-08 08:14:05,668 - INFO - Status: not_found
+2025-09-08 08:14:05,668 - INFO - 127.0.0.1 - - [08/Sep/2025 08:14:05] "POST /ask HTTP/1.1" 200 -
+2025-09-08 08:14:16,793 - INFO - 127.0.0.1 - - [08/Sep/2025 08:14:16] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 08:14:16,984 - INFO - Question: layanan website ppid
+2025-09-08 08:14:16,984 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 08:14:16,984 - INFO - Category: layanan
+2025-09-08 08:14:16,985 - INFO - Confidence: 0.782
+2025-09-08 08:14:16,985 - INFO - Status: found
+2025-09-08 08:14:16,985 - INFO - 127.0.0.1 - - [08/Sep/2025 08:14:16] "POST /ask HTTP/1.1" 200 -
+2025-09-08 08:15:09,602 - INFO - 127.0.0.1 - - [08/Sep/2025 08:15:09] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 08:15:09,761 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 08:15:09,761 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 08:15:09,762 - INFO - Category: layanan
+2025-09-08 08:15:09,762 - INFO - Confidence: 0.693
+2025-09-08 08:15:09,762 - INFO - Status: found
+2025-09-08 08:15:09,764 - INFO - 127.0.0.1 - - [08/Sep/2025 08:15:09] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:14:15,303 - INFO - 127.0.0.1 - - [08/Sep/2025 09:14:15] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 09:14:15,439 - INFO - Question: Apa itu PPID?
+2025-09-08 09:14:15,439 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:14:15,440 - INFO - Category: umum
+2025-09-08 09:14:15,440 - INFO - Confidence: 1.000
+2025-09-08 09:14:15,440 - INFO - Status: found
+2025-09-08 09:14:15,441 - INFO - 127.0.0.1 - - [08/Sep/2025 09:14:15] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:21:38,319 - INFO - 127.0.0.1 - - [08/Sep/2025 09:21:38] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 09:21:38,650 - INFO - Question: hallo
+2025-09-08 09:21:38,650 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:21:38,650 - INFO - Category: unknown
+2025-09-08 09:21:38,651 - INFO - Confidence: 0.069
+2025-09-08 09:21:38,651 - INFO - Status: not_found
+2025-09-08 09:21:38,652 - INFO - 127.0.0.1 - - [08/Sep/2025 09:21:38] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:25:30,915 - INFO - 127.0.0.1 - - [08/Sep/2025 09:25:30] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 09:25:31,148 - INFO - Question: Apa itu PPID?
+2025-09-08 09:25:31,148 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:25:31,148 - INFO - Category: umum
+2025-09-08 09:25:31,148 - INFO - Confidence: 1.000
+2025-09-08 09:25:31,148 - INFO - Status: found
+2025-09-08 09:25:31,149 - INFO - 127.0.0.1 - - [08/Sep/2025 09:25:31] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:26:09,900 - INFO - 127.0.0.1 - - [08/Sep/2025 09:26:09] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 09:26:10,062 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 09:26:10,063 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:26:10,063 - INFO - Category: layanan
+2025-09-08 09:26:10,063 - INFO - Confidence: 0.693
+2025-09-08 09:26:10,063 - INFO - Status: found
+2025-09-08 09:26:10,063 - INFO - 127.0.0.1 - - [08/Sep/2025 09:26:10] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:26:46,048 - INFO - 127.0.0.1 - - [08/Sep/2025 09:26:46] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 09:26:46,229 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-08 09:26:46,230 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:26:46,230 - INFO - Category: prosedur
+2025-09-08 09:26:46,230 - INFO - Confidence: 0.901
+2025-09-08 09:26:46,231 - INFO - Status: found
+2025-09-08 09:26:46,232 - INFO - 127.0.0.1 - - [08/Sep/2025 09:26:46] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:30:02,815 - INFO - 127.0.0.1 - - [08/Sep/2025 09:30:02] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 09:30:02,996 - INFO - Question: Apa itu PPID?
+2025-09-08 09:30:02,996 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:30:02,996 - INFO - Category: umum
+2025-09-08 09:30:02,996 - INFO - Confidence: 1.000
+2025-09-08 09:30:02,997 - INFO - Status: found
+2025-09-08 09:30:02,997 - INFO - 127.0.0.1 - - [08/Sep/2025 09:30:02] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:31:09,212 - INFO - 127.0.0.1 - - [08/Sep/2025 09:31:09] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 09:31:09,751 - INFO - Question: ppit tuwh apa sicc
+2025-09-08 09:31:09,752 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:31:09,753 - INFO - Category: umum
+2025-09-08 09:31:09,754 - INFO - Confidence: 0.699
+2025-09-08 09:31:09,754 - INFO - Status: found
+2025-09-08 09:31:09,756 - INFO - 127.0.0.1 - - [08/Sep/2025 09:31:09] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:31:22,064 - INFO - 127.0.0.1 - - [08/Sep/2025 09:31:22] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 09:31:22,415 - INFO - Question: harga avanxa seken
+2025-09-08 09:31:22,415 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:31:22,416 - INFO - Category: unknown
+2025-09-08 09:31:22,416 - INFO - Confidence: 0.117
+2025-09-08 09:31:22,416 - INFO - Status: not_found
+2025-09-08 09:31:22,417 - INFO - 127.0.0.1 - - [08/Sep/2025 09:31:22] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:31:56,021 - INFO - 127.0.0.1 - - [08/Sep/2025 09:31:56] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 09:31:56,234 - INFO - Question: Apa itu PPID?
+2025-09-08 09:31:56,234 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:31:56,234 - INFO - Category: umum
+2025-09-08 09:31:56,234 - INFO - Confidence: 1.000
+2025-09-08 09:31:56,234 - INFO - Status: found
+2025-09-08 09:31:56,235 - INFO - 127.0.0.1 - - [08/Sep/2025 09:31:56] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:31:58,738 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 09:31:58,738 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:31:58,739 - INFO - Category: layanan
+2025-09-08 09:31:58,739 - INFO - Confidence: 0.693
+2025-09-08 09:31:58,739 - INFO - Status: found
+2025-09-08 09:31:58,739 - INFO - 127.0.0.1 - - [08/Sep/2025 09:31:58] "POST /ask HTTP/1.1" 200 -
+2025-09-08 09:33:44,052 - INFO - 127.0.0.1 - - [08/Sep/2025 09:33:44] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 09:33:44,209 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-08 09:33:44,209 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 09:33:44,210 - INFO - Category: prosedur
+2025-09-08 09:33:44,210 - INFO - Confidence: 0.901
+2025-09-08 09:33:44,210 - INFO - Status: found
+2025-09-08 09:33:44,210 - INFO - 127.0.0.1 - - [08/Sep/2025 09:33:44] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:27:14,547 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:27:15,225 - INFO - NLP Processor initialized successfully
+2025-09-08 10:27:15,226 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:27:15,226 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:27:15,308 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 10:27:15,308 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 10:27:15,311 - INFO -  * Restarting with stat
+2025-09-08 10:27:16,953 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:27:17,636 - INFO - NLP Processor initialized successfully
+2025-09-08 10:27:17,637 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:27:17,637 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:27:17,650 - WARNING -  * Debugger is active!
+2025-09-08 10:27:17,659 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 10:27:30,371 - INFO - 127.0.0.1 - - [08/Sep/2025 10:27:30] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:27:30,372 - INFO - 127.0.0.1 - - [08/Sep/2025 10:27:30] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:27:30,995 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:27:30,997 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:27:30,997 - INFO - Category: unknown
+2025-09-08 10:27:30,998 - INFO - Confidence: 0.000
+2025-09-08 10:27:31,001 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:27:31,001 - INFO - Status: not_found
+2025-09-08 10:27:31,001 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:27:31,003 - INFO - 127.0.0.1 - - [08/Sep/2025 10:27:31] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:27:31,003 - INFO - Category: layanan
+2025-09-08 10:27:31,004 - INFO - Confidence: 0.693
+2025-09-08 10:27:31,004 - INFO - Status: found
+2025-09-08 10:27:31,005 - INFO - 127.0.0.1 - - [08/Sep/2025 10:27:31] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:27:36,150 - INFO - 127.0.0.1 - - [08/Sep/2025 10:27:36] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:27:36,291 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:27:36,291 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:27:36,291 - INFO - Category: layanan
+2025-09-08 10:27:36,291 - INFO - Confidence: 0.693
+2025-09-08 10:27:36,291 - INFO - Status: found
+2025-09-08 10:27:36,293 - INFO - 127.0.0.1 - - [08/Sep/2025 10:27:36] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:27:57,420 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:27:58,106 - INFO - NLP Processor initialized successfully
+2025-09-08 10:27:58,108 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:27:58,109 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:27:58,129 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 10:27:58,129 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 10:27:58,130 - INFO -  * Restarting with stat
+2025-09-08 10:27:59,778 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:28:00,461 - INFO - NLP Processor initialized successfully
+2025-09-08 10:28:00,462 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:28:00,463 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:28:00,476 - WARNING -  * Debugger is active!
+2025-09-08 10:28:00,479 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 10:28:42,759 - INFO - 127.0.0.1 - - [08/Sep/2025 10:28:42] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:28:43,305 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:28:43,306 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:28:43,306 - INFO - Category: layanan
+2025-09-08 10:28:43,306 - INFO - Confidence: 0.693
+2025-09-08 10:28:43,306 - INFO - Status: found
+2025-09-08 10:28:43,307 - INFO - 127.0.0.1 - - [08/Sep/2025 10:28:43] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:30:28,364 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:30:29,051 - INFO - NLP Processor initialized successfully
+2025-09-08 10:30:29,052 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:30:29,052 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:30:29,075 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 10:30:29,076 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 10:30:29,077 - INFO -  * Restarting with stat
+2025-09-08 10:30:30,763 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:30:31,437 - INFO - NLP Processor initialized successfully
+2025-09-08 10:30:31,438 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:30:31,439 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:30:31,451 - WARNING -  * Debugger is active!
+2025-09-08 10:30:31,455 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 10:30:48,546 - INFO - 127.0.0.1 - - [08/Sep/2025 10:30:48] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:30:48,986 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:30:48,987 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:30:48,987 - INFO - Category: layanan
+2025-09-08 10:30:48,987 - INFO - Confidence: 0.693
+2025-09-08 10:30:48,987 - INFO - Status: found
+2025-09-08 10:30:48,988 - INFO - 127.0.0.1 - - [08/Sep/2025 10:30:48] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:31:02,753 - INFO - 127.0.0.1 - - [08/Sep/2025 10:31:02] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:31:02,939 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:31:02,939 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:31:02,939 - INFO - Category: layanan
+2025-09-08 10:31:02,939 - INFO - Confidence: 0.693
+2025-09-08 10:31:02,939 - INFO - Status: found
+2025-09-08 10:31:02,940 - INFO - 127.0.0.1 - - [08/Sep/2025 10:31:02] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:31:15,239 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:31:15,930 - INFO - NLP Processor initialized successfully
+2025-09-08 10:31:15,932 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:31:15,932 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:31:15,952 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 10:31:15,953 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 10:31:15,954 - INFO -  * Restarting with stat
+2025-09-08 10:31:17,571 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:31:18,279 - INFO - NLP Processor initialized successfully
+2025-09-08 10:31:18,280 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:31:18,281 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:31:18,293 - WARNING -  * Debugger is active!
+2025-09-08 10:31:18,296 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 10:31:59,039 - INFO - 127.0.0.1 - - [08/Sep/2025 10:31:59] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:31:59,487 - INFO - Question: informasi
+2025-09-08 10:31:59,487 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:31:59,487 - INFO - Category: prosedur
+2025-09-08 10:31:59,487 - INFO - Confidence: 0.394
+2025-09-08 10:31:59,487 - INFO - Status: found
+2025-09-08 10:31:59,489 - INFO - 127.0.0.1 - - [08/Sep/2025 10:31:59] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:32:04,039 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:32:04,039 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:32:04,039 - INFO - Category: layanan
+2025-09-08 10:32:04,040 - INFO - Confidence: 0.693
+2025-09-08 10:32:04,040 - INFO - Status: found
+2025-09-08 10:32:04,040 - INFO - 127.0.0.1 - - [08/Sep/2025 10:32:04] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:33:15,889 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-08 10:33:16,084 - INFO -  * Restarting with stat
+2025-09-08 10:33:17,952 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:33:18,666 - INFO - NLP Processor initialized successfully
+2025-09-08 10:33:18,668 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:33:18,669 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:33:18,679 - WARNING -  * Debugger is active!
+2025-09-08 10:33:18,681 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 10:33:46,747 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:33:47,422 - INFO - NLP Processor initialized successfully
+2025-09-08 10:33:47,424 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:33:47,424 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:33:47,443 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 10:33:47,443 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 10:33:47,444 - INFO -  * Restarting with stat
+2025-09-08 10:33:49,132 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:33:49,809 - INFO - NLP Processor initialized successfully
+2025-09-08 10:33:49,811 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:33:49,811 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:33:49,825 - WARNING -  * Debugger is active!
+2025-09-08 10:33:49,829 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 10:34:14,413 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-08 10:34:14,615 - INFO -  * Restarting with stat
+2025-09-08 10:34:16,400 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:34:17,092 - INFO - NLP Processor initialized successfully
+2025-09-08 10:34:17,094 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:34:17,094 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:34:17,105 - WARNING -  * Debugger is active!
+2025-09-08 10:34:17,109 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 10:34:46,003 - INFO - 127.0.0.1 - - [08/Sep/2025 10:34:46] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:34:46,540 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:34:46,540 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:34:46,540 - INFO - Category: layanan
+2025-09-08 10:34:46,540 - INFO - Confidence: 0.693
+2025-09-08 10:34:46,541 - INFO - Status: found
+2025-09-08 10:34:46,541 - INFO - 127.0.0.1 - - [08/Sep/2025 10:34:46] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:36:02,561 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-08 10:36:02,779 - INFO -  * Restarting with stat
+2025-09-08 10:36:04,691 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:36:05,405 - INFO - NLP Processor initialized successfully
+2025-09-08 10:36:05,407 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:36:05,407 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:36:05,420 - WARNING -  * Debugger is active!
+2025-09-08 10:36:05,424 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 10:37:18,438 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:37:19,148 - INFO - NLP Processor initialized successfully
+2025-09-08 10:37:19,149 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:37:19,149 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:37:19,173 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 10:37:19,174 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 10:37:19,176 - INFO -  * Restarting with stat
+2025-09-08 10:37:21,041 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:37:21,736 - INFO - NLP Processor initialized successfully
+2025-09-08 10:37:21,737 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:37:21,737 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:37:21,750 - WARNING -  * Debugger is active!
+2025-09-08 10:37:21,755 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 10:38:13,549 - INFO - 127.0.0.1 - - [08/Sep/2025 10:38:13] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:38:14,043 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:38:14,043 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:38:14,043 - INFO - Category: layanan
+2025-09-08 10:38:14,043 - INFO - Confidence: 0.693
+2025-09-08 10:38:14,043 - INFO - Status: found
+2025-09-08 10:38:14,044 - INFO - 127.0.0.1 - - [08/Sep/2025 10:38:14] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:41:54,374 - INFO - 127.0.0.1 - - [08/Sep/2025 10:41:54] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:41:54,503 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:41:54,503 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:41:54,504 - INFO - Category: layanan
+2025-09-08 10:41:54,504 - INFO - Confidence: 0.693
+2025-09-08 10:41:54,504 - INFO - Status: found
+2025-09-08 10:41:54,504 - INFO - 127.0.0.1 - - [08/Sep/2025 10:41:54] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:51:36,644 - INFO - 127.0.0.1 - - [08/Sep/2025 10:51:36] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:51:36,796 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 10:51:36,796 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:51:36,796 - INFO - Category: layanan
+2025-09-08 10:51:36,796 - INFO - Confidence: 0.693
+2025-09-08 10:51:36,796 - INFO - Status: found
+2025-09-08 10:51:36,797 - INFO - 127.0.0.1 - - [08/Sep/2025 10:51:36] "POST /ask HTTP/1.1" 200 -
+2025-09-08 10:52:03,863 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-08 10:52:04,063 - INFO -  * Restarting with stat
+2025-09-08 10:52:05,974 - INFO - Starting NLP Processor initialization...
+2025-09-08 10:52:06,674 - INFO - NLP Processor initialized successfully
+2025-09-08 10:52:06,675 - INFO - Starting FAQ Bot Server...
+2025-09-08 10:52:06,676 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 10:52:06,693 - WARNING -  * Debugger is active!
+2025-09-08 10:52:06,698 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 10:55:36,601 - INFO - 127.0.0.1 - - [08/Sep/2025 10:55:36] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 10:55:37,113 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-08 10:55:37,113 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 10:55:37,113 - INFO - Category: prosedur
+2025-09-08 10:55:37,113 - INFO - Confidence: 0.901
+2025-09-08 10:55:37,113 - INFO - Status: found
+2025-09-08 10:55:37,113 - INFO - 127.0.0.1 - - [08/Sep/2025 10:55:37] "POST /ask HTTP/1.1" 200 -
+2025-09-08 11:00:04,111 - INFO - 127.0.0.1 - - [08/Sep/2025 11:00:04] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 11:00:04,276 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-08 11:00:04,277 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 11:00:04,277 - INFO - Category: prosedur
+2025-09-08 11:00:04,277 - INFO - Confidence: 0.901
+2025-09-08 11:00:04,277 - INFO - Status: found
+2025-09-08 11:00:04,277 - INFO - 127.0.0.1 - - [08/Sep/2025 11:00:04] "POST /ask HTTP/1.1" 200 -
+2025-09-08 11:00:55,839 - INFO - Starting NLP Processor initialization...
+2025-09-08 11:00:56,507 - INFO - NLP Processor initialized successfully
+2025-09-08 11:00:56,508 - INFO - Starting FAQ Bot Server...
+2025-09-08 11:00:56,508 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 11:00:56,532 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 11:00:56,532 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 11:00:56,533 - INFO -  * Restarting with stat
+2025-09-08 11:00:58,151 - INFO - Starting NLP Processor initialization...
+2025-09-08 11:00:58,817 - INFO - NLP Processor initialized successfully
+2025-09-08 11:00:58,819 - INFO - Starting FAQ Bot Server...
+2025-09-08 11:00:58,819 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 11:00:58,832 - WARNING -  * Debugger is active!
+2025-09-08 11:00:58,835 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 11:01:20,658 - INFO - 127.0.0.1 - - [08/Sep/2025 11:01:20] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 11:01:21,315 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 11:01:21,316 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 11:01:21,316 - INFO - Category: layanan
+2025-09-08 11:01:21,316 - INFO - Confidence: 0.693
+2025-09-08 11:01:21,317 - INFO - Status: found
+2025-09-08 11:01:21,318 - INFO - 127.0.0.1 - - [08/Sep/2025 11:01:21] "POST /ask HTTP/1.1" 200 -
+2025-09-08 11:01:24,505 - ERROR - Error processing question: 'url'
+2025-09-08 11:01:24,505 - INFO - 127.0.0.1 - - [08/Sep/2025 11:01:24] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-09-08 11:01:26,146 - INFO - 127.0.0.1 - - [08/Sep/2025 11:01:26] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 11:01:26,312 - ERROR - Error processing question: 'url'
+2025-09-08 11:01:26,313 - INFO - 127.0.0.1 - - [08/Sep/2025 11:01:26] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-09-08 11:02:36,582 - INFO - 127.0.0.1 - - [08/Sep/2025 11:02:36] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 11:02:36,741 - ERROR - Error processing question: 'url'
+2025-09-08 11:02:36,741 - INFO - 127.0.0.1 - - [08/Sep/2025 11:02:36] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-09-08 11:02:38,102 - ERROR - Error processing question: 'url'
+2025-09-08 11:02:38,102 - INFO - 127.0.0.1 - - [08/Sep/2025 11:02:38] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-09-08 11:02:50,902 - INFO - 127.0.0.1 - - [08/Sep/2025 11:02:50] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 11:02:51,036 - ERROR - Error processing question: 'url'
+2025-09-08 11:02:51,036 - INFO - 127.0.0.1 - - [08/Sep/2025 11:02:51] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-09-08 11:03:04,152 - INFO - 127.0.0.1 - - [08/Sep/2025 11:03:04] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 11:03:04,317 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kota Sukoharjo?
+2025-09-08 11:03:04,317 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 11:03:04,318 - INFO - Category: layanan
+2025-09-08 11:03:04,318 - INFO - Confidence: 0.693
+2025-09-08 11:03:04,319 - INFO - Status: found
+2025-09-08 11:03:04,319 - INFO - 127.0.0.1 - - [08/Sep/2025 11:03:04] "POST /ask HTTP/1.1" 200 -
+2025-09-08 11:03:05,157 - ERROR - Error processing question: 'url'
+2025-09-08 11:03:05,158 - INFO - 127.0.0.1 - - [08/Sep/2025 11:03:05] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-09-08 11:03:06,103 - ERROR - Error processing question: 'url'
+2025-09-08 11:03:06,103 - INFO - 127.0.0.1 - - [08/Sep/2025 11:03:06] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+2025-09-08 11:03:07,234 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-08 11:03:07,235 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 11:03:07,236 - INFO - Category: prosedur
+2025-09-08 11:03:07,236 - INFO - Confidence: 0.880
+2025-09-08 11:03:07,236 - INFO - Status: found
+2025-09-08 11:03:07,237 - INFO - 127.0.0.1 - - [08/Sep/2025 11:03:07] "POST /ask HTTP/1.1" 200 -

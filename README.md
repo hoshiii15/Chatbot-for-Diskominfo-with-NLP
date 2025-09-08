@@ -283,6 +283,274 @@ Check file `bot.log` untuk error logs dan debugging.
 
 ## 🚀 Deployment
 
+### Minimum VPS Requirements
+
+#### Development/Testing Environment
+
+```
+CPU: 1 vCore
+RAM: 1 GB
+Storage: 5 GB SSD
+Bandwidth: 100 Mbps shared
+OS: Ubuntu 20.04/22.04 LTS
+```
+
+#### Production Environment (Recommended)
+
+```
+CPU: 2 vCore
+RAM: 2 GB
+Storage: 10 GB SSD
+Bandwidth: 500 Mbps shared
+OS: Ubuntu 20.04/22.04 LTS
+```
+
+#### High Traffic Environment
+
+```
+CPU: 2-4 vCore
+RAM: 4 GB
+Storage: 20 GB SSD
+Bandwidth: 1 Gbps shared
+OS: Ubuntu 20.04/22.04 LTS
+```
+
+### Resource Analysis
+
+- **Memory Usage**: 600-800 MB (with all dependencies loaded)
+- **CPU Usage**: Medium during NLP processing
+- **Storage**: ~300 MB for application + dependencies
+- **Expected Load**: 100-1000 requests/day
+- **Concurrent Users**: 5-20 simultaneous users
+
+### Production Deployment
+
+1. **Prepare VPS Environment**
+
+```bash
+# Update system
+sudo apt update && sudo apt upgrade -y
+
+# Install Python 3.8+
+sudo apt install python3 python3-pip python3-venv git nginx -y
+
+# Install PM2 for process management
+npm install -g pm2
+```
+
+2. **Clone and Setup Application**
+
+```bash
+git clone https://github.com/hoshiii15/Chatbot-for-Diskominfo-with-NLP.git
+cd Chatbot-for-Diskominfo-with-NLP
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# Download NLTK data
+python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+```
+
+3. **Configure Production Server**
+
+```bash
+# Install Gunicorn for production WSGI
+pip install gunicorn
+
+# Create systemd service
+sudo nano /etc/systemd/system/faq-chatbot.service
+```
+
+4. **Systemd Service Configuration**
+
+```ini
+[Unit]
+Description=FAQ Chatbot Application
+After=network.target
+
+[Service]
+Type=notify
+User=www-data
+WorkingDirectory=/path/to/Chatbot-for-Diskominfo-with-NLP
+Environment=PATH=/path/to/venv/bin
+ExecStart=/path/to/venv/bin/gunicorn --workers 2 --bind 127.0.0.1:5000 app:app
+ExecReload=/bin/kill -s HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+5. **Nginx Configuration**
+
+```nginx
+server {
+    listen 80;
+    server_name your-domain.com;
+
+    location / {
+        proxy_pass http://127.0.0.1:5000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+}
+```
+
+6. **SSL Setup with Let's Encrypt**
+
+```bash
+sudo apt install certbot python3-certbot-nginx
+sudo certbot --nginx -d your-domain.com
+```
+
+7. **Performance Optimization**
+
+```python
+# app.py - Production settings
+app.config['DEBUG'] = False
+app.config['TESTING'] = False
+
+# Use production WSGI server
+if __name__ == '__main__':
+    # Development only
+    app.run(host='127.0.0.1', port=5000, debug=False)
+```
+
+### Monitoring & Maintenance
+
+1. **Setup Monitoring**
+
+```bash
+# Install monitoring tools
+sudo apt install htop iotop nethogs
+
+# Monitor application logs
+tail -f bot.log
+
+# Monitor system resources
+htop
+```
+
+2. **Automated Backups**
+
+```bash
+# Create backup script
+cat > backup.sh << 'EOF'
+#!/bin/bash
+DATE=$(date +%Y%m%d_%H%M%S)
+tar -czf "/backup/chatbot_backup_$DATE.tar.gz" \
+  /path/to/application \
+  --exclude="__pycache__" \
+  --exclude="*.log"
+EOF
+
+# Add to crontab for daily backups
+crontab -e
+# Add: 0 2 * * * /path/to/backup.sh
+```
+
+3. **Log Rotation**
+
+```bash
+sudo nano /etc/logrotate.d/faq-chatbot
+```
+
+```
+/path/to/application/bot.log {
+    daily
+    rotate 30
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 644 www-data www-data
+}
+```
+
+### Security Best Practices
+
+1. **Firewall Configuration**
+
+```bash
+sudo ufw allow ssh
+sudo ufw allow 'Nginx Full'
+sudo ufw enable
+```
+
+2. **Environment Variables**
+
+```bash
+# Create .env file for sensitive configs
+cat > .env << 'EOF'
+FLASK_ENV=production
+SECRET_KEY=your-secret-key-here
+CORS_ORIGINS=https://your-domain.com
+EOF
+```
+
+3. **Rate Limiting**
+
+```python
+# Install Flask-Limiter
+pip install Flask-Limiter
+
+# Add to app.py
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+
+limiter = Limiter(
+    app,
+    key_func=get_remote_address,
+    default_limits=["100 per hour"]
+)
+
+@app.route('/ask', methods=['POST'])
+@limiter.limit("10 per minute")
+def ask_question():
+    # existing code
+```
+
+### Performance Optimization
+
+1. **Caching Implementation**
+
+```python
+# Install Flask-Caching
+pip install Flask-Caching
+
+# Add to app.py
+from flask_caching import Cache
+
+cache = Cache(app, config={'CACHE_TYPE': 'simple'})
+
+@app.route('/ask', methods=['POST'])
+@cache.memoize(timeout=300)  # Cache for 5 minutes
+def cached_ask_question():
+    # existing code
+```
+
+2. **Database Migration** (Optional)
+
+```bash
+# For high traffic, consider migrating from JSON to SQLite/PostgreSQL
+pip install SQLAlchemy Flask-SQLAlchemy
+```
+
+### VPS Provider Recommendations
+
+#### Budget-Friendly Options
+
+- **DigitalOcean**: $5/month droplet (1 vCore, 1GB RAM, 25GB SSD)
+- **Vultr**: $3.50/month (1 vCore, 512MB RAM, 10GB SSD)
+- **Linode**: $5/month (1 vCore, 1GB RAM, 25GB SSD)
+
+#### Enterprise Options
+
+- **AWS EC2**: t3.micro/small instances
+- **Google Cloud**: e2-micro/small instances
+- **Azure**: B1s/B1ms instances
+
 ### Production Deployment
 
 1. Use production WSGI server (Gunicorn, uWSGI)

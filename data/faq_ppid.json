@@ -6,7 +6,7 @@
       "Apa yang dimaksud dengan PPID?",
       "PPID itu apa?"
     ],
-    "answer": "PPID adalah Pejabat Pengelola Informasi dan Dokumentasi yang bertugas mengelola dan memberikan layanan informasi publik di lingkungan Pemerintah Kabupaten Sukoharjo.",
+    "answer": "PPID adalah singkatan dari Pejabat Pengelola Informasi dan Dokumentasi. Merupakan institusi resmi yang bertugas dalam mengelola, menyediakan, dan mendokumentasikan informasi publik kepada masyarakat sesuai UU No. 14 Tahun 2008 tentang Keterbukaan Informasi Publik.",
     "category": "umum"
   },
   {
@@ -16,7 +16,25 @@
       "Bagaimana prosedur permohonan informasi di PPID?",
       "Cara meminta informasi di PPID?"
     ],
-    "answer": "Permohonan informasi publik dapat diajukan melalui website PPID Sukoharjo, datang langsung ke kantor PPID, atau melalui email yang tersedia di halaman kontak.",
+    "answer": "Permohonan informasi publik dapat diajukan melalui website PPID Kabupaten Sukoharjo Dengan mengakses aplikasi SIPIPI, Melalui Instagram PPID, Melalui Email PPID, atau bisa datang langsung ke kantor PPID.",
+    "links": [
+    {
+      "text": "Aplikasi SIPIPI",
+      "url": "https://sipipi.sukoharjokab.go.id/"
+    },
+    {
+      "text": "Instagram PPID", 
+      "url": "https://www.instagram.com/ppid_sukoharjo/"
+    },
+    {
+      "text": "Email PPID : ppid.sukoharjokab@go.id",
+      "url": ""
+    },
+    {
+      "text": "Kantor PPID : Lobi Gedung Menara Wijaya, Jl. Jenderal Sudirman No.199 Kabupaten Sukoharjo. 57521",
+      "url": ""
+    }
+    ],
     "category": "prosedur"
   },
   {
@@ -26,6 +44,40 @@
       "Informasi apa saja yang bisa diminta di PPID?"
     ],
     "answer": "Informasi yang dapat diakses publik meliputi informasi berkala, serta merta, setiap saat, dan informasi yang dikecualikan sesuai peraturan perundang-undangan.",
+    "links": [
+    {
+      "text": "LHKPN",
+      "url": "https://ppid.sukoharjokab.go.id/lhkpn/"
+    },
+    {
+      "text": "Informasi Berkala", 
+      "url": "https://ppid.sukoharjokab.go.id/daftar-informasi-berkala/"
+    },
+    {
+      "text": "Informasi Serta Merta",
+      "url": "https://ppid.sukoharjokab.go.id/informasi-serta-merta/"
+    },
+    {
+      "text": "Informasi Setiap Saat",
+      "url": "https://ppid.sukoharjokab.go.id/informasi-setiap-saat/"
+    },
+    {
+      "text": "Daftar Aset",
+      "url": "https://drive.google.com/drive/folders/1vEGhMooW2mMxtPBKWAv_dI3WjIwSXPmo"
+    },
+    {
+      "text": "Informasi Pengadaan Barang dan Jasa",
+      "url": "https://ppid.sukoharjokab.go.id/daftar-informasi-berkala/"
+    },
+    {
+      "text": "LKPD",
+      "url": "https://drive.google.com/drive/folders/1V86bwl93CqkX7LCA4-LaLHagMk8wdLh4"
+    },
+    {
+      "text": "Laporan Evaluasi Kinerja",
+      "url": "https://ppid.sukoharjokab.go.id/daftar-informasi-berkala/"
+    }
+    ],
     "category": "informasi"
   },
   {
@@ -70,7 +122,41 @@
       "Apa saja layanan yang tersedia di website PPID Sukoharjo?",
       "Layanan apa saja di website PPID?"
     ],
-    "answer": "Layanan di website PPID Sukoharjo antara lain permohonan informasi, pengajuan keberatan, daftar informasi publik, dan pengumuman.",
+    "answer": "Informasi yang dapat diakses publik meliputi informasi berkala, serta merta, setiap saat, dan informasi yang dikecualikan sesuai peraturan perundang-undangan.",
+    "links": [
+    {
+      "text": "LHKPN",
+      "url": "https://ppid.sukoharjokab.go.id/lhkpn/"
+    },
+    {
+      "text": "Informasi Berkala", 
+      "url": "https://ppid.sukoharjokab.go.id/daftar-informasi-berkala/"
+    },
+    {
+      "text": "Informasi Serta Merta",
+      "url": "https://ppid.sukoharjokab.go.id/informasi-serta-merta/"
+    },
+    {
+      "text": "Informasi Setiap Saat",
+      "url": "https://ppid.sukoharjokab.go.id/informasi-setiap-saat/"
+    },
+    {
+      "text": "Daftar Aset",
+      "url": "https://drive.google.com/drive/folders/1vEGhMooW2mMxtPBKWAv_dI3WjIwSXPmo"
+    },
+    {
+      "text": "Informasi Pengadaan Barang dan Jasa",
+      "url": "https://ppid.sukoharjokab.go.id/daftar-informasi-berkala/"
+    },
+    {
+      "text": "LKPD",
+      "url": "https://drive.google.com/drive/folders/1V86bwl93CqkX7LCA4-LaLHagMk8wdLh4"
+    },
+    {
+      "text": "Laporan Evaluasi Kinerja",
+      "url": "https://ppid.sukoharjokab.go.id/daftar-informasi-berkala/"
+    }
+    ],
     "category": "layanan"
   }
 ]
