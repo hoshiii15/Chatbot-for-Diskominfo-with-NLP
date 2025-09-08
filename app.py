@@ -4,6 +4,7 @@ import logging
 from datetime import datetime
 from nlp_processor import NLPProcessor
 
+
 app = Flask(__name__)
 CORS(app)
 

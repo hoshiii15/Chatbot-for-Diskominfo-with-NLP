@@ -3287,3 +3287,189 @@
 2025-09-08 11:03:07,236 - INFO - Confidence: 0.880
 2025-09-08 11:03:07,236 - INFO - Status: found
 2025-09-08 11:03:07,237 - INFO - 127.0.0.1 - - [08/Sep/2025 11:03:07] "POST /ask HTTP/1.1" 200 -
+2025-09-08 11:03:14,745 - INFO - Starting NLP Processor initialization...
+2025-09-08 11:03:15,451 - INFO - NLP Processor initialized successfully
+2025-09-08 11:03:15,452 - INFO - Starting FAQ Bot Server...
+2025-09-08 11:03:15,452 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 11:03:15,476 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 11:03:15,476 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 11:03:15,477 - INFO -  * Restarting with stat
+2025-09-08 11:03:17,262 - INFO - Starting NLP Processor initialization...
+2025-09-08 11:03:17,968 - INFO - NLP Processor initialized successfully
+2025-09-08 11:03:17,971 - INFO - Starting FAQ Bot Server...
+2025-09-08 11:03:17,971 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 11:03:17,984 - WARNING -  * Debugger is active!
+2025-09-08 11:03:17,988 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 11:03:44,793 - INFO - 127.0.0.1 - - [08/Sep/2025 11:03:44] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 11:03:45,303 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-08 11:03:45,303 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 11:03:45,303 - INFO - Category: prosedur
+2025-09-08 11:03:45,303 - INFO - Confidence: 0.901
+2025-09-08 11:03:45,303 - INFO - Status: found
+2025-09-08 11:03:45,304 - INFO - 127.0.0.1 - - [08/Sep/2025 11:03:45] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:42:55,846 - INFO - Starting NLP Processor initialization...
+2025-09-08 13:42:56,529 - INFO - NLP Processor initialized successfully
+2025-09-08 13:42:56,531 - INFO - Starting FAQ Bot Server...
+2025-09-08 13:42:56,532 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 13:42:56,561 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 13:42:56,561 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 13:42:56,563 - INFO -  * Restarting with stat
+2025-09-08 13:42:58,154 - INFO - Starting NLP Processor initialization...
+2025-09-08 13:42:58,857 - INFO - NLP Processor initialized successfully
+2025-09-08 13:42:58,859 - INFO - Starting FAQ Bot Server...
+2025-09-08 13:42:58,860 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 13:42:58,872 - WARNING -  * Debugger is active!
+2025-09-08 13:42:58,882 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 13:43:44,448 - INFO - 127.0.0.1 - - [08/Sep/2025 13:43:44] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:43:45,233 - INFO - Question: Bagaimana cara menghubungi PPID Kabupaten Sukoharjo?
+2025-09-08 13:43:45,233 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:43:45,233 - INFO - Category: prosedur
+2025-09-08 13:43:45,233 - INFO - Confidence: 0.478
+2025-09-08 13:43:45,234 - INFO - Status: found
+2025-09-08 13:43:45,234 - INFO - 127.0.0.1 - - [08/Sep/2025 13:43:45] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:43:51,611 - INFO - 127.0.0.1 - - [08/Sep/2025 13:43:51] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:43:51,823 - INFO - Question: Apakah tersedia layanan bagi penyandang disabilitas?
+2025-09-08 13:43:51,823 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:43:51,824 - INFO - Category: disabilitas
+2025-09-08 13:43:51,824 - INFO - Confidence: 0.673
+2025-09-08 13:43:51,824 - INFO - Status: found
+2025-09-08 13:43:51,825 - INFO - 127.0.0.1 - - [08/Sep/2025 13:43:51] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:43:56,530 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-08 13:43:56,530 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:43:56,530 - INFO - Category: prosedur
+2025-09-08 13:43:56,530 - INFO - Confidence: 0.725
+2025-09-08 13:43:56,532 - INFO - Status: found
+2025-09-08 13:43:56,532 - INFO - 127.0.0.1 - - [08/Sep/2025 13:43:56] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:44:02,774 - INFO - 127.0.0.1 - - [08/Sep/2025 13:44:02] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:44:02,978 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-08 13:44:02,978 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:44:02,978 - INFO - Category: umum
+2025-09-08 13:44:02,978 - INFO - Confidence: 0.780
+2025-09-08 13:44:02,978 - INFO - Status: found
+2025-09-08 13:44:02,979 - INFO - 127.0.0.1 - - [08/Sep/2025 13:44:02] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:44:09,555 - INFO - 127.0.0.1 - - [08/Sep/2025 13:44:09] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:44:09,847 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-08 13:44:09,847 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:44:09,847 - INFO - Category: prosedur
+2025-09-08 13:44:09,847 - INFO - Confidence: 0.880
+2025-09-08 13:44:09,848 - INFO - Status: found
+2025-09-08 13:44:09,848 - INFO - 127.0.0.1 - - [08/Sep/2025 13:44:09] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:44:17,934 - INFO - 127.0.0.1 - - [08/Sep/2025 13:44:17] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:44:18,133 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-08 13:44:18,133 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:44:18,133 - INFO - Category: prosedur
+2025-09-08 13:44:18,133 - INFO - Confidence: 0.901
+2025-09-08 13:44:18,134 - INFO - Status: found
+2025-09-08 13:44:18,134 - INFO - 127.0.0.1 - - [08/Sep/2025 13:44:18] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:44:39,024 - INFO - 127.0.0.1 - - [08/Sep/2025 13:44:39] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:44:39,227 - INFO - Question: Apa itu PPID?
+2025-09-08 13:44:39,227 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:44:39,227 - INFO - Category: umum
+2025-09-08 13:44:39,227 - INFO - Confidence: 1.000
+2025-09-08 13:44:39,227 - INFO - Status: found
+2025-09-08 13:44:39,228 - INFO - 127.0.0.1 - - [08/Sep/2025 13:44:39] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:44:46,193 - INFO - 127.0.0.1 - - [08/Sep/2025 13:44:46] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:44:47,111 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kabupaten Sukoharjo?
+2025-09-08 13:44:47,111 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:44:47,112 - INFO - Category: layanan
+2025-09-08 13:44:47,112 - INFO - Confidence: 0.698
+2025-09-08 13:44:47,112 - INFO - Status: found
+2025-09-08 13:44:47,113 - INFO - 127.0.0.1 - - [08/Sep/2025 13:44:47] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:55:57,646 - INFO - 127.0.0.1 - - [08/Sep/2025 13:55:57] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:55:57,851 - INFO - Question: Apa itu PPID?
+2025-09-08 13:55:57,852 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:55:57,852 - INFO - Category: umum
+2025-09-08 13:55:57,852 - INFO - Confidence: 1.000
+2025-09-08 13:55:57,852 - INFO - Status: found
+2025-09-08 13:55:57,853 - INFO - 127.0.0.1 - - [08/Sep/2025 13:55:57] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:55:59,780 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kabupaten Sukoharjo?
+2025-09-08 13:55:59,780 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:55:59,781 - INFO - Category: layanan
+2025-09-08 13:55:59,781 - INFO - Confidence: 0.698
+2025-09-08 13:55:59,781 - INFO - Status: found
+2025-09-08 13:55:59,781 - INFO - 127.0.0.1 - - [08/Sep/2025 13:55:59] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:56:03,680 - INFO - 127.0.0.1 - - [08/Sep/2025 13:56:03] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:56:03,880 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-08 13:56:03,880 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:56:03,881 - INFO - Category: prosedur
+2025-09-08 13:56:03,881 - INFO - Confidence: 0.901
+2025-09-08 13:56:03,881 - INFO - Status: found
+2025-09-08 13:56:03,883 - INFO - 127.0.0.1 - - [08/Sep/2025 13:56:03] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:56:08,284 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-08 13:56:08,284 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:56:08,284 - INFO - Category: prosedur
+2025-09-08 13:56:08,285 - INFO - Confidence: 0.880
+2025-09-08 13:56:08,285 - INFO - Status: found
+2025-09-08 13:56:08,285 - INFO - 127.0.0.1 - - [08/Sep/2025 13:56:08] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:56:12,894 - INFO - 127.0.0.1 - - [08/Sep/2025 13:56:12] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:56:13,091 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-08 13:56:13,091 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:56:13,091 - INFO - Category: umum
+2025-09-08 13:56:13,091 - INFO - Confidence: 0.780
+2025-09-08 13:56:13,091 - INFO - Status: found
+2025-09-08 13:56:13,092 - INFO - 127.0.0.1 - - [08/Sep/2025 13:56:13] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:56:18,005 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-08 13:56:18,005 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:56:18,005 - INFO - Category: prosedur
+2025-09-08 13:56:18,005 - INFO - Confidence: 0.725
+2025-09-08 13:56:18,005 - INFO - Status: found
+2025-09-08 13:56:18,005 - INFO - 127.0.0.1 - - [08/Sep/2025 13:56:18] "POST /ask HTTP/1.1" 200 -
+2025-09-08 13:56:25,073 - INFO - 127.0.0.1 - - [08/Sep/2025 13:56:25] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 13:56:25,275 - INFO - Question: Apakah tersedia layanan bagi penyandang disabilitas?
+2025-09-08 13:56:25,275 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 13:56:25,275 - INFO - Category: disabilitas
+2025-09-08 13:56:25,275 - INFO - Confidence: 0.673
+2025-09-08 13:56:25,276 - INFO - Status: found
+2025-09-08 13:56:25,276 - INFO - 127.0.0.1 - - [08/Sep/2025 13:56:25] "POST /ask HTTP/1.1" 200 -
+2025-09-08 14:00:08,923 - INFO - 127.0.0.1 - - [08/Sep/2025 14:00:08] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 14:00:09,054 - INFO - Question: Apakah tersedia layanan bagi penyandang disabilitas?
+2025-09-08 14:00:09,054 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 14:00:09,054 - INFO - Category: disabilitas
+2025-09-08 14:00:09,054 - INFO - Confidence: 0.673
+2025-09-08 14:00:09,054 - INFO - Status: found
+2025-09-08 14:00:09,055 - INFO - 127.0.0.1 - - [08/Sep/2025 14:00:09] "POST /ask HTTP/1.1" 200 -
+2025-09-08 14:00:17,522 - INFO - 127.0.0.1 - - [08/Sep/2025 14:00:17] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 14:00:17,676 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kabupaten Sukoharjo?
+2025-09-08 14:00:17,677 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 14:00:17,677 - INFO - Category: layanan
+2025-09-08 14:00:17,677 - INFO - Confidence: 0.698
+2025-09-08 14:00:17,677 - INFO - Status: found
+2025-09-08 14:00:17,678 - INFO - 127.0.0.1 - - [08/Sep/2025 14:00:17] "POST /ask HTTP/1.1" 200 -
+2025-09-08 14:00:37,080 - INFO - 127.0.0.1 - - [08/Sep/2025 14:00:37] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 14:00:37,320 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-08 14:00:37,320 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 14:00:37,320 - INFO - Category: umum
+2025-09-08 14:00:37,320 - INFO - Confidence: 0.780
+2025-09-08 14:00:37,320 - INFO - Status: found
+2025-09-08 14:00:37,321 - INFO - 127.0.0.1 - - [08/Sep/2025 14:00:37] "POST /ask HTTP/1.1" 200 -
+2025-09-08 14:06:18,194 - INFO - Starting NLP Processor initialization...
+2025-09-08 14:06:18,890 - INFO - NLP Processor initialized successfully
+2025-09-08 14:06:18,892 - INFO - Starting FAQ Bot Server...
+2025-09-08 14:06:18,892 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 14:06:18,911 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 14:06:18,912 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 14:06:18,913 - INFO -  * Restarting with stat
+2025-09-08 14:06:20,939 - INFO - Starting NLP Processor initialization...
+2025-09-08 14:06:21,643 - INFO - NLP Processor initialized successfully
+2025-09-08 14:06:21,645 - INFO - Starting FAQ Bot Server...
+2025-09-08 14:06:21,645 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 14:06:21,658 - WARNING -  * Debugger is active!
+2025-09-08 14:06:21,662 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 14:06:23,140 - INFO - 127.0.0.1 - - [08/Sep/2025 14:06:23] "[33mPOST /api/show HTTP/1.1[0m" 404 -
+2025-09-08 14:15:17,862 - INFO - Starting NLP Processor initialization...
+2025-09-08 14:15:18,537 - INFO - NLP Processor initialized successfully
+2025-09-08 14:15:18,539 - INFO - Starting FAQ Bot Server...
+2025-09-08 14:15:18,540 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 14:15:18,560 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 14:15:18,560 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 14:15:18,561 - INFO -  * Restarting with stat
+2025-09-08 14:15:21,436 - INFO - Starting NLP Processor initialization...
+2025-09-08 14:15:22,129 - INFO - NLP Processor initialized successfully
+2025-09-08 14:15:22,131 - INFO - Starting FAQ Bot Server...
+2025-09-08 14:15:22,132 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 14:15:22,142 - WARNING -  * Debugger is active!
+2025-09-08 14:15:22,146 - INFO -  * Debugger PIN: 111-242-527

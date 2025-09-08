@@ -86,7 +86,7 @@
       "Berapa lama waktu penyelesaian permohonan informasi?",
       "Permohonan informasi diproses berapa hari?"
     ],
-    "answer": "Permohonan informasi publik akan diproses paling lambat 10 hari kerja sejak permohonan diterima, dan dapat diperpanjang 7 hari kerja jika diperlukan.",
+    "answer": "Permohonan informasi publik diproses dalam waktu paling lambat 10 hari kerja, dan dapat diperpanjang 7 hari kerja apabila informasi yang diminta bersifat kompleks.",
     "category": "prosedur"
   },
   {
@@ -95,7 +95,13 @@
       "Apakah ada biaya untuk memperoleh informasi publik?",
       "Permohonan informasi di PPID bayar atau gratis?"
     ],
-    "answer": "Pada dasarnya, permohonan informasi publik tidak dipungut biaya, kecuali biaya penggandaan atau pengiriman dokumen.",
+    "answer": "Pada umumnya, permohonan informasi publik tidak dipungut biaya, kecuali biaya penggandaan atau pengiriman dokumen.",
+      "links": [
+    {
+      "text": "Selangkapnya mengenai informasi biaya",
+      "url": "https://ppid.sukoharjokab.go.id/standar-biaya-perolehan-informasi-publik/"
+    }
+      ],
     "category": "umum"
   },
   {
@@ -104,17 +110,17 @@
       "Bagaimana cara mengajukan keberatan jika permohonan informasi ditolak?",
       "Apa yang harus dilakukan jika permohonan informasi tidak diberikan?"
     ],
-    "answer": "Jika permohonan informasi ditolak, pemohon dapat mengajukan keberatan secara tertulis kepada atasan PPID sesuai prosedur yang berlaku.",
+    "answer": "Pemohon dapat mengajukan keberatan kepada atasan PPID. Jika tidak puas dengan keputusan tersebut, pemohon dapat mengajukan sengketa informasi ke Komisi Informasi Provinsi Jawa Tengah.",
     "category": "prosedur"
   },
   {
     "id": 7,
     "questions": [
-      "Dimana alamat kantor PPID Sukoharjo?",
-      "Alamat PPID Sukoharjo dimana?"
+      "Apakah ada layanan untuk penyandang disabilitas di PPID Sukoharjo?",
+      "layanan penyangdang disabilitas di PPID Sukoharjo?"
     ],
-    "answer": "Alamat kantor PPID Sukoharjo dapat dilihat di halaman kontak website PPID atau di Jl. Jend. Sudirman No. 199, Sukoharjo.",
-    "category": "kontak"
+    "answer": "Ya. Website PPID Kabupaten Sukoharjo berkomitmen menyediakan fitur aksesibilitas untuk penyandang disabilitas, seperti teks alternatif, kontras tinggi, dan navigasi yang ramah disabilitas. ",
+    "category": "disabilitas"
   },
   {
     "id": 8,
