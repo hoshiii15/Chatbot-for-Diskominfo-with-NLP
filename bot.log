@@ -3473,3 +3473,184 @@
 2025-09-08 14:15:22,132 - INFO - Server will run on http://127.0.0.1:5000
 2025-09-08 14:15:22,142 - WARNING -  * Debugger is active!
 2025-09-08 14:15:22,146 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 15:12:13,873 - INFO - Starting NLP Processor initialization...
+2025-09-08 15:12:14,562 - INFO - NLP Processor initialized successfully
+2025-09-08 15:12:14,564 - INFO - Starting FAQ Bot Server...
+2025-09-08 15:12:14,565 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 15:12:14,588 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 15:12:14,588 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 15:12:14,590 - INFO -  * Restarting with stat
+2025-09-08 15:12:16,289 - INFO - Starting NLP Processor initialization...
+2025-09-08 15:12:16,976 - INFO - NLP Processor initialized successfully
+2025-09-08 15:12:16,978 - INFO - Starting FAQ Bot Server...
+2025-09-08 15:12:16,978 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 15:12:16,990 - WARNING -  * Debugger is active!
+2025-09-08 15:12:17,000 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 15:12:49,042 - INFO - Starting NLP Processor initialization...
+2025-09-08 15:12:49,716 - INFO - NLP Processor initialized successfully
+2025-09-08 15:12:49,717 - INFO - Starting FAQ Bot Server...
+2025-09-08 15:12:49,717 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 15:12:49,740 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 15:12:49,741 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 15:12:49,742 - INFO -  * Restarting with stat
+2025-09-08 15:12:51,406 - INFO - Starting NLP Processor initialization...
+2025-09-08 15:12:52,102 - INFO - NLP Processor initialized successfully
+2025-09-08 15:12:52,103 - INFO - Starting FAQ Bot Server...
+2025-09-08 15:12:52,103 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 15:12:52,115 - WARNING -  * Debugger is active!
+2025-09-08 15:12:52,118 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 15:13:11,940 - INFO - 127.0.0.1 - - [08/Sep/2025 15:13:11] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:13:12,395 - INFO - Question: samsat
+2025-09-08 15:13:12,395 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:13:12,395 - INFO - Category: ppid_informasi
+2025-09-08 15:13:12,396 - INFO - Confidence: 0.950
+2025-09-08 15:13:12,396 - INFO - Status: ppid_link
+2025-09-08 15:13:12,396 - INFO - 127.0.0.1 - - [08/Sep/2025 15:13:12] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:14:45,575 - INFO - 127.0.0.1 - - [08/Sep/2025 15:14:45] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:14:45,592 - INFO - Question: aplikasi lapor
+2025-09-08 15:14:45,592 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:14:45,592 - INFO - Category: ppid_informasi
+2025-09-08 15:14:45,593 - INFO - Confidence: 0.950
+2025-09-08 15:14:45,593 - INFO - Status: ppid_link
+2025-09-08 15:14:45,594 - INFO - 127.0.0.1 - - [08/Sep/2025 15:14:45] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:15:01,463 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-08 15:15:01,654 - INFO -  * Restarting with stat
+2025-09-08 15:15:03,502 - INFO - Starting NLP Processor initialization...
+2025-09-08 15:15:04,195 - INFO - NLP Processor initialized successfully
+2025-09-08 15:15:04,197 - INFO - Starting FAQ Bot Server...
+2025-09-08 15:15:04,197 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 15:15:04,209 - WARNING -  * Debugger is active!
+2025-09-08 15:15:04,213 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 15:15:20,237 - INFO - 127.0.0.1 - - [08/Sep/2025 15:15:20] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:15:20,711 - INFO - Question: samsat
+2025-09-08 15:15:20,711 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:15:20,712 - INFO - Category: ppid_informasi
+2025-09-08 15:15:20,712 - INFO - Confidence: 0.950
+2025-09-08 15:15:20,712 - INFO - Status: ppid_link
+2025-09-08 15:15:20,712 - INFO - 127.0.0.1 - - [08/Sep/2025 15:15:20] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:15:41,280 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-08 15:15:41,594 - INFO -  * Restarting with stat
+2025-09-08 15:15:43,549 - INFO - Starting NLP Processor initialization...
+2025-09-08 15:15:44,236 - INFO - NLP Processor initialized successfully
+2025-09-08 15:15:44,237 - INFO - Starting FAQ Bot Server...
+2025-09-08 15:15:44,237 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 15:15:44,249 - WARNING -  * Debugger is active!
+2025-09-08 15:15:44,252 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 15:15:50,503 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-08 15:15:50,755 - INFO -  * Restarting with stat
+2025-09-08 15:15:52,991 - INFO - Starting NLP Processor initialization...
+2025-09-08 15:15:53,692 - INFO - NLP Processor initialized successfully
+2025-09-08 15:15:53,695 - INFO - Starting FAQ Bot Server...
+2025-09-08 15:15:53,695 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 15:15:53,706 - WARNING -  * Debugger is active!
+2025-09-08 15:15:53,710 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 15:15:55,547 - INFO - 127.0.0.1 - - [08/Sep/2025 15:15:55] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:15:55,900 - INFO - Question: samsat
+2025-09-08 15:15:55,900 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:15:55,900 - INFO - Category: ppid_informasi
+2025-09-08 15:15:55,900 - INFO - Confidence: 0.950
+2025-09-08 15:15:55,900 - INFO - Status: ppid_link
+2025-09-08 15:15:55,902 - INFO - 127.0.0.1 - - [08/Sep/2025 15:15:55] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:16:51,116 - INFO - 127.0.0.1 - - [08/Sep/2025 15:16:51] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:16:51,120 - INFO - Question: KUA
+2025-09-08 15:16:51,121 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:16:51,121 - INFO - Category: ppid_informasi
+2025-09-08 15:16:51,121 - INFO - Confidence: 0.950
+2025-09-08 15:16:51,121 - INFO - Status: ppid_link
+2025-09-08 15:16:51,121 - INFO - 127.0.0.1 - - [08/Sep/2025 15:16:51] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:16:55,463 - INFO - Question: APBD
+2025-09-08 15:16:55,463 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:16:55,464 - INFO - Category: ppid_informasi
+2025-09-08 15:16:55,464 - INFO - Confidence: 0.950
+2025-09-08 15:16:55,464 - INFO - Status: ppid_link
+2025-09-08 15:16:55,464 - INFO - 127.0.0.1 - - [08/Sep/2025 15:16:55] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:17:49,584 - INFO - 127.0.0.1 - - [08/Sep/2025 15:17:49] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:17:49,588 - INFO - Question: lhkpn
+2025-09-08 15:17:49,588 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:17:49,588 - INFO - Category: ppid_informasi
+2025-09-08 15:17:49,588 - INFO - Confidence: 0.950
+2025-09-08 15:17:49,588 - INFO - Status: ppid_link
+2025-09-08 15:17:49,589 - INFO - 127.0.0.1 - - [08/Sep/2025 15:17:49] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:18:21,114 - INFO - 127.0.0.1 - - [08/Sep/2025 15:18:21] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:18:21,126 - INFO - Question: kak dimana
+2025-09-08 15:18:21,126 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:18:21,126 - INFO - Category: unknown
+2025-09-08 15:18:21,126 - INFO - Confidence: 0.066
+2025-09-08 15:18:21,126 - INFO - Status: not_found
+2025-09-08 15:18:21,127 - INFO - 127.0.0.1 - - [08/Sep/2025 15:18:21] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:18:23,824 - INFO - Question: kak
+2025-09-08 15:18:23,824 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:18:23,824 - INFO - Category: ppid_informasi
+2025-09-08 15:18:23,824 - INFO - Confidence: 0.950
+2025-09-08 15:18:23,825 - INFO - Status: ppid_link
+2025-09-08 15:18:23,825 - INFO - 127.0.0.1 - - [08/Sep/2025 15:18:23] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:18:39,632 - INFO - 127.0.0.1 - - [08/Sep/2025 15:18:39] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:18:39,759 - INFO - Question: lhkon
+2025-09-08 15:18:39,759 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:18:39,759 - INFO - Category: unknown
+2025-09-08 15:18:39,759 - INFO - Confidence: 0.060
+2025-09-08 15:18:39,759 - INFO - Status: not_found
+2025-09-08 15:18:39,760 - INFO - 127.0.0.1 - - [08/Sep/2025 15:18:39] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:18:42,334 - INFO - Question: lhkpn
+2025-09-08 15:18:42,334 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:18:42,334 - INFO - Category: ppid_informasi
+2025-09-08 15:18:42,334 - INFO - Confidence: 0.950
+2025-09-08 15:18:42,334 - INFO - Status: ppid_link
+2025-09-08 15:18:42,336 - INFO - 127.0.0.1 - - [08/Sep/2025 15:18:42] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:19:03,022 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:03] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:19:03,027 - INFO - Question: saya ingin lihat lhkpn
+2025-09-08 15:19:03,027 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:19:03,027 - INFO - Category: ppid_informasi
+2025-09-08 15:19:03,027 - INFO - Confidence: 0.950
+2025-09-08 15:19:03,027 - INFO - Status: ppid_link
+2025-09-08 15:19:03,027 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:03] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:19:11,855 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:11] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:19:11,892 - INFO - Question: KAK bisa ditemukan dimana
+2025-09-08 15:19:11,893 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:19:11,893 - INFO - Category: unknown
+2025-09-08 15:19:11,893 - INFO - Confidence: 0.078
+2025-09-08 15:19:11,894 - INFO - Status: not_found
+2025-09-08 15:19:11,894 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:11] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:19:16,063 - INFO - Question: KAK
+2025-09-08 15:19:16,063 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:19:16,064 - INFO - Category: ppid_informasi
+2025-09-08 15:19:16,064 - INFO - Confidence: 0.950
+2025-09-08 15:19:16,064 - INFO - Status: ppid_link
+2025-09-08 15:19:16,065 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:16] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:19:19,475 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:19] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:19:19,494 - INFO - Question: KAK apa itu
+2025-09-08 15:19:19,495 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:19:19,495 - INFO - Category: umum
+2025-09-08 15:19:19,495 - INFO - Confidence: 0.696
+2025-09-08 15:19:19,495 - INFO - Status: found
+2025-09-08 15:19:19,495 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:19] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:19:23,610 - INFO - Question: apa itu KAK
+2025-09-08 15:19:23,610 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:19:23,610 - INFO - Category: umum
+2025-09-08 15:19:23,611 - INFO - Confidence: 0.696
+2025-09-08 15:19:23,611 - INFO - Status: found
+2025-09-08 15:19:23,611 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:23] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:19:31,098 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:31] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:19:31,103 - INFO - Question: apa itu lhkpn
+2025-09-08 15:19:31,103 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:19:31,104 - INFO - Category: ppid_informasi
+2025-09-08 15:19:31,104 - INFO - Confidence: 0.950
+2025-09-08 15:19:31,104 - INFO - Status: ppid_link
+2025-09-08 15:19:31,104 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:31] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:19:50,285 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:50] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:19:50,296 - INFO - Question: dimana saya bisa mendapatkan laporan kinerja
+2025-09-08 15:19:50,296 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:19:50,296 - INFO - Category: ppid_informasi
+2025-09-08 15:19:50,296 - INFO - Confidence: 0.950
+2025-09-08 15:19:50,297 - INFO - Status: ppid_link
+2025-09-08 15:19:50,297 - INFO - 127.0.0.1 - - [08/Sep/2025 15:19:50] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:19:59,218 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-08 15:19:59,488 - INFO -  * Restarting with stat
+2025-09-08 15:20:01,685 - INFO - Starting NLP Processor initialization...
+2025-09-08 15:20:02,387 - INFO - NLP Processor initialized successfully
+2025-09-08 15:20:02,389 - INFO - Starting FAQ Bot Server...
+2025-09-08 15:20:02,389 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 15:20:02,403 - WARNING -  * Debugger is active!
+2025-09-08 15:20:02,406 - INFO -  * Debugger PIN: 111-242-527

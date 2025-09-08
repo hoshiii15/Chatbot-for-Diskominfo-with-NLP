@@ -20,7 +20,132 @@ class NLPProcessor:
         self.faq_file = faq_file or 'faq_stunting.json'
         self.load_faq_data(self.faq_file)
         self.prepare_corpus()
+        self._init_ppid_categories()
         print("NLP Processor initialized successfully!")
+    
+    def _init_ppid_categories(self):
+        """Initialize PPID information categories with keywords"""
+        self.ppid_categories = {
+            "profil_badan_publik": {
+                "keywords": [
+                    "kedudukan", "domisili", "alamat kantor", "visi misi", "tugas fungsi", 
+                    "struktur organisasi", "profil pimpinan", "profil pegawai", "profil ppid", 
+                    "struktur ppid", "lhkpn", "lhkan"
+                ],
+                "description": "Informasi tentang profil badan publik"
+            },
+            "program_kegiatan": {
+                "keywords": [
+                    "program kegiatan", "penanggungjawab program", "pelaksana program", "target capaian", 
+                    "jadwal pelaksanaan", "sumber anggaran", "kak program", "agenda pelaksanaan",
+                    "e-samsat", "layanan online disdukcapil", "harga barang kebutuhan pokok",
+                    "penerimaan pegawai", "penerimaan peserta didik"
+                ],
+                "description": "Ringkasan program dan kegiatan yang sedang dijalankan"
+            },
+            "kinerja": {
+                "keywords": [
+                    "laporan kinerja", "lkjip", "sakip", "sistem akuntabilitas kinerja",
+                    "ikplhd", "kinerja pengelolaan lingkungan", "lkpj", "laporan keterangan pertanggungjawaban"
+                ],
+                "description": "Ringkasan informasi tentang kinerja"
+            },
+            "laporan_keuangan": {
+                "keywords": [
+                    "kua", "kebijakan umum apbd", "ppas", "prioritas plafon anggaran", "apbd",
+                    "anggaran pendapatan belanja", "daftar aset", "calk", "catatan laporan keuangan",
+                    "neraca keuangan", "lra", "laporan realisasi anggaran", "laporan operasional",
+                    "laporan arus kas", "laporan perubahan ekuitas", "laporan perubahan saldo anggaran",
+                    "opini bpk", "rka", "rencana kerja anggaran", "dpa", "dokumen pelaksanaan anggaran",
+                    "rko", "rencana kerja operasional", "rfk", "realisasi fisik keuangan",
+                    "lkpd", "laporan keuangan pemerintah daerah"
+                ],
+                "description": "Ringkasan laporan keuangan"
+            },
+            "akses_informasi": {
+                "keywords": [
+                    "laporan layanan informasi", "infografis laporan", "register permohonan",
+                    "rekapitulasi pelayanan", "indeks kepuasan masyarakat"
+                ],
+                "description": "Laporan akses informasi publik"
+            },
+            "peraturan_keputusan": {
+                "keywords": [
+                    "daftar peraturan", "daftar keputusan", "pembentukan rancangan peraturan",
+                    "dokumen pendukung", "jdih dprd", "jaringan dokumentasi informasi hukum"
+                ],
+                "description": "Informasi tentang peraturan, keputusan, dan/atau kebijakan"
+            },
+            "tata_cara_informasi": {
+                "keywords": [
+                    "hak memperoleh informasi", "tata cara memperoleh informasi", 
+                    "tata cara pengajuan keberatan", "proses penyelesaian sengketa",
+                    "tata cara fasilitasi sengketa"
+                ],
+                "description": "Informasi tentang hak dan tata cara memperoleh informasi publik"
+            },
+            "pengaduan": {
+                "keywords": [
+                    "tata cara pengaduan", "penyalahgunaan wewenang", "pelanggaran",
+                    "penggunaan aplikasi lapor", "pengaduan pelayanan informasi",
+                    "formulir pengaduan", "standar pelayanan inspektorat",
+                    "hasil penanganan pengaduan"
+                ],
+                "description": "Informasi tentang tata cara pengaduan penyalahgunaan wewenang atau pelanggaran"
+            },
+            "pengadaan_barang_jasa": {
+                "keywords": [
+                    "pengadaan barang", "pengadaan jasa", "tahap perencanaan", "sirup",
+                    "rencana umum pengadaan", "tahap pemilihan", "tahap pelaksanaan",
+                    "lpse", "layanan pengadaan elektronik", "proyek strategis"
+                ],
+                "description": "Pengumuman pengadaan barang dan jasa"
+            },
+            "ketenagakerjaan": {
+                "keywords": [
+                    "e-makaryo", "lowongan pekerjaan", "info lowongan", "penerimaan calon pegawai"
+                ],
+                "description": "Informasi tentang ketenagakerjaan"
+            },
+            "kependudukan": {
+                "keywords": [
+                    "profil perkembangan kependudukan", "buku data kependudukan", "profil gender"
+                ],
+                "description": "Informasi tentang kependudukan"
+            },
+            "peringatan_dini_bencana": {
+                "keywords": [
+                    "informasi kebencanaan", "peringatan dini", "prosedur evakuasi",
+                    "keadaan darurat", "peta rawan bencana"
+                ],
+                "description": "Informasi prosedur peringatan dini bencana"
+            },
+            "sop": {
+                "keywords": [
+                    "sop", "standar operasional prosedur", "penyusunan daftar informasi",
+                    "pelayanan permohonan informasi", "pelayanan informasi inklusi",
+                    "uji konsekuensi informasi", "penanganan keberatan",
+                    "fasilitasi sengketa", "maklumat pelayanan", "pengumuman informasi",
+                    "standar biaya perolehan", "pelayanan informasi terintegrasi"
+                ],
+                "description": "Standar Operasional Prosedur"
+            }
+        }
+    
+    def check_ppid_category(self, question):
+        """Check if question relates to PPID information categories"""
+        question_lower = question.lower()
+        
+        for category, data in self.ppid_categories.items():
+            for keyword in data["keywords"]:
+                # Check for exact match atau fuzzy match dengan threshold lebih tinggi
+                if keyword in question_lower or fuzz.partial_ratio(keyword, question_lower) > 85:
+                    return {
+                        "category": category,
+                        "description": data["description"],
+                        "matched_keyword": keyword
+                    }
+        return None
     
     def _download_nltk_data(self):
         """Download required NLTK data"""
@@ -151,9 +276,32 @@ class NLPProcessor:
             print(f"Error in finding best answer: {e}")
             return None, 0
     
+    def generate_ppid_response(self, ppid_info):
+        """Generate response for PPID information query"""
+        return {
+            'answer': f"{ppid_info['description']} dapat ditemukan di",
+            'confidence': 0.95,
+            'category': 'ppid_informasi',
+            'faq_id': ppid_info['category'],
+            'status': 'ppid_link',
+            'matched_keyword': ppid_info['matched_keyword'],
+            'links': [{
+                'text': 'Lihat Daftar Informasi Berkala PPID',
+                'url': 'https://ppid.sukoharjokab.go.id/daftar-informasi-berkala/'
+            }]
+        }
+    
     def get_response(self, user_question, env=None):
         """Get response for user question, with env-aware fallback"""
         print(f"Processing question: {user_question}")
+        
+        # Check for PPID information categories first
+        ppid_info = self.check_ppid_category(user_question)
+        if ppid_info:
+            print(f"PPID category detected: {ppid_info['category']} (keyword: {ppid_info['matched_keyword']})")
+            return self.generate_ppid_response(ppid_info)
+        
+        # Continue with regular FAQ matching
         best_faq, confidence = self.find_best_answer(user_question)
         if best_faq:
             response = {
