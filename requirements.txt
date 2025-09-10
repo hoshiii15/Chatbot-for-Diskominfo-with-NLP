@@ -9,3 +9,4 @@ Sastrawi==1.0.1
 fuzzywuzzy==0.18.0
 python-Levenshtein==0.21.1
 requests==2.31.0
+gunicorn==20.1.0

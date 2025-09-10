@@ -3654,3 +3654,1655 @@
 2025-09-08 15:20:02,389 - INFO - Server will run on http://127.0.0.1:5000
 2025-09-08 15:20:02,403 - WARNING -  * Debugger is active!
 2025-09-08 15:20:02,406 - INFO -  * Debugger PIN: 111-242-527
+2025-09-08 15:22:25,674 - INFO - 127.0.0.1 - - [08/Sep/2025 15:22:25] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:22:26,051 - INFO - Question: bagaimana cara mendapatkan informasi
+2025-09-08 15:22:26,051 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:22:26,051 - INFO - Category: prosedur
+2025-09-08 15:22:26,052 - INFO - Confidence: 0.582
+2025-09-08 15:22:26,052 - INFO - Status: found
+2025-09-08 15:22:26,053 - INFO - 127.0.0.1 - - [08/Sep/2025 15:22:26] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:22:31,501 - INFO - 127.0.0.1 - - [08/Sep/2025 15:22:31] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:22:31,632 - INFO - Question: SIPIPI
+2025-09-08 15:22:31,632 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:22:31,632 - INFO - Category: unknown
+2025-09-08 15:22:31,632 - INFO - Confidence: 0.129
+2025-09-08 15:22:31,632 - INFO - Status: not_found
+2025-09-08 15:22:31,633 - INFO - 127.0.0.1 - - [08/Sep/2025 15:22:31] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:22:38,882 - INFO - 127.0.0.1 - - [08/Sep/2025 15:22:38] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:22:38,892 - INFO - Question: bupati
+2025-09-08 15:22:38,892 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:22:38,892 - INFO - Category: unknown
+2025-09-08 15:22:38,892 - INFO - Confidence: 0.129
+2025-09-08 15:22:38,892 - INFO - Status: not_found
+2025-09-08 15:22:38,893 - INFO - 127.0.0.1 - - [08/Sep/2025 15:22:38] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:31:48,789 - INFO - 127.0.0.1 - - [08/Sep/2025 15:31:48] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:31:48,902 - INFO - Question: avanza second
+2025-09-08 15:31:48,902 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:31:48,902 - INFO - Category: unknown
+2025-09-08 15:31:48,902 - INFO - Confidence: 0.126
+2025-09-08 15:31:48,903 - INFO - Status: not_found
+2025-09-08 15:31:48,903 - INFO - 127.0.0.1 - - [08/Sep/2025 15:31:48] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:31:54,682 - INFO - 127.0.0.1 - - [08/Sep/2025 15:31:54] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:31:54,699 - INFO - Question: apa itu stunting
+2025-09-08 15:31:54,699 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:31:54,699 - INFO - Category: umum
+2025-09-08 15:31:54,699 - INFO - Confidence: 0.687
+2025-09-08 15:31:54,699 - INFO - Status: found
+2025-09-08 15:31:54,699 - INFO - 127.0.0.1 - - [08/Sep/2025 15:31:54] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:32:13,730 - INFO - 127.0.0.1 - - [08/Sep/2025 15:32:13] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:32:13,763 - INFO - Question: stunting harus dicek dari usia berapa
+2025-09-08 15:32:13,763 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:32:13,763 - INFO - Category: prosedur
+2025-09-08 15:32:13,763 - INFO - Confidence: 0.460
+2025-09-08 15:32:13,764 - INFO - Status: found
+2025-09-08 15:32:13,764 - INFO - 127.0.0.1 - - [08/Sep/2025 15:32:13] "POST /ask HTTP/1.1" 200 -
+2025-09-08 15:32:22,383 - INFO - 127.0.0.1 - - [08/Sep/2025 15:32:22] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-08 15:32:22,402 - INFO - Question: stunting dari usia berapa
+2025-09-08 15:32:22,402 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-08 15:32:22,402 - INFO - Category: prosedur
+2025-09-08 15:32:22,402 - INFO - Confidence: 0.469
+2025-09-08 15:32:22,403 - INFO - Status: found
+2025-09-08 15:32:22,403 - INFO - 127.0.0.1 - - [08/Sep/2025 15:32:22] "POST /ask HTTP/1.1" 200 -
+2025-09-08 21:37:57,759 - INFO - Starting NLP Processor initialization...
+2025-09-08 21:37:58,464 - INFO - NLP Processor initialized successfully
+2025-09-08 21:37:58,466 - INFO - Starting FAQ Bot Server...
+2025-09-08 21:37:58,466 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 21:37:58,494 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-08 21:37:58,494 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-08 21:37:58,496 - INFO -  * Restarting with stat
+2025-09-08 21:38:00,274 - INFO - Starting NLP Processor initialization...
+2025-09-08 21:38:00,978 - INFO - NLP Processor initialized successfully
+2025-09-08 21:38:00,980 - INFO - Starting FAQ Bot Server...
+2025-09-08 21:38:00,980 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-08 21:38:00,993 - WARNING -  * Debugger is active!
+2025-09-08 21:38:00,999 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 07:04:18,352 - INFO - Starting NLP Processor initialization...
+2025-09-09 07:04:19,042 - INFO - NLP Processor initialized successfully
+2025-09-09 07:04:19,044 - INFO - Starting FAQ Bot Server...
+2025-09-09 07:04:19,044 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 07:04:19,071 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 07:04:19,071 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 07:04:19,073 - INFO -  * Restarting with stat
+2025-09-09 07:04:20,968 - INFO - Starting NLP Processor initialization...
+2025-09-09 07:04:21,672 - INFO - NLP Processor initialized successfully
+2025-09-09 07:04:21,674 - INFO - Starting FAQ Bot Server...
+2025-09-09 07:04:21,674 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 07:04:21,685 - WARNING -  * Debugger is active!
+2025-09-09 07:04:21,692 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 07:45:42,643 - INFO - 127.0.0.1 - - [09/Sep/2025 07:45:42] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 07:45:43,020 - INFO - Question: Apa itu PPID?
+2025-09-09 07:45:43,020 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 07:45:43,020 - INFO - Category: umum
+2025-09-09 07:45:43,021 - INFO - Confidence: 1.000
+2025-09-09 07:45:43,021 - INFO - Status: found
+2025-09-09 07:45:43,021 - INFO - 127.0.0.1 - - [09/Sep/2025 07:45:43] "POST /ask HTTP/1.1" 200 -
+2025-09-09 07:52:24,120 - INFO - 127.0.0.1 - - [09/Sep/2025 07:52:24] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 07:52:24,140 - INFO - Question: Apa itu PPID?
+2025-09-09 07:52:24,141 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 07:52:24,141 - INFO - Category: umum
+2025-09-09 07:52:24,141 - INFO - Confidence: 1.000
+2025-09-09 07:52:24,142 - INFO - Status: found
+2025-09-09 07:52:24,143 - INFO - 127.0.0.1 - - [09/Sep/2025 07:52:24] "POST /ask HTTP/1.1" 200 -
+2025-09-09 07:56:17,427 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\app.py', reloading
+2025-09-09 07:56:17,772 - INFO -  * Restarting with stat
+2025-09-09 07:56:20,436 - INFO - Starting NLP Processor initialization...
+2025-09-09 07:56:21,137 - INFO - NLP Processor initialized successfully
+2025-09-09 07:56:21,138 - INFO - Starting FAQ Bot Server...
+2025-09-09 07:56:21,138 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 07:56:21,154 - WARNING -  * Debugger is active!
+2025-09-09 07:56:21,157 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 07:56:28,971 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\app.py', reloading
+2025-09-09 07:56:29,241 - INFO -  * Restarting with stat
+2025-09-09 08:05:03,228 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:05:03,916 - INFO - NLP Processor initialized successfully
+2025-09-09 08:05:03,917 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:05:03,918 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:05:03,938 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 08:05:03,938 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 08:05:03,940 - INFO -  * Restarting with stat
+2025-09-09 08:05:05,821 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:05:06,507 - INFO - NLP Processor initialized successfully
+2025-09-09 08:05:06,509 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:05:06,509 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:05:06,521 - WARNING -  * Debugger is active!
+2025-09-09 08:05:06,524 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 08:05:39,192 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:05:39,921 - INFO - NLP Processor initialized successfully
+2025-09-09 08:05:39,922 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:05:39,922 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:05:39,941 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 08:05:39,941 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 08:05:39,943 - INFO -  * Restarting with stat
+2025-09-09 08:05:41,897 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:05:42,600 - INFO - NLP Processor initialized successfully
+2025-09-09 08:05:42,601 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:05:42,602 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:05:42,614 - WARNING -  * Debugger is active!
+2025-09-09 08:05:42,617 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 08:06:39,213 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:06:39,900 - INFO - NLP Processor initialized successfully
+2025-09-09 08:06:39,902 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:06:39,902 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:06:39,921 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 08:06:39,922 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 08:06:39,923 - INFO -  * Restarting with stat
+2025-09-09 08:06:41,832 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:06:42,513 - INFO - NLP Processor initialized successfully
+2025-09-09 08:06:42,515 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:06:42,515 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:06:42,526 - WARNING -  * Debugger is active!
+2025-09-09 08:06:42,529 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 08:07:19,881 - INFO - 127.0.0.1 - - [09/Sep/2025 08:07:19] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:07:20,257 - INFO - Question: Apa itu PPID?
+2025-09-09 08:07:20,257 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:07:20,257 - INFO - Category: umum
+2025-09-09 08:07:20,258 - INFO - Confidence: 1.000
+2025-09-09 08:07:20,258 - INFO - Status: found
+2025-09-09 08:07:20,304 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:07:20,306 - INFO - 127.0.0.1 - - [09/Sep/2025 08:07:20] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:07:38,147 - INFO - 127.0.0.1 - - [09/Sep/2025 08:07:38] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:07:38,150 - INFO - Question: KAK
+2025-09-09 08:07:38,150 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:07:38,152 - INFO - Category: ppid_informasi
+2025-09-09 08:07:38,152 - INFO - Confidence: 0.950
+2025-09-09 08:07:38,152 - INFO - Status: ppid_link
+2025-09-09 08:07:38,188 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:07:38,189 - INFO - 127.0.0.1 - - [09/Sep/2025 08:07:38] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:07:41,536 - INFO - Question: KAK
+2025-09-09 08:07:41,537 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:07:41,537 - INFO - Category: ppid_informasi
+2025-09-09 08:07:41,537 - INFO - Confidence: 0.950
+2025-09-09 08:07:41,537 - INFO - Status: ppid_link
+2025-09-09 08:07:41,570 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:07:41,570 - INFO - 127.0.0.1 - - [09/Sep/2025 08:07:41] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:07:46,928 - INFO - 127.0.0.1 - - [09/Sep/2025 08:07:46] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:07:46,953 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-09 08:07:46,953 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:07:46,954 - INFO - Category: umum
+2025-09-09 08:07:46,954 - INFO - Confidence: 0.780
+2025-09-09 08:07:46,954 - INFO - Status: found
+2025-09-09 08:07:46,974 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:07:46,975 - INFO - 127.0.0.1 - - [09/Sep/2025 08:07:46] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:07:50,448 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-09 08:07:50,448 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:07:50,448 - INFO - Category: umum
+2025-09-09 08:07:50,449 - INFO - Confidence: 0.780
+2025-09-09 08:07:50,449 - INFO - Status: found
+2025-09-09 08:07:50,471 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:07:50,472 - INFO - 127.0.0.1 - - [09/Sep/2025 08:07:50] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:07:56,568 - INFO - 127.0.0.1 - - [09/Sep/2025 08:07:56] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:07:56,572 - INFO - Question: kak
+2025-09-09 08:07:56,572 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:07:56,572 - INFO - Category: ppid_informasi
+2025-09-09 08:07:56,572 - INFO - Confidence: 0.950
+2025-09-09 08:07:56,572 - INFO - Status: ppid_link
+2025-09-09 08:07:56,582 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:07:56,583 - INFO - 127.0.0.1 - - [09/Sep/2025 08:07:56] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:12:35,246 - INFO - 127.0.0.1 - - [09/Sep/2025 08:12:35] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:12:35,251 - INFO - Question: KAK
+2025-09-09 08:12:35,251 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:12:35,251 - INFO - Category: ppid_informasi
+2025-09-09 08:12:35,251 - INFO - Confidence: 0.950
+2025-09-09 08:12:35,252 - INFO - Status: ppid_link
+2025-09-09 08:12:35,292 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:12:35,292 - INFO - 127.0.0.1 - - [09/Sep/2025 08:12:35] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:12:41,756 - INFO - 127.0.0.1 - - [09/Sep/2025 08:12:41] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:12:41,762 - INFO - Question: KAK
+2025-09-09 08:12:41,762 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:12:41,762 - INFO - Category: ppid_informasi
+2025-09-09 08:12:41,762 - INFO - Confidence: 0.950
+2025-09-09 08:12:41,762 - INFO - Status: ppid_link
+2025-09-09 08:12:41,785 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:12:41,787 - INFO - 127.0.0.1 - - [09/Sep/2025 08:12:41] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:12:45,287 - INFO - Question: LHKPN
+2025-09-09 08:12:45,287 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:12:45,287 - INFO - Category: ppid_informasi
+2025-09-09 08:12:45,288 - INFO - Confidence: 0.950
+2025-09-09 08:12:45,288 - INFO - Status: ppid_link
+2025-09-09 08:12:45,332 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:12:45,333 - INFO - 127.0.0.1 - - [09/Sep/2025 08:12:45] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:13:15,724 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:13:16,404 - INFO - NLP Processor initialized successfully
+2025-09-09 08:13:16,405 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:13:16,406 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:13:16,423 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 08:13:16,423 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 08:13:16,424 - INFO -  * Restarting with stat
+2025-09-09 08:13:18,166 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:13:18,928 - INFO - NLP Processor initialized successfully
+2025-09-09 08:13:18,930 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:13:18,930 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:13:18,943 - WARNING -  * Debugger is active!
+2025-09-09 08:13:18,949 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 08:13:23,871 - INFO - 127.0.0.1 - - [09/Sep/2025 08:13:23] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:13:24,229 - INFO - Question: KAK
+2025-09-09 08:13:24,229 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:13:24,229 - INFO - Category: ppid_informasi
+2025-09-09 08:13:24,229 - INFO - Confidence: 0.950
+2025-09-09 08:13:24,229 - INFO - Status: ppid_link
+2025-09-09 08:13:24,249 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:13:24,249 - INFO - 127.0.0.1 - - [09/Sep/2025 08:13:24] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:13:28,509 - INFO - Question: HKPN
+2025-09-09 08:13:28,509 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:13:28,510 - INFO - Category: ppid_informasi
+2025-09-09 08:13:28,510 - INFO - Confidence: 0.950
+2025-09-09 08:13:28,510 - INFO - Status: ppid_link
+2025-09-09 08:13:28,540 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:13:28,540 - INFO - 127.0.0.1 - - [09/Sep/2025 08:13:28] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:14:29,121 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\app.py', reloading
+2025-09-09 08:14:29,345 - INFO -  * Restarting with stat
+2025-09-09 08:14:31,458 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:14:32,151 - INFO - NLP Processor initialized successfully
+2025-09-09 08:14:32,152 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:14:32,152 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:14:32,167 - WARNING -  * Debugger is active!
+2025-09-09 08:14:32,170 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 08:15:07,410 - INFO - 127.0.0.1 - - [09/Sep/2025 08:15:07] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:15:07,841 - INFO - Question: LHKPM
+2025-09-09 08:15:07,841 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:15:07,841 - INFO - Category: unknown
+2025-09-09 08:15:07,842 - INFO - Confidence: 0.060
+2025-09-09 08:15:07,842 - INFO - Status: not_found
+2025-09-09 08:15:07,863 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:15:07,864 - INFO - 127.0.0.1 - - [09/Sep/2025 08:15:07] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:15:42,441 - INFO - 127.0.0.1 - - [09/Sep/2025 08:15:42] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:15:42,451 - INFO - Question: TES
+2025-09-09 08:15:42,451 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:15:42,451 - INFO - Category: unknown
+2025-09-09 08:15:42,451 - INFO - Confidence: 0.045
+2025-09-09 08:15:42,451 - INFO - Status: not_found
+2025-09-09 08:15:42,484 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:15:42,485 - INFO - 127.0.0.1 - - [09/Sep/2025 08:15:42] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:23:56,901 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:23:57,646 - INFO - NLP Processor initialized successfully
+2025-09-09 08:23:57,648 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:23:57,649 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:23:57,780 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 08:23:57,781 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 08:23:57,782 - INFO -  * Restarting with stat
+2025-09-09 08:23:59,737 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:24:00,481 - INFO - NLP Processor initialized successfully
+2025-09-09 08:24:00,482 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:24:00,482 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:24:00,496 - WARNING -  * Debugger is active!
+2025-09-09 08:24:00,501 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 08:24:07,422 - INFO - 127.0.0.1 - - [09/Sep/2025 08:24:07] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:24:07,818 - INFO - Question: Apa itu PPID?
+2025-09-09 08:24:07,818 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:24:07,818 - INFO - Category: umum
+2025-09-09 08:24:07,818 - INFO - Confidence: 1.000
+2025-09-09 08:24:07,818 - INFO - Status: found
+2025-09-09 08:24:07,858 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:24:07,858 - INFO - 127.0.0.1 - - [09/Sep/2025 08:24:07] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:26:31,096 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:26:31,789 - INFO - NLP Processor initialized successfully
+2025-09-09 08:26:31,791 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:26:31,791 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:26:31,809 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 08:26:31,809 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 08:26:31,811 - INFO -  * Restarting with stat
+2025-09-09 08:26:33,778 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:26:34,465 - INFO - NLP Processor initialized successfully
+2025-09-09 08:26:34,466 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:26:34,467 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:26:34,480 - WARNING -  * Debugger is active!
+2025-09-09 08:26:34,484 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 08:28:46,584 - INFO - 127.0.0.1 - - [09/Sep/2025 08:28:46] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:28:47,156 - INFO - Question: Apa itu PPID?
+2025-09-09 08:28:47,157 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:28:47,157 - INFO - Category: umum
+2025-09-09 08:28:47,158 - INFO - Confidence: 1.000
+2025-09-09 08:28:47,158 - INFO - Status: found
+2025-09-09 08:28:47,183 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:28:47,183 - INFO - 127.0.0.1 - - [09/Sep/2025 08:28:47] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:30:24,014 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:30:24,694 - INFO - NLP Processor initialized successfully
+2025-09-09 08:30:24,695 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:30:24,695 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:30:24,718 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 08:30:24,718 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 08:30:24,721 - INFO -  * Restarting with stat
+2025-09-09 08:30:26,712 - INFO - Starting NLP Processor initialization...
+2025-09-09 08:30:27,395 - INFO - NLP Processor initialized successfully
+2025-09-09 08:30:27,397 - INFO - Starting FAQ Bot Server...
+2025-09-09 08:30:27,397 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 08:30:27,410 - WARNING -  * Debugger is active!
+2025-09-09 08:30:27,414 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 08:30:55,207 - INFO - 127.0.0.1 - - [09/Sep/2025 08:30:55] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:30:55,694 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-09 08:30:55,694 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:30:55,694 - INFO - Category: umum
+2025-09-09 08:30:55,694 - INFO - Confidence: 0.780
+2025-09-09 08:30:55,695 - INFO - Status: found
+2025-09-09 08:30:55,717 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:30:55,717 - INFO - 127.0.0.1 - - [09/Sep/2025 08:30:55] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:31:10,961 - INFO - 127.0.0.1 - - [09/Sep/2025 08:31:10] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:31:11,160 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-09 08:31:11,161 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:31:11,161 - INFO - Category: prosedur
+2025-09-09 08:31:11,161 - INFO - Confidence: 0.880
+2025-09-09 08:31:11,162 - INFO - Status: found
+2025-09-09 08:31:11,173 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:31:11,174 - INFO - 127.0.0.1 - - [09/Sep/2025 08:31:11] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:36:10,519 - INFO - 127.0.0.1 - - [09/Sep/2025 08:36:10] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:36:10,564 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kabupaten Sukoharjo?
+2025-09-09 08:36:10,564 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:36:10,565 - INFO - Category: layanan
+2025-09-09 08:36:10,565 - INFO - Confidence: 0.698
+2025-09-09 08:36:10,565 - INFO - Status: found
+2025-09-09 08:36:10,606 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:36:10,607 - INFO - 127.0.0.1 - - [09/Sep/2025 08:36:10] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:36:20,668 - INFO - 127.0.0.1 - - [09/Sep/2025 08:36:20] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:36:20,705 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-09 08:36:20,705 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:36:20,706 - INFO - Category: prosedur
+2025-09-09 08:36:20,706 - INFO - Confidence: 0.901
+2025-09-09 08:36:20,706 - INFO - Status: found
+2025-09-09 08:36:20,725 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:36:20,727 - INFO - 127.0.0.1 - - [09/Sep/2025 08:36:20] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:36:36,214 - INFO - 127.0.0.1 - - [09/Sep/2025 08:36:36] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:36:36,256 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-09 08:36:36,257 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:36:36,258 - INFO - Category: umum
+2025-09-09 08:36:36,258 - INFO - Confidence: 0.780
+2025-09-09 08:36:36,259 - INFO - Status: found
+2025-09-09 08:36:36,295 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:36:36,296 - INFO - 127.0.0.1 - - [09/Sep/2025 08:36:36] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:36:41,306 - INFO - 127.0.0.1 - - [09/Sep/2025 08:36:41] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:36:41,351 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kabupaten Sukoharjo?
+2025-09-09 08:36:41,351 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:36:41,352 - INFO - Category: layanan
+2025-09-09 08:36:41,352 - INFO - Confidence: 0.698
+2025-09-09 08:36:41,352 - INFO - Status: found
+2025-09-09 08:36:41,373 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:36:41,374 - INFO - 127.0.0.1 - - [09/Sep/2025 08:36:41] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:39:37,932 - INFO - 127.0.0.1 - - [09/Sep/2025 08:39:37] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:39:37,955 - INFO - Question: Apa itu PPID?
+2025-09-09 08:39:37,955 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:39:37,955 - INFO - Category: umum
+2025-09-09 08:39:37,957 - INFO - Confidence: 1.000
+2025-09-09 08:39:37,957 - INFO - Status: found
+2025-09-09 08:39:37,985 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:39:37,987 - INFO - 127.0.0.1 - - [09/Sep/2025 08:39:37] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:41:56,208 - INFO - 127.0.0.1 - - [09/Sep/2025 08:41:56] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:41:56,214 - INFO - Question: KAK
+2025-09-09 08:41:56,214 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:41:56,214 - INFO - Category: ppid_informasi
+2025-09-09 08:41:56,214 - INFO - Confidence: 0.950
+2025-09-09 08:41:56,214 - INFO - Status: ppid_link
+2025-09-09 08:41:56,237 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:41:56,239 - INFO - 127.0.0.1 - - [09/Sep/2025 08:41:56] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:42:01,286 - INFO - 127.0.0.1 - - [09/Sep/2025 08:42:01] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:42:01,290 - INFO - Question: KAK
+2025-09-09 08:42:01,290 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:42:01,291 - INFO - Category: ppid_informasi
+2025-09-09 08:42:01,291 - INFO - Confidence: 0.950
+2025-09-09 08:42:01,291 - INFO - Status: ppid_link
+2025-09-09 08:42:01,312 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:42:01,313 - INFO - 127.0.0.1 - - [09/Sep/2025 08:42:01] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:44:06,490 - INFO - 127.0.0.1 - - [09/Sep/2025 08:44:06] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:44:06,563 - INFO - Question: alamok
+2025-09-09 08:44:06,563 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:44:06,564 - INFO - Category: unknown
+2025-09-09 08:44:06,564 - INFO - Confidence: 0.114
+2025-09-09 08:44:06,564 - INFO - Status: not_found
+2025-09-09 08:44:06,577 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:44:06,578 - INFO - 127.0.0.1 - - [09/Sep/2025 08:44:06] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:44:10,339 - INFO - Question: alamok
+2025-09-09 08:44:10,340 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:44:10,340 - INFO - Category: unknown
+2025-09-09 08:44:10,340 - INFO - Confidence: 0.114
+2025-09-09 08:44:10,340 - INFO - Status: not_found
+2025-09-09 08:44:10,374 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:44:10,374 - INFO - 127.0.0.1 - - [09/Sep/2025 08:44:10] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:44:51,219 - INFO - 127.0.0.1 - - [09/Sep/2025 08:44:51] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:44:51,222 - INFO - Question: KAK
+2025-09-09 08:44:51,223 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:44:51,223 - INFO - Category: ppid_informasi
+2025-09-09 08:44:51,223 - INFO - Confidence: 0.950
+2025-09-09 08:44:51,223 - INFO - Status: ppid_link
+2025-09-09 08:44:51,241 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:44:51,242 - INFO - 127.0.0.1 - - [09/Sep/2025 08:44:51] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:45:00,816 - INFO - 127.0.0.1 - - [09/Sep/2025 08:45:00] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:45:00,820 - INFO - Question: KAK
+2025-09-09 08:45:00,820 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:45:00,820 - INFO - Category: ppid_informasi
+2025-09-09 08:45:00,820 - INFO - Confidence: 0.950
+2025-09-09 08:45:00,820 - INFO - Status: ppid_link
+2025-09-09 08:45:00,862 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:45:00,863 - INFO - 127.0.0.1 - - [09/Sep/2025 08:45:00] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:47:15,887 - INFO - 127.0.0.1 - - [09/Sep/2025 08:47:15] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:47:15,895 - INFO - Question: halo
+2025-09-09 08:47:15,895 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:47:15,895 - INFO - Category: unknown
+2025-09-09 08:47:15,895 - INFO - Confidence: 0.063
+2025-09-09 08:47:15,895 - INFO - Status: not_found
+2025-09-09 08:47:15,924 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:47:15,925 - INFO - 127.0.0.1 - - [09/Sep/2025 08:47:15] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:47:26,407 - INFO - 127.0.0.1 - - [09/Sep/2025 08:47:26] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:47:26,411 - INFO - Question: KAK
+2025-09-09 08:47:26,411 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:47:26,411 - INFO - Category: ppid_informasi
+2025-09-09 08:47:26,411 - INFO - Confidence: 0.950
+2025-09-09 08:47:26,411 - INFO - Status: ppid_link
+2025-09-09 08:47:26,422 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:47:26,423 - INFO - 127.0.0.1 - - [09/Sep/2025 08:47:26] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:47:42,343 - INFO - 127.0.0.1 - - [09/Sep/2025 08:47:42] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:47:42,347 - INFO - Question: PPI
+2025-09-09 08:47:42,347 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:47:42,347 - INFO - Category: ppid_informasi
+2025-09-09 08:47:42,347 - INFO - Confidence: 0.950
+2025-09-09 08:47:42,347 - INFO - Status: ppid_link
+2025-09-09 08:47:42,358 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:47:42,359 - INFO - 127.0.0.1 - - [09/Sep/2025 08:47:42] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:47:43,864 - INFO - Question: PPID
+2025-09-09 08:47:43,864 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:47:43,865 - INFO - Category: ppid_informasi
+2025-09-09 08:47:43,865 - INFO - Confidence: 0.950
+2025-09-09 08:47:43,865 - INFO - Status: ppid_link
+2025-09-09 08:47:43,875 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:47:43,875 - INFO - 127.0.0.1 - - [09/Sep/2025 08:47:43] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:47:45,910 - INFO - Question: dasdw
+2025-09-09 08:47:45,910 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:47:45,910 - INFO - Category: unknown
+2025-09-09 08:47:45,911 - INFO - Confidence: 0.093
+2025-09-09 08:47:45,911 - INFO - Status: not_found
+2025-09-09 08:47:45,951 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:47:45,952 - INFO - 127.0.0.1 - - [09/Sep/2025 08:47:45] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:47:50,662 - INFO - 127.0.0.1 - - [09/Sep/2025 08:47:50] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:47:50,674 - INFO - Question: apa itu ppid
+2025-09-09 08:47:50,675 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:47:50,675 - INFO - Category: umum
+2025-09-09 08:47:50,675 - INFO - Confidence: 1.000
+2025-09-09 08:47:50,675 - INFO - Status: found
+2025-09-09 08:47:50,688 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:47:50,689 - INFO - 127.0.0.1 - - [09/Sep/2025 08:47:50] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:51:15,636 - INFO - 127.0.0.1 - - [09/Sep/2025 08:51:15] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:51:15,677 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-09 08:51:15,678 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:51:15,678 - INFO - Category: umum
+2025-09-09 08:51:15,678 - INFO - Confidence: 0.780
+2025-09-09 08:51:15,678 - INFO - Status: found
+2025-09-09 08:51:15,704 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:51:15,705 - INFO - 127.0.0.1 - - [09/Sep/2025 08:51:15] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:51:26,270 - INFO - 127.0.0.1 - - [09/Sep/2025 08:51:26] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:51:26,274 - INFO - Question: KAK
+2025-09-09 08:51:26,274 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:51:26,275 - INFO - Category: ppid_informasi
+2025-09-09 08:51:26,275 - INFO - Confidence: 0.950
+2025-09-09 08:51:26,275 - INFO - Status: ppid_link
+2025-09-09 08:51:26,292 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:51:26,293 - INFO - 127.0.0.1 - - [09/Sep/2025 08:51:26] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:54:15,294 - INFO - 127.0.0.1 - - [09/Sep/2025 08:54:15] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:54:15,345 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 08:54:15,346 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:54:15,346 - INFO - Category: prosedur
+2025-09-09 08:54:15,347 - INFO - Confidence: 0.725
+2025-09-09 08:54:15,347 - INFO - Status: found
+2025-09-09 08:54:15,383 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:54:15,384 - INFO - 127.0.0.1 - - [09/Sep/2025 08:54:15] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:56:31,392 - INFO - 127.0.0.1 - - [09/Sep/2025 08:56:31] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:56:31,410 - INFO - Question: Apa itu PPID?
+2025-09-09 08:56:31,410 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:56:31,410 - INFO - Category: umum
+2025-09-09 08:56:31,410 - INFO - Confidence: 1.000
+2025-09-09 08:56:31,410 - INFO - Status: found
+2025-09-09 08:56:31,431 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:56:31,432 - INFO - 127.0.0.1 - - [09/Sep/2025 08:56:31] "POST /ask HTTP/1.1" 200 -
+2025-09-09 08:59:41,630 - INFO - 127.0.0.1 - - [09/Sep/2025 08:59:41] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 08:59:41,646 - INFO - Question: Apa itu PPID?
+2025-09-09 08:59:41,647 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 08:59:41,647 - INFO - Category: umum
+2025-09-09 08:59:41,647 - INFO - Confidence: 1.000
+2025-09-09 08:59:41,647 - INFO - Status: found
+2025-09-09 08:59:41,695 - WARNING - Failed to log to admin backend: 500
+2025-09-09 08:59:41,697 - INFO - 127.0.0.1 - - [09/Sep/2025 08:59:41] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:04:01,074 - INFO - 127.0.0.1 - - [09/Sep/2025 09:04:01] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 09:04:01,093 - INFO - Question: Apa itu PPID?
+2025-09-09 09:04:01,093 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:04:01,094 - INFO - Category: umum
+2025-09-09 09:04:01,094 - INFO - Confidence: 1.000
+2025-09-09 09:04:01,094 - INFO - Status: found
+2025-09-09 09:04:01,140 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:04:01,142 - INFO - 127.0.0.1 - - [09/Sep/2025 09:04:01] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:04:06,335 - INFO - 127.0.0.1 - - [09/Sep/2025 09:04:06] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 09:04:06,367 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-09 09:04:06,367 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:04:06,368 - INFO - Category: prosedur
+2025-09-09 09:04:06,368 - INFO - Confidence: 0.880
+2025-09-09 09:04:06,368 - INFO - Status: found
+2025-09-09 09:04:06,390 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:04:06,391 - INFO - 127.0.0.1 - - [09/Sep/2025 09:04:06] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:04:28,148 - INFO - 127.0.0.1 - - [09/Sep/2025 09:04:28] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 09:04:28,156 - INFO - Question: KAK
+2025-09-09 09:04:28,156 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:04:28,157 - INFO - Category: ppid_informasi
+2025-09-09 09:04:28,157 - INFO - Confidence: 0.950
+2025-09-09 09:04:28,157 - INFO - Status: ppid_link
+2025-09-09 09:04:28,176 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:04:28,177 - INFO - 127.0.0.1 - - [09/Sep/2025 09:04:28] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:05:23,691 - INFO - 127.0.0.1 - - [09/Sep/2025 09:05:23] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 09:05:23,695 - INFO - Question: LHKPN
+2025-09-09 09:05:23,695 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:05:23,695 - INFO - Category: ppid_informasi
+2025-09-09 09:05:23,697 - INFO - Confidence: 0.950
+2025-09-09 09:05:23,697 - INFO - Status: ppid_link
+2025-09-09 09:05:23,717 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:05:23,717 - INFO - 127.0.0.1 - - [09/Sep/2025 09:05:23] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:07:07,151 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:07] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 09:07:07,154 - INFO - Question: kak
+2025-09-09 09:07:07,155 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:07:07,155 - INFO - Category: ppid_informasi
+2025-09-09 09:07:07,155 - INFO - Confidence: 0.950
+2025-09-09 09:07:07,155 - INFO - Status: ppid_link
+2025-09-09 09:07:07,187 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:07:07,187 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:07] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:07:38,318 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:38] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 09:07:38,334 - INFO - Question: Apa itu PPID?
+2025-09-09 09:07:38,334 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:07:38,334 - INFO - Category: umum
+2025-09-09 09:07:38,335 - INFO - Confidence: 1.000
+2025-09-09 09:07:38,335 - INFO - Status: found
+2025-09-09 09:07:38,370 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:07:38,371 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:38] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:07:39,165 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kabupaten Sukoharjo?
+2025-09-09 09:07:39,166 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:07:39,166 - INFO - Category: layanan
+2025-09-09 09:07:39,166 - INFO - Confidence: 0.698
+2025-09-09 09:07:39,167 - INFO - Status: found
+2025-09-09 09:07:39,182 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:07:39,182 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:39] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:07:40,226 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kabupaten Sukoharjo?
+2025-09-09 09:07:40,227 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:07:40,227 - INFO - Category: layanan
+2025-09-09 09:07:40,227 - INFO - Confidence: 0.698
+2025-09-09 09:07:40,228 - INFO - Status: found
+2025-09-09 09:07:40,264 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:07:40,265 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:40] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:07:40,817 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-09 09:07:40,817 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:07:40,818 - INFO - Category: prosedur
+2025-09-09 09:07:40,818 - INFO - Confidence: 0.901
+2025-09-09 09:07:40,818 - INFO - Status: found
+2025-09-09 09:07:40,833 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:07:40,834 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:40] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:07:41,355 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-09 09:07:41,356 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:07:41,356 - INFO - Category: prosedur
+2025-09-09 09:07:41,356 - INFO - Confidence: 0.880
+2025-09-09 09:07:41,356 - INFO - Status: found
+2025-09-09 09:07:41,391 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:07:41,393 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:41] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:07:41,880 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-09 09:07:41,880 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:07:41,880 - INFO - Category: umum
+2025-09-09 09:07:41,880 - INFO - Confidence: 0.780
+2025-09-09 09:07:41,881 - INFO - Status: found
+2025-09-09 09:07:41,900 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:07:41,902 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:41] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:07:42,508 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 09:07:42,509 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:07:42,509 - INFO - Category: prosedur
+2025-09-09 09:07:42,509 - INFO - Confidence: 0.725
+2025-09-09 09:07:42,509 - INFO - Status: found
+2025-09-09 09:07:42,525 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:07:42,527 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:42] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:07:43,555 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:43] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 09:07:43,593 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 09:07:43,593 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:07:43,593 - INFO - Category: prosedur
+2025-09-09 09:07:43,593 - INFO - Confidence: 0.725
+2025-09-09 09:07:43,594 - INFO - Status: found
+2025-09-09 09:07:43,621 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:07:43,622 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:43] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:07:44,898 - INFO - Question: Apakah tersedia layanan bagi penyandang disabilitas?
+2025-09-09 09:07:44,898 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:07:44,898 - INFO - Category: disabilitas
+2025-09-09 09:07:44,898 - INFO - Confidence: 0.673
+2025-09-09 09:07:44,899 - INFO - Status: found
+2025-09-09 09:07:44,936 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:07:44,937 - INFO - 127.0.0.1 - - [09/Sep/2025 09:07:44] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:09:51,109 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:09:51,810 - INFO - NLP Processor initialized successfully
+2025-09-09 09:09:51,812 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:09:51,812 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:09:51,840 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 09:09:51,840 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 09:09:51,842 - INFO -  * Restarting with stat
+2025-09-09 09:09:53,981 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:09:54,733 - INFO - NLP Processor initialized successfully
+2025-09-09 09:09:54,734 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:09:54,735 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:09:54,749 - WARNING -  * Debugger is active!
+2025-09-09 09:09:54,753 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 09:11:32,220 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:11:32,225 - INFO - NLP Processor initialized successfully
+2025-09-09 09:11:32,226 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:11:32,227 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:11:32,247 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 09:11:32,247 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 09:11:32,249 - INFO -  * Restarting with stat
+2025-09-09 09:11:34,261 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:11:34,269 - INFO - NLP Processor initialized successfully
+2025-09-09 09:11:34,271 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:11:34,271 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:11:34,287 - WARNING -  * Debugger is active!
+2025-09-09 09:11:34,293 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 09:11:39,763 - INFO - 127.0.0.1 - - [09/Sep/2025 09:11:39] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 09:11:40,145 - INFO - Question: KAK
+2025-09-09 09:11:40,145 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:11:40,145 - INFO - Category: ppid_informasi
+2025-09-09 09:11:40,145 - INFO - Confidence: 0.950
+2025-09-09 09:11:40,145 - INFO - Status: ppid_link
+2025-09-09 09:11:40,167 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:11:40,169 - INFO - 127.0.0.1 - - [09/Sep/2025 09:11:40] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:14:19,530 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:14:19,538 - INFO - NLP Processor initialized successfully
+2025-09-09 09:14:19,540 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:14:19,540 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:14:19,563 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 09:14:19,564 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 09:14:19,565 - INFO -  * Restarting with stat
+2025-09-09 09:14:21,675 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:14:21,681 - INFO - NLP Processor initialized successfully
+2025-09-09 09:14:21,682 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:14:21,682 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:14:21,695 - WARNING -  * Debugger is active!
+2025-09-09 09:14:21,700 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 09:14:54,442 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-09 09:14:54,646 - INFO -  * Restarting with stat
+2025-09-09 09:14:56,648 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:14:56,655 - INFO - NLP Processor initialized successfully
+2025-09-09 09:14:56,656 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:14:56,656 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:14:56,672 - WARNING -  * Debugger is active!
+2025-09-09 09:14:56,676 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 09:15:06,529 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:15:06,535 - INFO - NLP Processor initialized successfully
+2025-09-09 09:15:06,536 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:15:06,536 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:15:06,560 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 09:15:06,560 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 09:15:06,562 - INFO -  * Restarting with stat
+2025-09-09 09:15:08,559 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:15:08,566 - INFO - NLP Processor initialized successfully
+2025-09-09 09:15:08,567 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:15:08,567 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:15:08,583 - WARNING -  * Debugger is active!
+2025-09-09 09:15:08,587 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 09:15:19,679 - INFO - 127.0.0.1 - - [09/Sep/2025 09:15:19] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 09:15:19,705 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-09 09:15:19,705 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:15:19,706 - INFO - Category: unknown
+2025-09-09 09:15:19,706 - INFO - Confidence: 0.000
+2025-09-09 09:15:19,706 - INFO - Status: not_found
+2025-09-09 09:15:19,730 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:15:19,730 - INFO - 127.0.0.1 - - [09/Sep/2025 09:15:19] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:15:24,419 - INFO - Question: Apa itu PPID?
+2025-09-09 09:15:24,419 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 09:15:24,419 - INFO - Category: unknown
+2025-09-09 09:15:24,419 - INFO - Confidence: 0.000
+2025-09-09 09:15:24,419 - INFO - Status: not_found
+2025-09-09 09:15:24,435 - WARNING - Failed to log to admin backend: 500
+2025-09-09 09:15:24,436 - INFO - 127.0.0.1 - - [09/Sep/2025 09:15:24] "POST /ask HTTP/1.1" 200 -
+2025-09-09 09:15:39,873 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-09 09:15:40,180 - INFO -  * Restarting with stat
+2025-09-09 09:15:41,644 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-09 09:15:41,938 - INFO -  * Restarting with stat
+2025-09-09 09:15:42,739 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:15:43,146 - INFO - NLP Processor initialized successfully
+2025-09-09 09:15:43,148 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:15:43,148 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:15:43,164 - WARNING -  * Debugger is active!
+2025-09-09 09:15:43,168 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 09:15:44,339 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:15:44,736 - INFO - NLP Processor initialized successfully
+2025-09-09 09:15:44,738 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:15:44,738 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:15:44,752 - WARNING -  * Debugger is active!
+2025-09-09 09:15:44,756 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 09:21:19,150 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:21:19,525 - INFO - NLP Processor initialized successfully
+2025-09-09 09:21:19,527 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:21:19,527 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:21:19,550 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 09:21:19,550 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 09:21:19,552 - INFO -  * Restarting with stat
+2025-09-09 09:21:21,581 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:21:21,960 - INFO - NLP Processor initialized successfully
+2025-09-09 09:21:21,962 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:21:21,962 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:21:21,976 - WARNING -  * Debugger is active!
+2025-09-09 09:21:21,980 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 09:48:03,100 - INFO - 127.0.0.1 - - [09/Sep/2025 09:48:03] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-09-09 09:48:07,826 - INFO - 127.0.0.1 - - [09/Sep/2025 09:48:07] "[31m[1mGET /ask HTTP/1.1[0m" 405 -
+2025-09-09 09:56:13,408 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\nlp_processor.py', reloading
+2025-09-09 09:56:13,876 - INFO -  * Restarting with stat
+2025-09-09 09:56:17,563 - INFO - Starting NLP Processor initialization...
+2025-09-09 09:56:17,964 - INFO - NLP Processor initialized successfully
+2025-09-09 09:56:17,966 - INFO - Starting FAQ Bot Server...
+2025-09-09 09:56:17,966 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 09:56:17,985 - WARNING -  * Debugger is active!
+2025-09-09 09:56:17,988 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 10:16:17,915 - INFO - Starting NLP Processor initialization...
+2025-09-09 10:16:18,302 - INFO - NLP Processor initialized successfully
+2025-09-09 10:16:18,304 - INFO - Starting FAQ Bot Server...
+2025-09-09 10:16:18,304 - INFO - Server will run on http://0.0.0.0:5000
+2025-09-09 10:16:18,387 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.55.100:5000
+2025-09-09 10:16:18,387 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 10:16:18,389 - INFO -  * Restarting with stat
+2025-09-09 10:16:20,343 - INFO - Starting NLP Processor initialization...
+2025-09-09 10:16:20,733 - INFO - NLP Processor initialized successfully
+2025-09-09 10:16:20,735 - INFO - Starting FAQ Bot Server...
+2025-09-09 10:16:20,735 - INFO - Server will run on http://0.0.0.0:5000
+2025-09-09 10:16:20,748 - WARNING -  * Debugger is active!
+2025-09-09 10:16:20,753 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 10:16:58,184 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbot\\python-bot\\app.py', reloading
+2025-09-09 10:16:58,548 - INFO -  * Restarting with stat
+2025-09-09 10:17:00,749 - INFO - Starting NLP Processor initialization...
+2025-09-09 10:17:01,127 - INFO - NLP Processor initialized successfully
+2025-09-09 10:17:01,128 - INFO - Starting FAQ Bot Server...
+2025-09-09 10:17:01,129 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 10:17:01,142 - WARNING -  * Debugger is active!
+2025-09-09 10:17:01,148 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 10:17:08,203 - INFO - 127.0.0.1 - - [09/Sep/2025 10:17:08] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 10:17:08,228 - INFO - Question: Apa itu PPID?
+2025-09-09 10:17:08,228 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 10:17:08,228 - INFO - Category: umum
+2025-09-09 10:17:08,229 - INFO - Confidence: 1.000
+2025-09-09 10:17:08,229 - INFO - Status: found
+2025-09-09 10:17:12,320 - ERROR - Error logging to admin backend: HTTPConnectionPool(host='localhost', port=3001): Max retries exceeded with url: /api/chatbot/log (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A27BDE0470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-09 10:17:12,321 - INFO - 127.0.0.1 - - [09/Sep/2025 10:17:12] "POST /ask HTTP/1.1" 200 -
+2025-09-09 10:17:14,890 - INFO - 127.0.0.1 - - [09/Sep/2025 10:17:14] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 10:17:14,896 - INFO - Question: KAK
+2025-09-09 10:17:14,896 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 10:17:14,896 - INFO - Category: ppid_informasi
+2025-09-09 10:17:14,897 - INFO - Confidence: 0.950
+2025-09-09 10:17:14,897 - INFO - Status: ppid_link
+2025-09-09 10:17:19,002 - ERROR - Error logging to admin backend: HTTPConnectionPool(host='localhost', port=3001): Max retries exceeded with url: /api/chatbot/log (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A27D476450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-09 10:17:19,003 - INFO - 127.0.0.1 - - [09/Sep/2025 10:17:19] "POST /ask HTTP/1.1" 200 -
+2025-09-09 10:17:35,619 - INFO - 127.0.0.1 - - [09/Sep/2025 10:17:35] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 10:17:35,622 - INFO - Question: LHKPN
+2025-09-09 10:17:35,622 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 10:17:35,622 - INFO - Category: ppid_informasi
+2025-09-09 10:17:35,622 - INFO - Confidence: 0.950
+2025-09-09 10:17:35,622 - INFO - Status: ppid_link
+2025-09-09 10:17:39,723 - ERROR - Error logging to admin backend: HTTPConnectionPool(host='localhost', port=3001): Max retries exceeded with url: /api/chatbot/log (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A27D4A4110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-09-09 10:17:39,723 - INFO - 127.0.0.1 - - [09/Sep/2025 10:17:39] "POST /ask HTTP/1.1" 200 -
+2025-09-09 18:44:18,656 - INFO - Starting NLP Processor initialization...
+2025-09-09 18:44:19,058 - INFO - NLP Processor initialized successfully
+2025-09-09 18:44:19,059 - INFO - Starting FAQ Bot Server...
+2025-09-09 18:44:19,060 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 18:44:19,084 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 18:44:19,084 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 18:44:19,088 - INFO -  * Restarting with stat
+2025-09-09 18:44:21,053 - INFO - Starting NLP Processor initialization...
+2025-09-09 18:44:21,401 - INFO - NLP Processor initialized successfully
+2025-09-09 18:44:21,402 - INFO - Starting FAQ Bot Server...
+2025-09-09 18:44:21,402 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 18:44:21,413 - WARNING -  * Debugger is active!
+2025-09-09 18:44:21,419 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 18:44:54,724 - INFO - 127.0.0.1 - - [09/Sep/2025 18:44:54] "GET / HTTP/1.1" 200 -
+2025-09-09 18:44:55,615 - INFO - 127.0.0.1 - - [09/Sep/2025 18:44:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 18:57:07,844 - INFO - Starting NLP Processor initialization...
+2025-09-09 18:57:08,302 - INFO - NLP Processor initialized successfully
+2025-09-09 18:57:08,303 - INFO - Starting FAQ Bot Server...
+2025-09-09 18:57:08,304 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 18:57:08,328 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 18:57:08,328 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 18:57:08,332 - INFO -  * Restarting with stat
+2025-09-09 18:57:10,593 - INFO - Starting NLP Processor initialization...
+2025-09-09 18:57:10,951 - INFO - NLP Processor initialized successfully
+2025-09-09 18:57:10,952 - INFO - Starting FAQ Bot Server...
+2025-09-09 18:57:10,953 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 18:57:10,964 - WARNING -  * Debugger is active!
+2025-09-09 18:57:10,968 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 19:57:52,400 - INFO - Starting NLP Processor initialization...
+2025-09-09 19:57:52,830 - INFO - NLP Processor initialized successfully
+2025-09-09 19:57:52,832 - INFO - Starting FAQ Bot Server...
+2025-09-09 19:57:52,832 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 19:57:52,868 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 19:57:52,868 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 19:57:52,870 - INFO -  * Restarting with stat
+2025-09-09 19:57:55,067 - INFO - Starting NLP Processor initialization...
+2025-09-09 19:57:55,415 - INFO - NLP Processor initialized successfully
+2025-09-09 19:57:55,416 - INFO - Starting FAQ Bot Server...
+2025-09-09 19:57:55,416 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 19:57:55,430 - WARNING -  * Debugger is active!
+2025-09-09 19:57:55,435 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 19:59:28,399 - INFO - 127.0.0.1 - - [09/Sep/2025 19:59:28] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 19:59:28,420 - INFO - Question: Apa itu PPID?
+2025-09-09 19:59:28,420 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 19:59:28,420 - INFO - Category: umum
+2025-09-09 19:59:28,420 - INFO - Confidence: 1.000
+2025-09-09 19:59:28,420 - INFO - Status: found
+2025-09-09 19:59:28,498 - WARNING - Failed to log to admin backend: 500
+2025-09-09 19:59:28,498 - INFO - 127.0.0.1 - - [09/Sep/2025 19:59:28] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:08:48,165 - INFO - Starting NLP Processor initialization...
+2025-09-09 20:08:48,598 - INFO - NLP Processor initialized successfully
+2025-09-09 20:08:48,600 - INFO - Starting FAQ Bot Server...
+2025-09-09 20:08:48,600 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 20:08:48,619 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 20:08:48,619 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 20:08:48,621 - INFO -  * Restarting with stat
+2025-09-09 20:08:51,229 - INFO - Starting NLP Processor initialization...
+2025-09-09 20:08:51,619 - INFO - NLP Processor initialized successfully
+2025-09-09 20:08:51,621 - INFO - Starting FAQ Bot Server...
+2025-09-09 20:08:51,621 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 20:08:51,633 - WARNING -  * Debugger is active!
+2025-09-09 20:08:51,638 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 20:24:12,730 - INFO - Starting NLP Processor initialization...
+2025-09-09 20:24:13,160 - INFO - NLP Processor initialized successfully
+2025-09-09 20:24:13,161 - INFO - Starting FAQ Bot Server...
+2025-09-09 20:24:13,161 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 20:24:13,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 20:24:13,182 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 20:24:13,184 - INFO -  * Restarting with stat
+2025-09-09 20:24:15,324 - INFO - Starting NLP Processor initialization...
+2025-09-09 20:24:15,695 - INFO - NLP Processor initialized successfully
+2025-09-09 20:24:15,697 - INFO - Starting FAQ Bot Server...
+2025-09-09 20:24:15,697 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 20:24:15,710 - WARNING -  * Debugger is active!
+2025-09-09 20:24:15,715 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 20:24:55,255 - INFO - 127.0.0.1 - - [09/Sep/2025 20:24:55] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 20:24:55,258 - INFO - Question: KAK
+2025-09-09 20:24:55,258 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:24:55,258 - INFO - Category: ppid_informasi
+2025-09-09 20:24:55,258 - INFO - Confidence: 0.950
+2025-09-09 20:24:55,259 - INFO - Status: ppid_link
+2025-09-09 20:24:55,294 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:24:55,294 - INFO - 127.0.0.1 - - [09/Sep/2025 20:24:55] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:33:01,380 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:01] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 20:33:01,393 - INFO - Question: halo
+2025-09-09 20:33:01,393 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:33:01,393 - INFO - Category: unknown
+2025-09-09 20:33:01,393 - INFO - Confidence: 0.063
+2025-09-09 20:33:01,393 - INFO - Status: not_found
+2025-09-09 20:33:01,410 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:33:01,411 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:01] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:33:05,945 - INFO - Question: halo
+2025-09-09 20:33:05,945 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:33:05,945 - INFO - Category: unknown
+2025-09-09 20:33:05,945 - INFO - Confidence: 0.063
+2025-09-09 20:33:05,945 - INFO - Status: not_found
+2025-09-09 20:33:05,984 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:33:05,985 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:05] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:33:08,006 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:08] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 20:33:08,016 - INFO - Question: halo
+2025-09-09 20:33:08,017 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:33:08,017 - INFO - Category: unknown
+2025-09-09 20:33:08,017 - INFO - Confidence: 0.063
+2025-09-09 20:33:08,017 - INFO - Status: not_found
+2025-09-09 20:33:08,030 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:33:08,031 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:08] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:33:09,739 - INFO - Question: alo
+2025-09-09 20:33:09,739 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:33:09,739 - INFO - Category: ppid_informasi
+2025-09-09 20:33:09,739 - INFO - Confidence: 0.950
+2025-09-09 20:33:09,739 - INFO - Status: ppid_link
+2025-09-09 20:33:09,778 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:33:09,779 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:09] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:33:13,136 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:13] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 20:33:13,145 - INFO - Question: halo
+2025-09-09 20:33:13,145 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:33:13,145 - INFO - Category: unknown
+2025-09-09 20:33:13,145 - INFO - Confidence: 0.063
+2025-09-09 20:33:13,146 - INFO - Status: not_found
+2025-09-09 20:33:13,160 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:33:13,162 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:13] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:33:15,522 - INFO - Question: halo
+2025-09-09 20:33:15,522 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:33:15,522 - INFO - Category: unknown
+2025-09-09 20:33:15,522 - INFO - Confidence: 0.063
+2025-09-09 20:33:15,522 - INFO - Status: not_found
+2025-09-09 20:33:15,536 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:33:15,536 - INFO - 127.0.0.1 - - [09/Sep/2025 20:33:15] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:38:15,466 - INFO - 127.0.0.1 - - [09/Sep/2025 20:38:15] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 20:38:15,501 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 20:38:15,503 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:38:15,503 - INFO - Category: prosedur
+2025-09-09 20:38:15,503 - INFO - Confidence: 0.730
+2025-09-09 20:38:15,503 - INFO - Status: found
+2025-09-09 20:38:15,529 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:38:15,530 - INFO - 127.0.0.1 - - [09/Sep/2025 20:38:15] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:38:19,023 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-09 20:38:19,024 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:38:19,024 - INFO - Category: umum
+2025-09-09 20:38:19,024 - INFO - Confidence: 0.764
+2025-09-09 20:38:19,024 - INFO - Status: found
+2025-09-09 20:38:19,059 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:38:19,060 - INFO - 127.0.0.1 - - [09/Sep/2025 20:38:19] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:38:21,289 - INFO - 127.0.0.1 - - [09/Sep/2025 20:38:21] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 20:38:21,324 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 20:38:21,324 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:38:21,324 - INFO - Category: prosedur
+2025-09-09 20:38:21,324 - INFO - Confidence: 0.730
+2025-09-09 20:38:21,324 - INFO - Status: found
+2025-09-09 20:38:21,364 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:38:21,365 - INFO - 127.0.0.1 - - [09/Sep/2025 20:38:21] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:38:24,184 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 20:38:24,184 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:38:24,184 - INFO - Category: prosedur
+2025-09-09 20:38:24,184 - INFO - Confidence: 0.730
+2025-09-09 20:38:24,184 - INFO - Status: found
+2025-09-09 20:38:24,232 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:38:24,233 - INFO - 127.0.0.1 - - [09/Sep/2025 20:38:24] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:38:26,885 - INFO - 127.0.0.1 - - [09/Sep/2025 20:38:26] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 20:38:26,919 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 20:38:26,920 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:38:26,920 - INFO - Category: prosedur
+2025-09-09 20:38:26,920 - INFO - Confidence: 0.730
+2025-09-09 20:38:26,920 - INFO - Status: found
+2025-09-09 20:38:26,952 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:38:26,952 - INFO - 127.0.0.1 - - [09/Sep/2025 20:38:26] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:45:53,792 - INFO - 127.0.0.1 - - [09/Sep/2025 20:45:53] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 20:45:53,817 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 20:45:53,817 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:45:53,817 - INFO - Category: prosedur
+2025-09-09 20:45:53,817 - INFO - Confidence: 0.730
+2025-09-09 20:45:53,817 - INFO - Status: found
+2025-09-09 20:45:53,835 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:45:53,835 - INFO - 127.0.0.1 - - [09/Sep/2025 20:45:53] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:45:57,039 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 20:45:57,040 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:45:57,040 - INFO - Category: prosedur
+2025-09-09 20:45:57,040 - INFO - Confidence: 0.730
+2025-09-09 20:45:57,040 - INFO - Status: found
+2025-09-09 20:45:57,072 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:45:57,073 - INFO - 127.0.0.1 - - [09/Sep/2025 20:45:57] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:46:00,025 - INFO - 127.0.0.1 - - [09/Sep/2025 20:46:00] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 20:46:00,048 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 20:46:00,048 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:46:00,049 - INFO - Category: prosedur
+2025-09-09 20:46:00,049 - INFO - Confidence: 0.730
+2025-09-09 20:46:00,049 - INFO - Status: found
+2025-09-09 20:46:00,076 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:46:00,077 - INFO - 127.0.0.1 - - [09/Sep/2025 20:46:00] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:46:03,117 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 20:46:03,117 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:46:03,117 - INFO - Category: prosedur
+2025-09-09 20:46:03,117 - INFO - Confidence: 0.730
+2025-09-09 20:46:03,118 - INFO - Status: found
+2025-09-09 20:46:03,134 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:46:03,135 - INFO - 127.0.0.1 - - [09/Sep/2025 20:46:03] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:46:06,365 - INFO - 127.0.0.1 - - [09/Sep/2025 20:46:06] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 20:46:06,390 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 20:46:06,390 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:46:06,390 - INFO - Category: prosedur
+2025-09-09 20:46:06,390 - INFO - Confidence: 0.730
+2025-09-09 20:46:06,390 - INFO - Status: found
+2025-09-09 20:46:06,405 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:46:06,405 - INFO - 127.0.0.1 - - [09/Sep/2025 20:46:06] "POST /ask HTTP/1.1" 200 -
+2025-09-09 20:46:09,269 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 20:46:09,269 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 20:46:09,269 - INFO - Category: prosedur
+2025-09-09 20:46:09,269 - INFO - Confidence: 0.730
+2025-09-09 20:46:09,269 - INFO - Status: found
+2025-09-09 20:46:09,283 - WARNING - Failed to log to admin backend: 500
+2025-09-09 20:46:09,284 - INFO - 127.0.0.1 - - [09/Sep/2025 20:46:09] "POST /ask HTTP/1.1" 200 -
+2025-09-09 21:33:27,509 - INFO - Starting NLP Processor initialization...
+2025-09-09 21:33:29,717 - INFO - NLP Processor initialized successfully
+2025-09-09 21:33:29,724 - INFO - Starting FAQ Bot Server...
+2025-09-09 21:33:29,725 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 21:33:30,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 21:33:30,012 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 21:33:30,017 - INFO -  * Restarting with stat
+2025-09-09 21:33:33,376 - INFO - Starting NLP Processor initialization...
+2025-09-09 21:33:33,803 - INFO - NLP Processor initialized successfully
+2025-09-09 21:33:33,804 - INFO - Starting FAQ Bot Server...
+2025-09-09 21:33:33,804 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 21:33:33,820 - WARNING -  * Debugger is active!
+2025-09-09 21:33:33,826 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 21:38:51,588 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbotv2\\python-bot\\app.py', reloading
+2025-09-09 21:38:51,841 - INFO -  * Restarting with stat
+2025-09-09 21:38:54,573 - INFO - Starting NLP Processor initialization...
+2025-09-09 21:38:55,028 - INFO - NLP Processor initialized successfully
+2025-09-09 21:38:55,030 - INFO - Starting FAQ Bot Server...
+2025-09-09 21:38:55,030 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-09 21:38:55,045 - WARNING -  * Debugger is active!
+2025-09-09 21:38:55,049 - INFO -  * Debugger PIN: 111-242-527
+2025-09-09 22:02:35,731 - INFO - 127.0.0.1 - - [09/Sep/2025 22:02:35] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 22:02:35,768 - INFO - Question: Bagaimana jika permohonan informasi saya ditolak?
+2025-09-09 22:02:35,769 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:02:35,769 - INFO - Category: prosedur
+2025-09-09 22:02:35,769 - INFO - Confidence: 0.730
+2025-09-09 22:02:35,769 - INFO - Status: found
+2025-09-09 22:02:35,820 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:02:35,820 - INFO - 127.0.0.1 - - [09/Sep/2025 22:02:35] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:02:38,049 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-09 22:02:38,049 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:02:38,049 - INFO - Category: umum
+2025-09-09 22:02:38,049 - INFO - Confidence: 0.764
+2025-09-09 22:02:38,049 - INFO - Status: found
+2025-09-09 22:02:38,084 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:02:38,085 - INFO - 127.0.0.1 - - [09/Sep/2025 22:02:38] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:02:39,739 - INFO - Question: Berapa lama waktu pemrosesan permohonan informasi?
+2025-09-09 22:02:39,739 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:02:39,739 - INFO - Category: prosedur
+2025-09-09 22:02:39,739 - INFO - Confidence: 0.881
+2025-09-09 22:02:39,739 - INFO - Status: found
+2025-09-09 22:02:39,768 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:02:39,769 - INFO - 127.0.0.1 - - [09/Sep/2025 22:02:39] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:02:40,557 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-09 22:02:40,557 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:02:40,558 - INFO - Category: prosedur
+2025-09-09 22:02:40,558 - INFO - Confidence: 0.909
+2025-09-09 22:02:40,558 - INFO - Status: found
+2025-09-09 22:02:40,575 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:02:40,575 - INFO - 127.0.0.1 - - [09/Sep/2025 22:02:40] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:02:43,960 - INFO - 127.0.0.1 - - [09/Sep/2025 22:02:43] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 22:02:43,974 - INFO - Question: Apa itu PPID?
+2025-09-09 22:02:43,974 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:02:43,974 - INFO - Category: umum
+2025-09-09 22:02:43,974 - INFO - Confidence: 1.000
+2025-09-09 22:02:43,974 - INFO - Status: found
+2025-09-09 22:02:43,993 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:02:43,993 - INFO - 127.0.0.1 - - [09/Sep/2025 22:02:43] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:02:44,936 - INFO - Question: Jenis informasi apa saja yang tersedia di website PPID Kabupaten Sukoharjo?
+2025-09-09 22:02:44,936 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:02:44,937 - INFO - Category: layanan
+2025-09-09 22:02:44,937 - INFO - Confidence: 0.697
+2025-09-09 22:02:44,937 - INFO - Status: found
+2025-09-09 22:02:44,974 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:02:44,975 - INFO - 127.0.0.1 - - [09/Sep/2025 22:02:44] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:06:35,440 - INFO - 127.0.0.1 - - [09/Sep/2025 22:06:35] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 22:06:35,455 - INFO - Question: Apa itu PPID?
+2025-09-09 22:06:35,455 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:06:35,455 - INFO - Category: umum
+2025-09-09 22:06:35,455 - INFO - Confidence: 1.000
+2025-09-09 22:06:35,455 - INFO - Status: found
+2025-09-09 22:06:35,467 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:06:35,469 - INFO - 127.0.0.1 - - [09/Sep/2025 22:06:35] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:06:59,828 - INFO - 127.0.0.1 - - [09/Sep/2025 22:06:59] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 22:06:59,843 - INFO - Question: Apa itu PPID?
+2025-09-09 22:06:59,844 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:06:59,844 - INFO - Category: umum
+2025-09-09 22:06:59,844 - INFO - Confidence: 1.000
+2025-09-09 22:06:59,844 - INFO - Status: found
+2025-09-09 22:06:59,880 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:06:59,880 - INFO - 127.0.0.1 - - [09/Sep/2025 22:06:59] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:00,405 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:00,405 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:00,405 - INFO - Category: umum
+2025-09-09 22:07:00,405 - INFO - Confidence: 1.000
+2025-09-09 22:07:00,405 - INFO - Status: found
+2025-09-09 22:07:00,420 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:00,421 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:00] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:00,948 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:00,948 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:00,948 - INFO - Category: umum
+2025-09-09 22:07:00,948 - INFO - Confidence: 1.000
+2025-09-09 22:07:00,948 - INFO - Status: found
+2025-09-09 22:07:00,961 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:00,961 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:00] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:01,478 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:01,478 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:01,478 - INFO - Category: umum
+2025-09-09 22:07:01,478 - INFO - Confidence: 1.000
+2025-09-09 22:07:01,478 - INFO - Status: found
+2025-09-09 22:07:01,506 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:01,507 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:01] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:01,930 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:01,930 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:01,930 - INFO - Category: umum
+2025-09-09 22:07:01,930 - INFO - Confidence: 1.000
+2025-09-09 22:07:01,930 - INFO - Status: found
+2025-09-09 22:07:01,965 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:01,965 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:01] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:02,069 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:02,069 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:02,069 - INFO - Category: umum
+2025-09-09 22:07:02,069 - INFO - Confidence: 1.000
+2025-09-09 22:07:02,069 - INFO - Status: found
+2025-09-09 22:07:02,083 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:02,084 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:02] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:02,225 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:02,225 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:02,225 - INFO - Category: umum
+2025-09-09 22:07:02,225 - INFO - Confidence: 1.000
+2025-09-09 22:07:02,225 - INFO - Status: found
+2025-09-09 22:07:02,260 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:02,261 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:02] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:02,368 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:02,368 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:02,368 - INFO - Category: umum
+2025-09-09 22:07:02,368 - INFO - Confidence: 1.000
+2025-09-09 22:07:02,368 - INFO - Status: found
+2025-09-09 22:07:02,402 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:02,402 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:02] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:02,516 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:02,516 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:02,516 - INFO - Category: umum
+2025-09-09 22:07:02,516 - INFO - Confidence: 1.000
+2025-09-09 22:07:02,516 - INFO - Status: found
+2025-09-09 22:07:02,527 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:02,528 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:02] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:02,659 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:02,659 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:02,659 - INFO - Category: umum
+2025-09-09 22:07:02,659 - INFO - Confidence: 1.000
+2025-09-09 22:07:02,659 - INFO - Status: found
+2025-09-09 22:07:02,683 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:02,683 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:02] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:02,812 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:02,812 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:02,813 - INFO - Category: umum
+2025-09-09 22:07:02,813 - INFO - Confidence: 1.000
+2025-09-09 22:07:02,813 - INFO - Status: found
+2025-09-09 22:07:02,839 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:02,840 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:02] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:02,969 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:02,969 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:02,969 - INFO - Category: umum
+2025-09-09 22:07:02,969 - INFO - Confidence: 1.000
+2025-09-09 22:07:02,969 - INFO - Status: found
+2025-09-09 22:07:02,994 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:02,994 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:02] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:03,096 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:03,096 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:03,096 - INFO - Category: umum
+2025-09-09 22:07:03,096 - INFO - Confidence: 1.000
+2025-09-09 22:07:03,096 - INFO - Status: found
+2025-09-09 22:07:03,120 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:03,121 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:03] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:03,256 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:03,257 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:03,257 - INFO - Category: umum
+2025-09-09 22:07:03,257 - INFO - Confidence: 1.000
+2025-09-09 22:07:03,257 - INFO - Status: found
+2025-09-09 22:07:03,267 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:03,268 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:03] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:03,406 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:03,406 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:03,406 - INFO - Category: umum
+2025-09-09 22:07:03,406 - INFO - Confidence: 1.000
+2025-09-09 22:07:03,406 - INFO - Status: found
+2025-09-09 22:07:03,418 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:03,419 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:03] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:03,581 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:03,582 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:03,582 - INFO - Category: umum
+2025-09-09 22:07:03,582 - INFO - Confidence: 1.000
+2025-09-09 22:07:03,582 - INFO - Status: found
+2025-09-09 22:07:03,620 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:03,620 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:03] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:03,739 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:03,739 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:03,739 - INFO - Category: umum
+2025-09-09 22:07:03,739 - INFO - Confidence: 1.000
+2025-09-09 22:07:03,739 - INFO - Status: found
+2025-09-09 22:07:03,751 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:03,751 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:03] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:03,899 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:03,899 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:03,899 - INFO - Category: umum
+2025-09-09 22:07:03,899 - INFO - Confidence: 1.000
+2025-09-09 22:07:03,899 - INFO - Status: found
+2025-09-09 22:07:03,911 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:03,913 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:03] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:04,043 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:04,043 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:04,043 - INFO - Category: umum
+2025-09-09 22:07:04,043 - INFO - Confidence: 1.000
+2025-09-09 22:07:04,043 - INFO - Status: found
+2025-09-09 22:07:04,056 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:04,056 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:04] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:04,194 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:04,194 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:04,194 - INFO - Category: umum
+2025-09-09 22:07:04,194 - INFO - Confidence: 1.000
+2025-09-09 22:07:04,194 - INFO - Status: found
+2025-09-09 22:07:04,229 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:04,230 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:04] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:04,336 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:04,336 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:04,337 - INFO - Category: umum
+2025-09-09 22:07:04,337 - INFO - Confidence: 1.000
+2025-09-09 22:07:04,337 - INFO - Status: found
+2025-09-09 22:07:04,348 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:04,348 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:04] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:04,500 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:04,500 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:04,500 - INFO - Category: umum
+2025-09-09 22:07:04,500 - INFO - Confidence: 1.000
+2025-09-09 22:07:04,500 - INFO - Status: found
+2025-09-09 22:07:04,525 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:04,526 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:04] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:04,629 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:04,629 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:04,629 - INFO - Category: umum
+2025-09-09 22:07:04,629 - INFO - Confidence: 1.000
+2025-09-09 22:07:04,629 - INFO - Status: found
+2025-09-09 22:07:04,640 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:04,641 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:04] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:04,798 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:04,798 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:04,798 - INFO - Category: umum
+2025-09-09 22:07:04,798 - INFO - Confidence: 1.000
+2025-09-09 22:07:04,798 - INFO - Status: found
+2025-09-09 22:07:04,819 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:04,820 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:04] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:04,929 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:04] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 22:07:04,951 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:04,951 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:04,951 - INFO - Category: umum
+2025-09-09 22:07:04,951 - INFO - Confidence: 1.000
+2025-09-09 22:07:04,951 - INFO - Status: found
+2025-09-09 22:07:04,975 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:04,975 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:04] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:05,096 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:05,096 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:05,096 - INFO - Category: umum
+2025-09-09 22:07:05,097 - INFO - Confidence: 1.000
+2025-09-09 22:07:05,097 - INFO - Status: found
+2025-09-09 22:07:05,111 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:05,112 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:05] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:05,250 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:05,250 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:05,251 - INFO - Category: umum
+2025-09-09 22:07:05,251 - INFO - Confidence: 1.000
+2025-09-09 22:07:05,251 - INFO - Status: found
+2025-09-09 22:07:05,261 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:05,262 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:05] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:05,409 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:05,409 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:05,409 - INFO - Category: umum
+2025-09-09 22:07:05,409 - INFO - Confidence: 1.000
+2025-09-09 22:07:05,409 - INFO - Status: found
+2025-09-09 22:07:05,423 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:05,424 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:05] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:05,567 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:05,567 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:05,567 - INFO - Category: umum
+2025-09-09 22:07:05,567 - INFO - Confidence: 1.000
+2025-09-09 22:07:05,567 - INFO - Status: found
+2025-09-09 22:07:05,579 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:05,580 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:05] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:43,819 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:43] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 22:07:43,836 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:43,837 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:43,837 - INFO - Category: umum
+2025-09-09 22:07:43,837 - INFO - Confidence: 1.000
+2025-09-09 22:07:43,837 - INFO - Status: found
+2025-09-09 22:07:43,863 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:43,863 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:43] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:43,969 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:43,970 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:43,970 - INFO - Category: umum
+2025-09-09 22:07:43,970 - INFO - Confidence: 1.000
+2025-09-09 22:07:43,970 - INFO - Status: found
+2025-09-09 22:07:44,003 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:44,004 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:44] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:44,113 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:44,113 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:44,113 - INFO - Category: umum
+2025-09-09 22:07:44,113 - INFO - Confidence: 1.000
+2025-09-09 22:07:44,113 - INFO - Status: found
+2025-09-09 22:07:44,126 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:44,127 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:44] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:44,262 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:44,262 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:44,262 - INFO - Category: umum
+2025-09-09 22:07:44,262 - INFO - Confidence: 1.000
+2025-09-09 22:07:44,262 - INFO - Status: found
+2025-09-09 22:07:44,288 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:44,289 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:44] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:44,407 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:44,407 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:44,407 - INFO - Category: umum
+2025-09-09 22:07:44,407 - INFO - Confidence: 1.000
+2025-09-09 22:07:44,407 - INFO - Status: found
+2025-09-09 22:07:44,442 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:44,443 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:44] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:44,547 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:44,547 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:44,547 - INFO - Category: umum
+2025-09-09 22:07:44,547 - INFO - Confidence: 1.000
+2025-09-09 22:07:44,547 - INFO - Status: found
+2025-09-09 22:07:44,561 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:44,562 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:44] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:44,707 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:44,707 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:44,707 - INFO - Category: umum
+2025-09-09 22:07:44,708 - INFO - Confidence: 1.000
+2025-09-09 22:07:44,708 - INFO - Status: found
+2025-09-09 22:07:44,720 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:44,721 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:44] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:44,862 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:44,862 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:44,862 - INFO - Category: umum
+2025-09-09 22:07:44,863 - INFO - Confidence: 1.000
+2025-09-09 22:07:44,863 - INFO - Status: found
+2025-09-09 22:07:44,873 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:44,874 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:44] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:45,007 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:45,007 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:45,008 - INFO - Category: umum
+2025-09-09 22:07:45,008 - INFO - Confidence: 1.000
+2025-09-09 22:07:45,008 - INFO - Status: found
+2025-09-09 22:07:45,024 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:45,025 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:45] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:45,176 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:45,176 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:45,177 - INFO - Category: umum
+2025-09-09 22:07:45,177 - INFO - Confidence: 1.000
+2025-09-09 22:07:45,177 - INFO - Status: found
+2025-09-09 22:07:45,213 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:45,213 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:45] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:45,327 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:45,327 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:45,328 - INFO - Category: umum
+2025-09-09 22:07:45,328 - INFO - Confidence: 1.000
+2025-09-09 22:07:45,328 - INFO - Status: found
+2025-09-09 22:07:45,350 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:45,351 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:45] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:45,471 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:45,471 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:45,471 - INFO - Category: umum
+2025-09-09 22:07:45,471 - INFO - Confidence: 1.000
+2025-09-09 22:07:45,471 - INFO - Status: found
+2025-09-09 22:07:45,482 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:45,484 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:45] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:45,621 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:45,621 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:45,621 - INFO - Category: umum
+2025-09-09 22:07:45,622 - INFO - Confidence: 1.000
+2025-09-09 22:07:45,622 - INFO - Status: found
+2025-09-09 22:07:45,634 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:45,634 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:45] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:45,765 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:45,765 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:45,765 - INFO - Category: umum
+2025-09-09 22:07:45,765 - INFO - Confidence: 1.000
+2025-09-09 22:07:45,765 - INFO - Status: found
+2025-09-09 22:07:45,790 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:45,791 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:45] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:45,917 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:45,918 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:45,918 - INFO - Category: umum
+2025-09-09 22:07:45,918 - INFO - Confidence: 1.000
+2025-09-09 22:07:45,918 - INFO - Status: found
+2025-09-09 22:07:45,932 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:45,932 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:45] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:46,087 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:46,087 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:46,087 - INFO - Category: umum
+2025-09-09 22:07:46,087 - INFO - Confidence: 1.000
+2025-09-09 22:07:46,087 - INFO - Status: found
+2025-09-09 22:07:46,100 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:46,101 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:46] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:46,249 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:46,249 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:46,249 - INFO - Category: umum
+2025-09-09 22:07:46,249 - INFO - Confidence: 1.000
+2025-09-09 22:07:46,249 - INFO - Status: found
+2025-09-09 22:07:46,272 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:46,273 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:46] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:46,419 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:46,419 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:46,419 - INFO - Category: umum
+2025-09-09 22:07:46,419 - INFO - Confidence: 1.000
+2025-09-09 22:07:46,419 - INFO - Status: found
+2025-09-09 22:07:46,445 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:46,446 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:46] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:46,578 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:46,578 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:46,578 - INFO - Category: umum
+2025-09-09 22:07:46,578 - INFO - Confidence: 1.000
+2025-09-09 22:07:46,578 - INFO - Status: found
+2025-09-09 22:07:46,603 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:46,603 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:46] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:07:46,734 - INFO - Question: Apa itu PPID?
+2025-09-09 22:07:46,734 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:07:46,734 - INFO - Category: umum
+2025-09-09 22:07:46,734 - INFO - Confidence: 1.000
+2025-09-09 22:07:46,734 - INFO - Status: found
+2025-09-09 22:07:46,760 - WARNING - Failed to log to admin backend: 500
+2025-09-09 22:07:46,760 - INFO - 127.0.0.1 - - [09/Sep/2025 22:07:46] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:19:17,115 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:17] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 22:19:17,128 - INFO - Question: Apa itu PPID?
+2025-09-09 22:19:17,128 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:19:17,128 - INFO - Category: umum
+2025-09-09 22:19:17,128 - INFO - Confidence: 1.000
+2025-09-09 22:19:17,128 - INFO - Status: found
+2025-09-09 22:19:17,147 - INFO - Successfully logged to admin backend: c74e24d3-213b-4e53-a201-2e251c7bec65
+2025-09-09 22:19:17,147 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:17] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:19:17,258 - INFO - Question: Apa itu PPID?
+2025-09-09 22:19:17,258 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:19:17,258 - INFO - Category: umum
+2025-09-09 22:19:17,258 - INFO - Confidence: 1.000
+2025-09-09 22:19:17,258 - INFO - Status: found
+2025-09-09 22:19:17,296 - INFO - Successfully logged to admin backend: d0d12352-c308-4b23-bef3-d4f38385f73d
+2025-09-09 22:19:17,296 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:17] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:19:17,409 - INFO - Question: Apa itu PPID?
+2025-09-09 22:19:17,410 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:19:17,410 - INFO - Category: umum
+2025-09-09 22:19:17,410 - INFO - Confidence: 1.000
+2025-09-09 22:19:17,410 - INFO - Status: found
+2025-09-09 22:19:17,433 - INFO - Successfully logged to admin backend: 027a8d49-8191-48ce-9769-64c033f556ac
+2025-09-09 22:19:17,433 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:17] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:19:17,556 - INFO - Question: Apa itu PPID?
+2025-09-09 22:19:17,557 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:19:17,557 - INFO - Category: umum
+2025-09-09 22:19:17,557 - INFO - Confidence: 1.000
+2025-09-09 22:19:17,557 - INFO - Status: found
+2025-09-09 22:19:17,594 - INFO - Successfully logged to admin backend: 3d0b93eb-2035-4c8a-adb0-f276b1d2421b
+2025-09-09 22:19:17,595 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:17] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:19:17,699 - INFO - Question: Apa itu PPID?
+2025-09-09 22:19:17,699 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:19:17,699 - INFO - Category: umum
+2025-09-09 22:19:17,699 - INFO - Confidence: 1.000
+2025-09-09 22:19:17,699 - INFO - Status: found
+2025-09-09 22:19:17,717 - INFO - Successfully logged to admin backend: 87a4dbbd-eb43-48d8-8599-0ab13f264900
+2025-09-09 22:19:17,717 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:17] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:19:17,922 - INFO - Question: Apa itu PPID?
+2025-09-09 22:19:17,922 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:19:17,922 - INFO - Category: umum
+2025-09-09 22:19:17,922 - INFO - Confidence: 1.000
+2025-09-09 22:19:17,922 - INFO - Status: found
+2025-09-09 22:19:17,941 - INFO - Successfully logged to admin backend: a6c2674b-1d05-454b-805b-32d564573022
+2025-09-09 22:19:17,943 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:17] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:19:37,446 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:37] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-09 22:19:37,488 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-09 22:19:37,488 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:19:37,488 - INFO - Category: prosedur
+2025-09-09 22:19:37,489 - INFO - Confidence: 0.909
+2025-09-09 22:19:37,489 - INFO - Status: found
+2025-09-09 22:19:37,540 - INFO - Successfully logged to admin backend: 082547ab-a826-4e52-a93a-6a4c6e085af8
+2025-09-09 22:19:37,541 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:37] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:19:37,623 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-09 22:19:37,623 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:19:37,624 - INFO - Category: prosedur
+2025-09-09 22:19:37,624 - INFO - Confidence: 0.909
+2025-09-09 22:19:37,624 - INFO - Status: found
+2025-09-09 22:19:37,664 - INFO - Successfully logged to admin backend: 8a8f60c0-03d0-4b8e-9c2b-d0b12827acd3
+2025-09-09 22:19:37,665 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:37] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:19:37,737 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-09 22:19:37,737 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:19:37,737 - INFO - Category: prosedur
+2025-09-09 22:19:37,737 - INFO - Confidence: 0.909
+2025-09-09 22:19:37,737 - INFO - Status: found
+2025-09-09 22:19:37,753 - INFO - Successfully logged to admin backend: fbb7cdae-9d33-4537-8863-8c82b24f0e2f
+2025-09-09 22:19:37,754 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:37] "POST /ask HTTP/1.1" 200 -
+2025-09-09 22:19:37,955 - INFO - Question: Bagaimana cara mengajukan permohonan informasi?
+2025-09-09 22:19:37,955 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-09 22:19:37,956 - INFO - Category: prosedur
+2025-09-09 22:19:37,956 - INFO - Confidence: 0.909
+2025-09-09 22:19:37,956 - INFO - Status: found
+2025-09-09 22:19:37,995 - INFO - Successfully logged to admin backend: 6c133d3c-1835-42e9-afbf-fb866631ff4e
+2025-09-09 22:19:37,996 - INFO - 127.0.0.1 - - [09/Sep/2025 22:19:37] "POST /ask HTTP/1.1" 200 -
+2025-09-10 06:53:20,088 - INFO - Starting NLP Processor initialization...
+2025-09-10 06:53:20,523 - INFO - NLP Processor initialized successfully
+2025-09-10 06:53:20,525 - INFO - Starting FAQ Bot Server...
+2025-09-10 06:53:20,525 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-10 06:53:20,559 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-10 06:53:20,559 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 06:53:20,562 - INFO -  * Restarting with stat
+2025-09-10 06:53:22,828 - INFO - Starting NLP Processor initialization...
+2025-09-10 06:53:23,193 - INFO - NLP Processor initialized successfully
+2025-09-10 06:53:23,195 - INFO - Starting FAQ Bot Server...
+2025-09-10 06:53:23,195 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-10 06:53:23,207 - WARNING -  * Debugger is active!
+2025-09-10 06:53:23,212 - INFO -  * Debugger PIN: 111-242-527
+2025-09-10 07:45:32,593 - INFO - Starting NLP Processor initialization...
+2025-09-10 07:45:33,016 - INFO - NLP Processor initialized successfully
+2025-09-10 07:45:33,018 - INFO - Starting FAQ Bot Server...
+2025-09-10 07:45:33,018 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-10 07:45:33,042 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-10 07:45:33,042 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 07:45:33,044 - INFO -  * Restarting with stat
+2025-09-10 07:45:35,008 - INFO - Starting NLP Processor initialization...
+2025-09-10 07:45:35,363 - INFO - NLP Processor initialized successfully
+2025-09-10 07:45:35,364 - INFO - Starting FAQ Bot Server...
+2025-09-10 07:45:35,365 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-10 07:45:35,377 - WARNING -  * Debugger is active!
+2025-09-10 07:45:35,382 - INFO -  * Debugger PIN: 111-242-527
+2025-09-10 09:35:20,665 - INFO - Starting NLP Processor initialization...
+2025-09-10 09:35:21,279 - INFO - NLP Processor initialized successfully
+2025-09-10 09:35:21,280 - INFO - Starting FAQ Bot Server...
+2025-09-10 09:35:21,280 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-10 09:35:21,388 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-10 09:35:21,388 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 09:35:21,390 - INFO -  * Restarting with stat
+2025-09-10 09:35:23,411 - INFO - Starting NLP Processor initialization...
+2025-09-10 09:35:23,779 - INFO - NLP Processor initialized successfully
+2025-09-10 09:35:23,780 - INFO - Starting FAQ Bot Server...
+2025-09-10 09:35:23,780 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-10 09:35:23,791 - WARNING -  * Debugger is active!
+2025-09-10 09:35:23,796 - INFO -  * Debugger PIN: 111-242-527
+2025-09-10 09:35:31,108 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbotv2\\python-bot\\nlp_processor.py', reloading
+2025-09-10 09:35:31,414 - INFO -  * Restarting with stat
+2025-09-10 09:35:33,610 - INFO - Starting NLP Processor initialization...
+2025-09-10 09:35:33,974 - INFO - NLP Processor initialized successfully
+2025-09-10 09:35:33,975 - INFO - Starting FAQ Bot Server...
+2025-09-10 09:35:33,976 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-10 09:35:33,988 - WARNING -  * Debugger is active!
+2025-09-10 09:35:33,993 - INFO -  * Debugger PIN: 111-242-527
+2025-09-10 09:50:37,477 - INFO - 127.0.0.1 - - [10/Sep/2025 09:50:37] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-10 09:50:37,489 - INFO - Question: siapa bupati sukoharjo?
+2025-09-10 09:50:37,490 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-10 09:50:37,490 - INFO - Category: layanan
+2025-09-10 09:50:37,490 - INFO - Confidence: 0.468
+2025-09-10 09:50:37,490 - INFO - Status: found
+2025-09-10 09:50:37,557 - INFO - Successfully logged to admin backend: 66f57cfc-0aed-4609-a389-e7824863028a
+2025-09-10 09:50:37,558 - INFO - 127.0.0.1 - - [10/Sep/2025 09:50:37] "POST /ask HTTP/1.1" 200 -
+2025-09-10 09:50:43,914 - INFO - 127.0.0.1 - - [10/Sep/2025 09:50:43] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-10 09:50:43,921 - INFO - Question: bupati
+2025-09-10 09:50:43,921 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-10 09:50:43,921 - INFO - Category: unknown
+2025-09-10 09:50:43,921 - INFO - Confidence: 0.129
+2025-09-10 09:50:43,921 - INFO - Status: not_found
+2025-09-10 09:50:43,969 - INFO - Successfully logged to admin backend: 98f878b7-1e8a-4868-a708-0272f954700a
+2025-09-10 09:50:43,970 - INFO - 127.0.0.1 - - [10/Sep/2025 09:50:43] "POST /ask HTTP/1.1" 200 -
+2025-09-10 09:50:46,695 - INFO - Question: sukoharjo
+2025-09-10 09:50:46,696 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-10 09:50:46,696 - INFO - Category: ppid_informasi
+2025-09-10 09:50:46,696 - INFO - Confidence: 0.950
+2025-09-10 09:50:46,696 - INFO - Status: ppid_link
+2025-09-10 09:50:46,719 - INFO - Successfully logged to admin backend: 9869991e-681e-4e8a-820a-857c72c27ef0
+2025-09-10 09:50:46,719 - INFO - 127.0.0.1 - - [10/Sep/2025 09:50:46] "POST /ask HTTP/1.1" 200 -
+2025-09-10 09:51:00,028 - INFO - Starting NLP Processor initialization...
+2025-09-10 09:51:00,689 - INFO - NLP Processor initialized successfully
+2025-09-10 09:51:00,690 - INFO - Starting FAQ Bot Server...
+2025-09-10 09:51:00,690 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-10 09:51:00,714 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-10 09:51:00,715 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 09:51:00,717 - INFO -  * Restarting with stat
+2025-09-10 09:51:03,116 - INFO - Starting NLP Processor initialization...
+2025-09-10 09:51:03,630 - INFO - NLP Processor initialized successfully
+2025-09-10 09:51:03,632 - INFO - Starting FAQ Bot Server...
+2025-09-10 09:51:03,632 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-10 09:51:03,645 - WARNING -  * Debugger is active!
+2025-09-10 09:51:03,652 - INFO -  * Debugger PIN: 111-242-527
+2025-09-10 09:51:04,580 - INFO - 127.0.0.1 - - [10/Sep/2025 09:51:04] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-10 09:51:04,594 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-10 09:51:04,595 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-10 09:51:04,595 - INFO - Category: umum
+2025-09-10 09:51:04,595 - INFO - Confidence: 0.755
+2025-09-10 09:51:04,595 - INFO - Status: found
+2025-09-10 09:51:04,646 - INFO - Successfully logged to admin backend: 39ceb8e3-913d-44fa-80e7-d8cc3eb9f2b6
+2025-09-10 09:51:04,647 - INFO - 127.0.0.1 - - [10/Sep/2025 09:51:04] "POST /ask HTTP/1.1" 200 -
+2025-09-10 09:51:14,991 - INFO - 127.0.0.1 - - [10/Sep/2025 09:51:14] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-10 09:51:14,993 - INFO - Question: bupati
+2025-09-10 09:51:14,993 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-10 09:51:14,993 - INFO - Category: ppid_informasi
+2025-09-10 09:51:14,993 - INFO - Confidence: 0.950
+2025-09-10 09:51:14,993 - INFO - Status: ppid_link
+2025-09-10 09:51:15,007 - INFO - Successfully logged to admin backend: d2f408a9-56ed-4b54-9c4f-4617f7d404d8
+2025-09-10 09:51:15,008 - INFO - 127.0.0.1 - - [10/Sep/2025 09:51:15] "POST /ask HTTP/1.1" 200 -
+2025-09-10 09:51:20,835 - INFO - 127.0.0.1 - - [10/Sep/2025 09:51:20] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-10 09:51:20,842 - INFO - Question: siapakah bupati
+2025-09-10 09:51:20,843 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-10 09:51:20,843 - INFO - Category: umum
+2025-09-10 09:51:20,843 - INFO - Confidence: 0.836
+2025-09-10 09:51:20,843 - INFO - Status: found
+2025-09-10 09:51:20,863 - INFO - Successfully logged to admin backend: 7fbe6a6a-069a-4242-8f1c-05c1d14f8390
+2025-09-10 09:51:20,864 - INFO - 127.0.0.1 - - [10/Sep/2025 09:51:20] "POST /ask HTTP/1.1" 200 -
+2025-09-10 09:52:09,811 - INFO - 127.0.0.1 - - [10/Sep/2025 09:52:09] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-10 09:52:09,820 - INFO - Question: siapakah bupati sukoharjo
+2025-09-10 09:52:09,820 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-10 09:52:09,820 - INFO - Category: umum
+2025-09-10 09:52:09,820 - INFO - Confidence: 1.000
+2025-09-10 09:52:09,820 - INFO - Status: found
+2025-09-10 09:52:09,862 - INFO - Successfully logged to admin backend: 7b99fef4-6295-4939-a153-0df2195a5801
+2025-09-10 09:52:09,863 - INFO - 127.0.0.1 - - [10/Sep/2025 09:52:09] "POST /ask HTTP/1.1" 200 -
+2025-09-10 10:58:50,911 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbotv2\\python-bot\\nlp_processor.py', reloading
+2025-09-10 10:58:51,192 - INFO -  * Restarting with stat
+2025-09-10 10:59:06,531 - INFO - Starting NLP Processor initialization...
+2025-09-10 10:59:07,054 - INFO - NLP Processor initialized successfully
+2025-09-10 10:59:07,055 - INFO - Starting FAQ Bot Server...
+2025-09-10 10:59:07,055 - INFO - Server will run on http://127.0.0.1:5000
+2025-09-10 10:59:07,121 - WARNING -  * Debugger is active!
+2025-09-10 10:59:07,127 - INFO -  * Debugger PIN: 111-242-527
+2025-09-10 10:59:35,057 - INFO - 127.0.0.1 - - [10/Sep/2025 10:59:35] "OPTIONS /ask HTTP/1.1" 200 -
+2025-09-10 10:59:35,076 - INFO - Question: Apakah ada biaya untuk meminta informasi publik?
+2025-09-10 10:59:35,077 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-10 10:59:35,077 - INFO - Category: umum
+2025-09-10 10:59:35,077 - INFO - Confidence: 0.755
+2025-09-10 10:59:35,077 - INFO - Status: found
+2025-09-10 10:59:35,104 - INFO - Successfully logged to admin backend: b1f8932b-b04a-4bcc-a854-e4bbde17b291
+2025-09-10 10:59:35,105 - INFO - 127.0.0.1 - - [10/Sep/2025 10:59:35] "POST /ask HTTP/1.1" 200 -
+2025-09-10 11:00:49,870 - INFO - Question: siapakah bupati
+2025-09-10 11:00:49,870 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-10 11:00:49,870 - INFO - Category: umum
+2025-09-10 11:00:49,870 - INFO - Confidence: 0.836
+2025-09-10 11:00:49,870 - INFO - Status: found
+2025-09-10 11:00:49,888 - INFO - Successfully logged to admin backend: 76ca5340-af39-4eac-af37-eb2912ead313
+2025-09-10 11:00:49,888 - INFO - 127.0.0.1 - - [10/Sep/2025 11:00:49] "POST /ask HTTP/1.1" 200 -
+2025-09-10 11:01:29,184 - INFO - Question: siapakah bupati
+2025-09-10 11:01:29,185 - INFO - Env: ppid | FAQ file: faq_ppid.json
+2025-09-10 11:01:29,185 - INFO - Category: umum
+2025-09-10 11:01:29,185 - INFO - Confidence: 0.836
+2025-09-10 11:01:29,185 - INFO - Status: found
+2025-09-10 11:01:29,227 - INFO - Successfully logged to admin backend: 883e60e3-6c5b-48ff-82cb-cf764ccf5289
+2025-09-10 11:01:29,228 - INFO - 127.0.0.1 - - [10/Sep/2025 11:01:29] "POST /ask HTTP/1.1" 200 -
+2025-09-10 11:02:29,176 - INFO - 127.0.0.1 - - [10/Sep/2025 11:02:29] "GET / HTTP/1.1" 200 -
+2025-09-10 11:11:36,587 - INFO -  * Detected change in 'C:\\Users\\Warior Predator\\Downloads\\Kuliah\\Kuliah\\Magang\\FAQ Chatbotv2\\python-bot\\app.py', reloading
+2025-09-10 11:11:37,073 - INFO -  * Restarting with stat

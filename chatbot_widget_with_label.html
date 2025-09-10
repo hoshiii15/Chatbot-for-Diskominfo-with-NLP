@@ -833,7 +833,7 @@
             <div class="chatbot-subtitle">Aku PPIDbot, yang akan membantu anda dalam mencari hal terkait pelayanan
                 informasi publik.</div>
         </div>
-        <button class="close-button" id="closeChatbot">×</button>
+        <button type="button" class="close-button" id="closeChatbot">×</button>
     </div>
 
     <div id="floating-chatbot-messages">
@@ -848,19 +848,24 @@
             <span class="collapse-icon" id="collapseIcon">▼</span>
         </div>
         <div class="quick-buttons" id="quickButtons">
-            <button class="quick-button" data-question="Apa itu PPID?">Apa itu PPID?</button>
-            <button class="quick-button"
+            <button type="button" class="quick-button" data-question="Apa itu PPID?">Apa itu PPID?</button>
+            <button type="button" class="quick-button"
                 data-question="Jenis informasi apa saja yang tersedia di website PPID Kabupaten Sukoharjo?">Jenis
                 informasi apa saja yang tersedia di website PPID Kabupaten Sukoharjo?</button>
-            <button class="quick-button" data-question="Bagaimana cara mengajukan permohonan informasi?">Bagaimana cara
+            <button type="button" class="quick-button"
+                data-question="Bagaimana cara mengajukan permohonan informasi?">Bagaimana cara
                 mengajukan permohonan informasi?</button>
-            <button class="quick-button" data-question="Berapa lama waktu pemrosesan permohonan informasi?">Berapa lama
+            <button type="button" class="quick-button"
+                data-question="Berapa lama waktu pemrosesan permohonan informasi?">Berapa lama
                 waktu pemrosesan permohonan informasi?</button>
-            <button class="quick-button" data-question="Apakah ada biaya untuk meminta informasi publik?">Apakah ada
+            <button type="button" class="quick-button"
+                data-question="Apakah ada biaya untuk meminta informasi publik?">Apakah ada
                 biaya untuk meminta informasi publik?</button>
-            <button class="quick-button" data-question="Bagaimana jika permohonan informasi saya ditolak?">Bagaimana
+            <button type="button" class="quick-button"
+                data-question="Bagaimana jika permohonan informasi saya ditolak?">Bagaimana
                 jika permohonan informasi saya ditolak?</button>
-            <button class="quick-button" data-question="Apakah tersedia layanan bagi penyandang disabilitas?">Apakah
+            <button type="button" class="quick-button"
+                data-question="Apakah tersedia layanan bagi penyandang disabilitas?">Apakah
                 tersedia layanan bagi penyandang disabilitas?</button>
         </div>
     </div>
@@ -874,15 +879,17 @@
     </div>
 
     <div class="input-container">
-        <div class="input-row">
-            <input type="text" class="chat-input" id="chatInput" placeholder="Tulis pertanyaan...">
-            <button class="send-button" id="sendButton">
-                <svg width="14" height="14" viewbox="0 0 24 24" fill="currentColor">
-                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
-                </svg>
-            </button>
-        </div>
-        <button class="send-button-mobile" id="sendButtonMobile">
+        <form class="input-form" id="chatForm" onsubmit="return false;">
+            <div class="input-row">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Tulis pertanyaan...">
+                <button type="button" class="send-button" id="sendButton">
+                    <svg width="14" height="14" viewbox="0 0 24 24" fill="currentColor">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+                    </svg>
+                </button>
+            </div>
+        </form>
+        <button type="button" class="send-button-mobile" id="sendButtonMobile">
             Kirim Pesan
         </button>
     </div>
@@ -895,16 +902,36 @@
     (function () {
         'use strict';
 
+        // EMERGENCY STOP: Prevent infinite script re-execution
+        if (window.ppidChatbotLoaded) {
+            console.log('Script already loaded, preventing re-execution');
+            return;
+        }
+        window.ppidChatbotLoaded = true;
+
         class PPIDChatbot {
             constructor() {
-                this.apiUrl = 'http://127.0.0.1:5000';
-                this.isOpen = false;
-                this.isMobile = window.innerWidth <= 768;
-                this.isQuickButtonsExpanded = false;
-                this.initializeElements();
-                this.bindEvents();
-                this.setupMobileDetection();
-                this.ensureToggleVisibility();
+                try {
+                    this.apiUrl = 'http://127.0.0.1:5000';
+                    this.isOpen = false;
+                    this.isMobile = window.innerWidth <= 768;
+                    this.isQuickButtonsExpanded = false;
+                    this.isSubmitting = false;
+
+                    this.initializeElements();
+                    this.bindEvents();
+                    this.setupMobileDetection();
+                    this.ensureToggleVisibility();
+
+                    debugLog.push('PPIDChatbot constructor completed at ' + new Date().toISOString());
+                    localStorage.setItem('chatbotDebug', JSON.stringify(debugLog.slice(-10)));
+                    console.log('PPIDChatbot constructor completed');
+                } catch (error) {
+                    console.error('Error in PPIDChatbot constructor:', error);
+                    const debugLog = JSON.parse(localStorage.getItem('chatbotDebug') || '[]');
+                    debugLog.push('ERROR in constructor: ' + error.message + ' at ' + new Date().toISOString());
+                    localStorage.setItem('chatbotDebug', JSON.stringify(debugLog.slice(-10)));
+                }
             }
 
             initializeElements() {
@@ -914,6 +941,7 @@
                 this.closeBtn = document.getElementById('closeChatbot');
                 this.messages = document.getElementById('floating-chatbot-messages');
                 this.input = document.getElementById('chatInput');
+                this.chatForm = document.getElementById('chatForm');
                 this.sendBtn = document.getElementById('sendButton');
                 this.sendBtnMobile = document.getElementById('sendButtonMobile');
                 this.typingIndicator = document.getElementById('typingIndicator');
@@ -991,6 +1019,10 @@
             }
 
             bindEvents() {
+                // Prevent multiple event bindings
+                if (this.eventsbound) return;
+                this.eventsbound = true;
+
                 // Event untuk toggle button terpadu
                 this.toggle.addEventListener('click', (e) => {
                     e.preventDefault();
@@ -1000,23 +1032,44 @@
 
                 this.closeBtn.addEventListener('click', () => this.closeChatbot());
 
+                // Form submit prevention
+                this.chatForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.sendMessage();
+                    return false;
+                });
+
                 // Quick buttons collapse toggle
                 this.quickButtonsHeader.addEventListener('click', () => {
                     this.toggleQuickButtons();
                 });
 
                 // Send message - desktop button
-                this.sendBtn.addEventListener('click', () => this.sendMessage());
+                this.sendBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.sendMessage();
+                });
 
                 // Send message - mobile button
-                this.sendBtnMobile.addEventListener('click', () => this.sendMessage());
+                this.sendBtnMobile.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.sendMessage();
+                });
 
                 this.input.addEventListener('keypress', (e) => {
-                    if (e.key === 'Enter') this.sendMessage();
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        this.sendMessage();
+                    }
                 });
 
                 this.quickButtons.addEventListener('click', (e) => {
                     if (e.target.classList.contains('quick-button')) {
+                        e.preventDefault();
+                        e.stopPropagation();
                         const question = e.target.dataset.question;
                         this.sendMessage(question);
                     }
@@ -1042,12 +1095,15 @@
                 });
 
                 if (this.isMobile) {
+                    // Temporarily disable history management to debug
+                    /*
                     window.addEventListener('popstate', () => {
                         if (this.isOpen) {
                             this.closeChatbot();
                             history.pushState(null, null, window.location.href);
                         }
                     });
+                    */
                 }
             }
 
@@ -1059,7 +1115,8 @@
                 this.applyMobileStyles();
 
                 if (this.isMobile) {
-                    history.pushState(null, null, window.location.href);
+                    // Temporarily disable history management to debug
+                    // history.pushState(null, null, window.location.href);
                 }
 
                 setTimeout(() => {
@@ -1085,14 +1142,32 @@
             }
 
             async sendMessage(message = null) {
-                const question = message || this.input.value.trim();
-                if (!question) return;
-
-                this.input.value = '';
-                this.addMessage(question, 'user');
-                this.showTyping();
-
                 try {
+                    // Persistent debugging
+                    const debugLog = JSON.parse(localStorage.getItem('chatbotDebug') || '[]');
+                    debugLog.push('sendMessage called at ' + new Date().toISOString());
+                    localStorage.setItem('chatbotDebug', JSON.stringify(debugLog.slice(-10)));
+
+                    console.log('sendMessage called, isSubmitting:', this.isSubmitting);
+
+                    const question = message || this.input.value.trim();
+                    if (!question) return;
+
+                    // Prevent multiple submissions
+                    if (this.isSubmitting) {
+                        console.log('Already submitting, skipping');
+                        return;
+                    }
+                    this.isSubmitting = true;
+
+                    // Clear input and add user message
+                    this.input.value = '';
+                    this.addMessage(question, 'user');
+                    this.showTyping();
+
+                    debugLog.push('About to fetch API at ' + new Date().toISOString());
+                    localStorage.setItem('chatbotDebug', JSON.stringify(debugLog.slice(-10)));
+
                     const response = await fetch(`${this.apiUrl}/ask`, {
                         method: 'POST',
                         headers: {
@@ -1110,17 +1185,34 @@
                     }
 
                     const data = await response.json();
+
+                    debugLog.push('API response received at ' + new Date().toISOString());
+                    localStorage.setItem('chatbotDebug', JSON.stringify(debugLog.slice(-10)));
+
                     this.hideTyping();
 
-                    // Process response with links
-                    this.addMessageWithLinks(
-                        data.answer || 'Maaf, tidak ada jawaban yang tersedia.',
-                        'bot',
-                        data.links || []
-                    );
+                    // If backend provided links, render them with addMessageWithLinks
+                    const botText = data.formatted_answer || data.answer || 'Maaf, tidak ada jawaban yang tersedia.';
+                    if (data.links && Array.isArray(data.links) && data.links.length > 0) {
+                        // Use HTML-capable rendering to include link container
+                        this.addMessageWithLinks(botText, 'bot', data.links);
+                    } else {
+                        this.addMessage(botText, 'bot');
+                    }
 
-                } catch (error) {
-                    console.error('Error:', error);
+                    debugLog.push('Message added successfully at ' + new Date().toISOString());
+                    // Simple message addition: prefer formatted_answer and show links when available
+                    try {
+                        const answerText = data.formatted_answer || data.answer || 'Maaf, tidak ada jawaban yang tersedia.';
+                        if (data.links && Array.isArray(data.links) && data.links.length > 0) {
+                            this.addMessageWithLinks(answerText, 'bot', data.links);
+                        } else {
+                            this.addMessage(answerText, 'bot');
+                        }
+                    } catch (err) {
+                        console.error('Error rendering bot message:', err);
+                        this.addMessage(data.answer || 'Maaf, tidak ada jawaban yang tersedia.', 'bot');
+                    }
                     this.hideTyping();
 
                     let errorMessage = 'Maaf, terjadi kesalahan koneksi.';
@@ -1131,29 +1223,59 @@
                     }
 
                     this.addMessage(errorMessage, 'bot');
+                } finally {
+                    // Re-enable submissions
+                    console.log('Setting isSubmitting to false');
+                    this.isSubmitting = false;
                 }
             }
 
             addMessage(text, sender) {
-                const messageDiv = document.createElement('div');
-                messageDiv.className = `message ${sender}`;
+                // Prevent any potential DOM issues
+                try {
+                    const debugLog = JSON.parse(localStorage.getItem('chatbotDebug') || '[]');
+                    debugLog.push('addMessage called for ' + sender + ' at ' + new Date().toISOString());
+                    localStorage.setItem('chatbotDebug', JSON.stringify(debugLog.slice(-10)));
 
-                const bubbleDiv = document.createElement('div');
-                bubbleDiv.className = 'message-bubble';
-                bubbleDiv.textContent = text;
+                    const messageDiv = document.createElement('div');
+                    messageDiv.className = `message ${sender}`;
 
-                messageDiv.appendChild(bubbleDiv);
+                    const bubbleDiv = document.createElement('div');
+                    bubbleDiv.className = 'message-bubble';
+                    bubbleDiv.textContent = text;
 
-                const welcomeMsg = this.messages.querySelector('.welcome-message');
-                if (welcomeMsg) {
-                    welcomeMsg.remove();
+                    messageDiv.appendChild(bubbleDiv);
+
+                    // Safely remove welcome message only once - this might be causing the issue
+                    if (sender === 'user') {
+                        const welcomeMsg = this.messages.querySelector('.welcome-message');
+                        if (welcomeMsg) {
+                            debugLog.push('Removing welcome message at ' + new Date().toISOString());
+                            localStorage.setItem('chatbotDebug', JSON.stringify(debugLog.slice(-10)));
+                            welcomeMsg.remove();
+                            debugLog.push('Welcome message removed at ' + new Date().toISOString());
+                            localStorage.setItem('chatbotDebug', JSON.stringify(debugLog.slice(-10)));
+                        }
+                    }
+
+                    this.messages.appendChild(messageDiv);
+
+                    debugLog.push('Message DOM element appended at ' + new Date().toISOString());
+                    localStorage.setItem('chatbotDebug', JSON.stringify(debugLog.slice(-10)));
+
+                    // Use requestAnimationFrame for smoother scrolling
+                    requestAnimationFrame(() => {
+                        this.messages.scrollTop = this.messages.scrollHeight;
+                        const finalDebugLog = JSON.parse(localStorage.getItem('chatbotDebug') || '[]');
+                        finalDebugLog.push('Scroll completed at ' + new Date().toISOString());
+                        localStorage.setItem('chatbotDebug', JSON.stringify(finalDebugLog.slice(-10)));
+                    });
+                } catch (error) {
+                    console.error('Error in addMessage:', error);
+                    const errorDebugLog = JSON.parse(localStorage.getItem('chatbotDebug') || '[]');
+                    errorDebugLog.push('ERROR in addMessage: ' + error.message + ' at ' + new Date().toISOString());
+                    localStorage.setItem('chatbotDebug', JSON.stringify(errorDebugLog.slice(-10)));
                 }
-
-                this.messages.appendChild(messageDiv);
-
-                setTimeout(() => {
-                    this.messages.scrollTop = this.messages.scrollHeight;
-                }, 100);
             }
 
             addMessageWithLinks(text, sender, links = []) {
@@ -1231,19 +1353,36 @@
             }
 
             hideTyping() {
-                this.typingIndicator.style.display = 'none';
-                if (this.typingIndicator.parentNode) {
-                    this.typingIndicator.parentNode.removeChild(this.typingIndicator);
+                try {
+                    this.typingIndicator.style.display = 'none';
+                    if (this.typingIndicator.parentNode === this.messages) {
+                        this.messages.removeChild(this.typingIndicator);
+                    }
+                } catch (error) {
+                    console.error('Error in hideTyping:', error);
                 }
             }
         }
 
+        function initializeChatbot() {
+            try {
+                if (!window.ppidChatbotInstance) {
+                    console.log('Initializing PPIDChatbot...');
+                    window.ppidChatbotInstance = new PPIDChatbot();
+                    console.log('PPIDChatbot initialized successfully');
+
+                    // Mark as initialized
+                    window.ppidChatbotInitialized = true;
+                }
+            } catch (error) {
+                console.error('Error initializing chatbot:', error);
+            }
+        }
+
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => {
-                new PPIDChatbot();
-            });
+            document.addEventListener('DOMContentLoaded', initializeChatbot);
         } else {
-            new PPIDChatbot();
+            initializeChatbot();
         }
     })();
 </script>
