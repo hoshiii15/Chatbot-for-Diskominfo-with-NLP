@@ -10,141 +10,280 @@ from fuzzywuzzy import fuzz
 import numpy as np
 
 class NLPProcessor:
-    def __init__(self, faq_file=None):
+    def __init__(self, faq_file=None, fuzzy_threshold=85, fuzzy_short_threshold=90, match_threshold=0.35):
+        """Initialize NLP processor and tunable thresholds.
+
+        Parameters:
+        - faq_file: filename under ./data to load (default: 'faq_ppid.json')
+        - fuzzy_threshold: fuzzy match threshold for medium/long tokens
+        - fuzzy_short_threshold: higher fuzzy threshold for short tokens (<=4 chars)
+        - match_threshold: combined score threshold for TF-IDF+fuzzy matching
+        """
         print("Initializing NLP Processor...")
         self._download_nltk_data()
         print("Loading Sastrawi components...")
         self.stemmer = StemmerFactory().create_stemmer()
         self.stopword_remover = StopWordRemoverFactory().create_stop_word_remover()
         self.vectorizer = TfidfVectorizer()
-        self.faq_file = faq_file or 'faq_stunting.json'
+
+        # file and thresholds
+        self.faq_file = faq_file or 'faq_ppid.json'
+        self.fuzzy_threshold = int(fuzzy_threshold)
+        self.fuzzy_short_threshold = int(fuzzy_short_threshold)
+        self.match_threshold = float(match_threshold)
+
+        # load data and prepare models
         self.load_faq_data(self.faq_file)
         self.prepare_corpus()
         self._init_ppid_categories()
         print("NLP Processor initialized successfully!")
     
     def _init_ppid_categories(self):
-        """Initialize PPID information categories with keywords"""
-        self.ppid_categories = {
-            "profil_badan_publik": {
-                "keywords": [
-                    "kedudukan", "domisili", "alamat kantor", "visi misi", "tugas fungsi", 
-                    "struktur organisasi", "profil pimpinan", "profil pegawai", "profil ppid", 
-                    "struktur ppid", "lhkpn", "lhkan"
-                ],
-                "description": "Informasi tentang profil badan publik"
-            },
-            "program_kegiatan": {
-                "keywords": [
-                    "program kegiatan", "penanggungjawab program", "pelaksana program", "target capaian", 
-                    "jadwal pelaksanaan", "sumber anggaran", "kak program", "agenda pelaksanaan",
-                    "e-samsat", "layanan online disdukcapil", "harga barang kebutuhan pokok",
-                    "penerimaan pegawai", "penerimaan peserta didik"
-                ],
-                "description": "Ringkasan program dan kegiatan yang sedang dijalankan"
-            },
-            "kinerja": {
-                "keywords": [
-                    "laporan kinerja", "lkjip", "sakip", "sistem akuntabilitas kinerja",
-                    "ikplhd", "kinerja pengelolaan lingkungan", "lkpj", "laporan keterangan pertanggungjawaban"
-                ],
-                "description": "Ringkasan informasi tentang kinerja"
-            },
-            "laporan_keuangan": {
-                "keywords": [
-                    "kua", "kebijakan umum apbd", "ppas", "prioritas plafon anggaran", "apbd",
-                    "anggaran pendapatan belanja", "daftar aset", "calk", "catatan laporan keuangan",
-                    "neraca keuangan", "lra", "laporan realisasi anggaran", "laporan operasional",
-                    "laporan arus kas", "laporan perubahan ekuitas", "laporan perubahan saldo anggaran",
-                    "opini bpk", "rka", "rencana kerja anggaran", "dpa", "dokumen pelaksanaan anggaran",
-                    "rko", "rencana kerja operasional", "rfk", "realisasi fisik keuangan",
-                    "lkpd", "laporan keuangan pemerintah daerah"
-                ],
-                "description": "Ringkasan laporan keuangan"
-            },
-            "akses_informasi": {
-                "keywords": [
-                    "laporan layanan informasi", "infografis laporan", "register permohonan",
-                    "rekapitulasi pelayanan", "indeks kepuasan masyarakat"
-                ],
-                "description": "Laporan akses informasi publik"
-            },
-            "peraturan_keputusan": {
-                "keywords": [
-                    "daftar peraturan", "daftar keputusan", "pembentukan rancangan peraturan",
-                    "dokumen pendukung", "jdih dprd", "jaringan dokumentasi informasi hukum"
-                ],
-                "description": "Informasi tentang peraturan, keputusan, dan/atau kebijakan"
-            },
-            "tata_cara_informasi": {
-                "keywords": [
-                    "hak memperoleh informasi", "tata cara memperoleh informasi", 
-                    "tata cara pengajuan keberatan", "proses penyelesaian sengketa",
-                    "tata cara fasilitasi sengketa"
-                ],
-                "description": "Informasi tentang hak dan tata cara memperoleh informasi publik"
-            },
-            "pengaduan": {
-                "keywords": [
-                    "tata cara pengaduan", "penyalahgunaan wewenang", "pelanggaran",
-                    "penggunaan aplikasi lapor", "pengaduan pelayanan informasi",
-                    "formulir pengaduan", "standar pelayanan inspektorat",
-                    "hasil penanganan pengaduan"
-                ],
-                "description": "Informasi tentang tata cara pengaduan penyalahgunaan wewenang atau pelanggaran"
-            },
-            "pengadaan_barang_jasa": {
-                "keywords": [
-                    "pengadaan barang", "pengadaan jasa", "tahap perencanaan", "sirup",
-                    "rencana umum pengadaan", "tahap pemilihan", "tahap pelaksanaan",
-                    "lpse", "layanan pengadaan elektronik", "proyek strategis"
-                ],
-                "description": "Pengumuman pengadaan barang dan jasa"
-            },
-            "ketenagakerjaan": {
-                "keywords": [
-                    "e-makaryo", "lowongan pekerjaan", "info lowongan", "penerimaan calon pegawai"
-                ],
-                "description": "Informasi tentang ketenagakerjaan"
-            },
-            "kependudukan": {
-                "keywords": [
-                    "profil perkembangan kependudukan", "buku data kependudukan", "profil gender"
-                ],
-                "description": "Informasi tentang kependudukan"
-            },
-            "peringatan_dini_bencana": {
-                "keywords": [
-                    "informasi kebencanaan", "peringatan dini", "prosedur evakuasi",
-                    "keadaan darurat", "peta rawan bencana"
-                ],
-                "description": "Informasi prosedur peringatan dini bencana"
-            },
-            "sop": {
-                "keywords": [
-                    "sop", "standar operasional prosedur", "penyusunan daftar informasi",
-                    "pelayanan permohonan informasi", "pelayanan informasi inklusi",
-                    "uji konsekuensi informasi", "penanganan keberatan",
-                    "fasilitasi sengketa", "maklumat pelayanan", "pengumuman informasi",
-                    "standar biaya perolehan", "pelayanan informasi terintegrasi"
-                ],
-                "description": "Standar Operasional Prosedur"
+        """Initialize PPID information categories.
+        Prefer to load category keywords/descriptions from the loaded FAQ data (if the FAQ
+        entries include explicit `keywords`), otherwise group FAQ `questions` by their
+        `category` and use those as keywords. If no FAQ-derived categories can be built,
+        fall back to the original hard-coded set so behavior remains unchanged.
+        """
+        # Build categories from both explicit 'keywords' (when present) and
+        # by grouping questions per category. Previously the logic returned
+        # early when any FAQ had explicit 'keywords', which caused FAQs
+        # without keywords to be omitted. To avoid that, always aggregate
+        # both sources and merge them.
+        self.ppid_categories = {}
+        # map individual keyword (lowercased) -> faq dict for precise answers
+        self.keyword_to_faq = {}
+
+        # 1) Add explicit keyword entries first (aggregate per category)
+        for faq in getattr(self, 'faqs', []) or []:
+            kws = faq.get('keywords') or []
+            # also extract link texts as useful keywords (e.g., 'LHKPN')
+            links = faq.get('links') or []
+            link_texts = [l.get('text', '').lower() for l in links if isinstance(l, dict) and l.get('text')]
+
+            if kws or link_texts:
+                key = faq.get('category') or f"faq_{faq.get('id')}"
+                if key not in self.ppid_categories:
+                    self.ppid_categories[key] = {
+                        'keywords': [],
+                        'description': faq.get('answer', '')
+                    }
+
+                # extend existing keywords with new ones (avoid duplicates)
+                existing = set(self.ppid_categories[key].get('keywords', []))
+                for k in kws:
+                    if k is not None:
+                        kw = str(k).lower()
+                        existing.add(kw)
+                        # map keyword to originating faq for precise answers
+                        if kw not in self.keyword_to_faq:
+                            self.keyword_to_faq[kw] = faq
+                for lt in link_texts:
+                    if lt:
+                        existing.add(lt)
+                        if lt not in self.keyword_to_faq:
+                            self.keyword_to_faq[lt] = faq
+
+                self.ppid_categories[key]['keywords'] = list(existing)
+                # keep description if not already set
+                if not self.ppid_categories[key].get('description'):
+                    self.ppid_categories[key]['description'] = faq.get('answer', '')
+
+        # 2) Group remaining FAQs by category and use their questions as keywords
+        grouped = {}
+        for faq in getattr(self, 'faqs', []) or []:
+            cat = faq.get('category') or f"faq_{faq.get('id')}"
+            if cat not in grouped:
+                grouped[cat] = {'keywords': set(), 'description': None}
+            for q in faq.get('questions', []) or []:
+                if isinstance(q, str) and q.strip():
+                    grouped[cat]['keywords'].add(q.lower())
+            if not grouped[cat]['description']:
+                grouped[cat]['description'] = faq.get('answer', '')
+
+        # Merge grouped keywords into categories that don't already have explicit keywords
+        for cat, data in grouped.items():
+            if data['keywords']:
+                if cat in self.ppid_categories:
+                    # extend existing explicit keywords with grouped questions
+                    existing = set(self.ppid_categories[cat].get('keywords', []))
+                    for q in data['keywords']:
+                        existing.add(q)
+                        # map question-string keyword to originating faq if possible
+                        # find a representative faq for this category/questions by scanning faqs
+                        for faq in getattr(self, 'faqs', []) or []:
+                            if faq.get('category') == cat and q in [qq.lower() for qq in (faq.get('questions') or [])]:
+                                if q not in self.keyword_to_faq:
+                                    self.keyword_to_faq[q] = faq
+                                break
+                    merged = list(existing)
+                    self.ppid_categories[cat]['keywords'] = merged
+                    if not self.ppid_categories[cat].get('description'):
+                        self.ppid_categories[cat]['description'] = data['description'] or f"Informasi tentang {cat}"
+                else:
+                    self.ppid_categories[cat] = {
+                        'keywords': list(data['keywords']),
+                        'description': data['description'] or f"Informasi tentang {cat}"
+                    }
+                    # map grouped question keywords to a representative faq in this category
+                    for q in data['keywords']:
+                        for faq in getattr(self, 'faqs', []) or []:
+                            if faq.get('category') == cat and q in [qq.lower() for qq in (faq.get('questions') or [])]:
+                                if q not in self.keyword_to_faq:
+                                    self.keyword_to_faq[q] = faq
+                                break
+
+        # 3) Final fallback: original hard-coded dictionary to preserve previous behavior
+        if not self.ppid_categories:
+            self.ppid_categories = {
+                "profil_badan_publik": {
+                    "keywords": [
+                        "kedudukan", "domisili", "alamat kantor", "visi misi", "tugas fungsi", 
+                        "struktur organisasi", "profil pimpinan", "profil pegawai", "profil ppid", 
+                        "struktur ppid", "lhkpn", "lhkan"
+                    ],
+                    "description": "Informasi tentang profil badan publik"
+                },
+                "program_kegiatan": {
+                    "keywords": [
+                        "program kegiatan", "penanggungjawab program", "pelaksana program", "target capaian", 
+                        "jadwal pelaksanaan", "sumber anggaran", "kak program", "agenda pelaksanaan",
+                        "e-samsat", "layanan online disdukcapil", "harga barang kebutuhan pokok",
+                        "penerimaan pegawai", "penerimaan peserta didik"
+                    ],
+                    "description": "Ringkasan program dan kegiatan yang sedang dijalankan"
+                },
+                "kinerja": {
+                    "keywords": [
+                        "laporan kinerja", "lkjip", "sakip", "sistem akuntabilitas kinerja",
+                        "ikplhd", "kinerja pengelolaan lingkungan", "lkpj", "laporan keterangan pertanggungjawaban"
+                    ],
+                    "description": "Ringkasan informasi tentang kinerja"
+                },
+                "laporan_keuangan": {
+                    "keywords": [
+                        "kua", "kebijakan umum apbd", "ppas", "prioritas plafon anggaran", "apbd",
+                        "anggaran pendapatan belanja", "daftar aset", "calk", "catatan laporan keuangan",
+                        "neraca keuangan", "lra", "laporan realisasi anggaran", "laporan operasional",
+                        "laporan arus kas", "laporan perubahan ekuitas", "laporan perubahan saldo anggaran",
+                        "opini bpk", "rka", "rencana kerja anggaran", "dpa", "dokumen pelaksanaan anggaran",
+                        "rko", "rencana kerja operasional", "rfk", "realisasi fisik keuangan",
+                        "lkpd", "laporan keuangan pemerintah daerah"
+                    ],
+                    "description": "Ringkasan laporan keuangan"
+                },
+                "akses_informasi": {
+                    "keywords": [
+                        "laporan layanan informasi", "infografis laporan", "register permohonan",
+                        "rekapitulasi pelayanan", "indeks kepuasan masyarakat"
+                    ],
+                    "description": "Laporan akses informasi publik"
+                },
+                "peraturan_keputusan": {
+                    "keywords": [
+                        "daftar peraturan", "daftar keputusan", "pembentukan rancangan peraturan",
+                        "dokumen pendukung", "jdih dprd", "jaringan dokumentasi informasi hukum"
+                    ],
+                    "description": "Informasi tentang peraturan, keputusan, dan/atau kebijakan"
+                },
+                "tata_cara_informasi": {
+                    "keywords": [
+                        "hak memperoleh informasi", "tata cara memperoleh informasi", 
+                        "tata cara pengajuan keberatan", "proses penyelesaian sengketa",
+                        "tata cara fasilitasi sengketa"
+                    ],
+                    "description": "Informasi tentang hak dan tata cara memperoleh informasi publik"
+                },
+                "pengaduan": {
+                    "keywords": [
+                        "tata cara pengaduan", "penyalahgunaan wewenang", "pelanggaran",
+                        "penggunaan aplikasi lapor", "pengaduan pelayanan informasi",
+                        "formulir pengaduan", "standar pelayanan inspektorat",
+                        "hasil penanganan pengaduan"
+                    ],
+                    "description": "Informasi tentang tata cara pengaduan penyalahgunaan wewenang atau pelanggaran"
+                },
+                "pengadaan_barang_jasa": {
+                    "keywords": [
+                        "pengadaan barang", "pengadaan jasa", "tahap perencanaan", "sirup",
+                        "rencana umum pengadaan", "tahap pemilihan", "tahap pelaksanaan",
+                        "lpse", "layanan pengadaan elektronik", "proyek strategis"
+                    ],
+                    "description": "Pengumuman pengadaan barang dan jasa"
+                },
+                "ketenagakerjaan": {
+                    "keywords": [
+                        "e-makaryo", "lowongan pekerjaan", "info lowongan", "penerimaan calon pegawai"
+                    ],
+                    "description": "Informasi tentang ketenagakerjaan"
+                },
+                "kependudukan": {
+                    "keywords": [
+                        "profil perkembangan kependudukan", "buku data kependudukan", "profil gender"
+                    ],
+                    "description": "Informasi tentang kependudukan"
+                },
+                "peringatan_dini_bencana": {
+                    "keywords": [
+                        "informasi kebencanaan", "peringatan dini", "prosedur evakuasi",
+                        "keadaan darurat", "peta rawan bencana"
+                    ],
+                    "description": "Informasi prosedur peringatan dini bencana"
+                },
+                "sop": {
+                    "keywords": [
+                        "sop", "standar operasional prosedur", "penyusunan daftar informasi",
+                        "pelayanan permohonan informasi", "pelayanan informasi inklusi",
+                        "uji konsekuensi informasi", "penanganan keberatan",
+                        "fasilitasi sengketa", "maklumat pelayanan", "pengumuman informasi",
+                        "standar biaya perolehan", "pelayanan informasi terintegrasi"
+                    ],
+                    "description": "Standar Operasional Prosedur"
+                }
             }
-        }
     
     def check_ppid_category(self, question):
         """Check if question relates to PPID information categories"""
+        if not question:
+            return None
+
         question_lower = question.lower()
-        
+
         for category, data in self.ppid_categories.items():
-            for keyword in data["keywords"]:
-                # Check for exact match atau fuzzy match dengan threshold lebih tinggi
-                if keyword in question_lower or fuzz.partial_ratio(keyword, question_lower) > 85:
-                    return {
+            for keyword in data.get("keywords", []):
+                if not isinstance(keyword, str) or not keyword:
+                    continue
+                kw = keyword.lower()
+                # direct substring match (fast)
+                if kw in question_lower or question_lower in kw:
+                    result = {
                         "category": category,
-                        "description": data["description"],
+                        "description": data.get("description"),
                         "matched_keyword": keyword
                     }
+                    # if we have an originating faq for this keyword, attach it
+                    faq_obj = self.keyword_to_faq.get(kw)
+                    if faq_obj:
+                        result['faq'] = faq_obj
+                    return result
+
+                # fuzzy match in both directions to handle short/long tokens
+                try:
+                    # pick threshold depending on keyword length: short tokens need higher threshold
+                    thresh = self.fuzzy_short_threshold if len(kw) <= 4 else self.fuzzy_threshold
+                    if fuzz.partial_ratio(question_lower, kw) > thresh or fuzz.partial_ratio(kw, question_lower) > thresh:
+                        result = {
+                            "category": category,
+                            "description": data.get("description"),
+                            "matched_keyword": keyword
+                        }
+                        faq_obj = self.keyword_to_faq.get(kw)
+                        if faq_obj:
+                            result['faq'] = faq_obj
+                        return result
+                except Exception:
+                    # if fuzzy matching fails for some token, skip it
+                    continue
         return None
     
     def _download_nltk_data(self):
@@ -243,17 +382,21 @@ class NLPProcessor:
         else:
             self.tfidf_matrix = None
     
-    def find_best_answer(self, user_question, threshold=0.2):
-        """Find the best answer for user question"""
+    def find_best_answer(self, user_question, threshold=None):
+        """Find the best answer for user question.
+
+        If threshold is None, use the instance's configured match_threshold.
+        Returns (faq_obj, score) or (None, score).
+        """
         if not self.processed_questions or self.tfidf_matrix is None:
             print("No processed questions available")
             return None, 0
+
         processed_user_q = self.preprocess_text(user_question)
-        
         if not processed_user_q:
             print("Processed user question is empty")
             return None, 0
-        
+
         try:
             user_tfidf = self.vectorizer.transform([processed_user_q])
             similarities = cosine_similarity(user_tfidf, self.tfidf_matrix).flatten()
@@ -261,23 +404,38 @@ class NLPProcessor:
             for q in self.processed_questions:
                 fuzzy_score = fuzz.ratio(processed_user_q, q) / 100.0
                 fuzzy_scores.append(fuzzy_score)
+
             combined_scores = 0.7 * similarities + 0.3 * np.array(fuzzy_scores)
-            best_idx = np.argmax(combined_scores)
-            best_score = combined_scores[best_idx]
-            
-            print(f"Best match score: {best_score:.3f} (threshold: {threshold})")
-            
-            if best_score >= threshold:
+            best_idx = int(np.argmax(combined_scores))
+            best_score = float(combined_scores[best_idx])
+
+            th = threshold if threshold is not None else self.match_threshold
+            print(f"Best match score: {best_score:.3f} (threshold used: {th})")
+
+            if best_score >= th:
                 return self.question_to_faq[best_idx], best_score
-            else:
-                return None, best_score
-                
+            return None, best_score
+
         except Exception as e:
             print(f"Error in finding best answer: {e}")
             return None, 0
     
     def generate_ppid_response(self, ppid_info):
         """Generate response for PPID information query"""
+        # if check_ppid_category attached an originating faq, prefer that faq's exact answer/links
+        faq_obj = ppid_info.get('faq') if isinstance(ppid_info, dict) else None
+        if faq_obj:
+            resp = {
+                'answer': faq_obj.get('answer', ppid_info.get('description', '') + ' dapat ditemukan di'),
+                'confidence': 0.95,
+                'category': faq_obj.get('category', 'ppid_informasi'),
+                'faq_id': faq_obj.get('id'),
+                'status': 'found'
+            }
+            if faq_obj.get('links'):
+                resp['links'] = faq_obj.get('links')
+            return resp
+
         return {
             'answer': f"{ppid_info['description']} dapat ditemukan di",
             'confidence': 0.95,
